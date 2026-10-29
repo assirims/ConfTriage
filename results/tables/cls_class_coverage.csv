@@ -1,0 +1,1105 @@
+design,method,kind,class,covered,n,coverage
+project,TF-IDF + LR,marginal,F,11541,11606,0.9943994485610891
+project,TF-IDF + LR,marginal,A,697,835,0.8347305389221557
+project,TF-IDF + LR,marginal,FT,65,513,0.1267056530214425
+project,TF-IDF + LR,marginal,L,76,363,0.209366391184573
+project,TF-IDF + LR,marginal,LF,973,1323,0.7354497354497355
+project,TF-IDF + LR,marginal,MN,317,690,0.45942028985507244
+project,TF-IDF + LR,marginal,O,2070,2195,0.9430523917995444
+project,TF-IDF + LR,marginal,PE,1508,1826,0.8258488499452354
+project,TF-IDF + LR,marginal,PO,53,269,0.1970260223048327
+project,TF-IDF + LR,marginal,SC,383,613,0.6247960848287113
+project,TF-IDF + LR,marginal,SE,3332,3377,0.9866745632217945
+project,TF-IDF + LR,marginal,US,2281,2439,0.9352193521935219
+project,TF-IDF + LR,Mondrian,F,10199,11606,0.8787696019300362
+project,TF-IDF + LR,Mondrian,A,816,835,0.9772455089820359
+project,TF-IDF + LR,Mondrian,FT,513,513,1.0
+project,TF-IDF + LR,Mondrian,L,363,363,1.0
+project,TF-IDF + LR,Mondrian,LF,1220,1323,0.9221466364323507
+project,TF-IDF + LR,Mondrian,MN,687,690,0.9956521739130435
+project,TF-IDF + LR,Mondrian,O,2046,2195,0.932118451025057
+project,TF-IDF + LR,Mondrian,PE,1608,1826,0.8806133625410734
+project,TF-IDF + LR,Mondrian,PO,269,269,1.0
+project,TF-IDF + LR,Mondrian,SC,609,613,0.9934747145187602
+project,TF-IDF + LR,Mondrian,SE,3057,3377,0.9052413384660941
+project,TF-IDF + LR,Mondrian,US,2217,2439,0.9089790897908979
+project,MiniLM + LR,marginal,F,11413,11606,0.983370670342926
+project,MiniLM + LR,marginal,A,682,835,0.8167664670658683
+project,MiniLM + LR,marginal,FT,265,513,0.5165692007797271
+project,MiniLM + LR,marginal,L,150,363,0.4132231404958678
+project,MiniLM + LR,marginal,LF,943,1323,0.7127739984882842
+project,MiniLM + LR,marginal,MN,451,690,0.6536231884057971
+project,MiniLM + LR,marginal,O,1840,2195,0.8382687927107062
+project,MiniLM + LR,marginal,PE,1696,1826,0.9288061336254108
+project,MiniLM + LR,marginal,PO,184,269,0.6840148698884758
+project,MiniLM + LR,marginal,SC,426,613,0.6949429037520392
+project,MiniLM + LR,marginal,SE,3292,3377,0.9748297305300563
+project,MiniLM + LR,marginal,US,2030,2439,0.8323083230832309
+project,MiniLM + LR,Mondrian,F,10275,11606,0.8853179389970705
+project,MiniLM + LR,Mondrian,A,819,835,0.9808383233532935
+project,MiniLM + LR,Mondrian,FT,513,513,1.0
+project,MiniLM + LR,Mondrian,L,362,363,0.9972451790633609
+project,MiniLM + LR,Mondrian,LF,1226,1323,0.926681783824641
+project,MiniLM + LR,Mondrian,MN,676,690,0.9797101449275363
+project,MiniLM + LR,Mondrian,O,1989,2195,0.9061503416856492
+project,MiniLM + LR,Mondrian,PE,1718,1826,0.940854326396495
+project,MiniLM + LR,Mondrian,PO,269,269,1.0
+project,MiniLM + LR,Mondrian,SC,610,613,0.9951060358890701
+project,MiniLM + LR,Mondrian,SE,3047,3377,0.9022801302931596
+project,MiniLM + LR,Mondrian,US,2225,2439,0.9122591225912259
+project,BGE + LR,marginal,F,11479,11606,0.9890573841116663
+project,BGE + LR,marginal,A,715,835,0.8562874251497006
+project,BGE + LR,marginal,FT,262,513,0.5107212475633528
+project,BGE + LR,marginal,L,104,363,0.2865013774104683
+project,BGE + LR,marginal,LF,990,1323,0.7482993197278912
+project,BGE + LR,marginal,MN,404,690,0.5855072463768116
+project,BGE + LR,marginal,O,1874,2195,0.85375854214123
+project,BGE + LR,marginal,PE,1713,1826,0.9381161007667032
+project,BGE + LR,marginal,PO,163,269,0.6059479553903345
+project,BGE + LR,marginal,SC,413,613,0.6737357259380098
+project,BGE + LR,marginal,SE,3291,3377,0.9745336097127628
+project,BGE + LR,marginal,US,2085,2439,0.8548585485854858
+project,BGE + LR,Mondrian,F,10260,11606,0.8840255040496295
+project,BGE + LR,Mondrian,A,823,835,0.98562874251497
+project,BGE + LR,Mondrian,FT,513,513,1.0
+project,BGE + LR,Mondrian,L,363,363,1.0
+project,BGE + LR,Mondrian,LF,1252,1323,0.9463340891912321
+project,BGE + LR,Mondrian,MN,684,690,0.991304347826087
+project,BGE + LR,Mondrian,O,2015,2195,0.9179954441913439
+project,BGE + LR,Mondrian,PE,1684,1826,0.9222343921139102
+project,BGE + LR,Mondrian,PO,269,269,1.0
+project,BGE + LR,Mondrian,SC,612,613,0.99836867862969
+project,BGE + LR,Mondrian,SE,3083,3377,0.912940479715724
+project,BGE + LR,Mondrian,US,2227,2439,0.9130791307913079
+project,Qwen2.5-0.5B zero-shot,marginal,F,11606,11606,1.0
+project,Qwen2.5-0.5B zero-shot,marginal,A,835,835,1.0
+project,Qwen2.5-0.5B zero-shot,marginal,FT,513,513,1.0
+project,Qwen2.5-0.5B zero-shot,marginal,L,363,363,1.0
+project,Qwen2.5-0.5B zero-shot,marginal,LF,1314,1323,0.9931972789115646
+project,Qwen2.5-0.5B zero-shot,marginal,MN,690,690,1.0
+project,Qwen2.5-0.5B zero-shot,marginal,O,2011,2195,0.9161731207289294
+project,Qwen2.5-0.5B zero-shot,marginal,PE,1818,1826,0.9956188389923329
+project,Qwen2.5-0.5B zero-shot,marginal,PO,249,269,0.9256505576208178
+project,Qwen2.5-0.5B zero-shot,marginal,SC,613,613,1.0
+project,Qwen2.5-0.5B zero-shot,marginal,SE,1421,3377,0.4207876813740006
+project,Qwen2.5-0.5B zero-shot,marginal,US,1955,2439,0.8015580155801558
+project,Qwen2.5-0.5B zero-shot,Mondrian,F,10332,11606,0.8902291917973462
+project,Qwen2.5-0.5B zero-shot,Mondrian,A,826,835,0.9892215568862276
+project,Qwen2.5-0.5B zero-shot,Mondrian,FT,513,513,1.0
+project,Qwen2.5-0.5B zero-shot,Mondrian,L,360,363,0.9917355371900827
+project,Qwen2.5-0.5B zero-shot,Mondrian,LF,1250,1323,0.9448223733938019
+project,Qwen2.5-0.5B zero-shot,Mondrian,MN,681,690,0.9869565217391304
+project,Qwen2.5-0.5B zero-shot,Mondrian,O,2046,2195,0.932118451025057
+project,Qwen2.5-0.5B zero-shot,Mondrian,PE,1715,1826,0.93921139101862
+project,Qwen2.5-0.5B zero-shot,Mondrian,PO,269,269,1.0
+project,Qwen2.5-0.5B zero-shot,Mondrian,SC,598,613,0.9755301794453507
+project,Qwen2.5-0.5B zero-shot,Mondrian,SE,3057,3377,0.9052413384660941
+project,Qwen2.5-0.5B zero-shot,Mondrian,US,2291,2439,0.939319393193932
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,F,11565,11606,0.9964673444769947
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,A,835,835,1.0
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,FT,513,513,1.0
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,L,363,363,1.0
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,LF,1323,1323,1.0
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,MN,690,690,1.0
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,O,2097,2195,0.9553530751708428
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,PE,1255,1826,0.6872946330777656
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,PO,6,269,0.022304832713754646
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,SC,377,613,0.6150081566068516
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,SE,1890,3377,0.5596683446846313
+project,Qwen2.5-0.5B zero-shot + calibration,marginal,US,2406,2439,0.986469864698647
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,F,10363,11606,0.8929002240220576
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,A,818,835,0.9796407185628743
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,FT,513,513,1.0
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,L,360,363,0.9917355371900827
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,LF,1238,1323,0.9357520786092215
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,MN,680,690,0.9855072463768116
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,O,2014,2195,0.9175398633257403
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,PE,1698,1826,0.9299014238773274
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,PO,269,269,1.0
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,SC,599,613,0.9771615008156607
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,SE,3044,3377,0.9013917678412793
+project,Qwen2.5-0.5B zero-shot + calibration,Mondrian,US,2266,2439,0.9290692906929069
+project,Qwen2.5-0.5B few-shot,marginal,F,11587,11606,0.9983629157332414
+project,Qwen2.5-0.5B few-shot,marginal,A,764,835,0.9149700598802395
+project,Qwen2.5-0.5B few-shot,marginal,FT,499,513,0.9727095516569201
+project,Qwen2.5-0.5B few-shot,marginal,L,106,363,0.29201101928374656
+project,Qwen2.5-0.5B few-shot,marginal,LF,1299,1323,0.981859410430839
+project,Qwen2.5-0.5B few-shot,marginal,MN,548,690,0.7942028985507247
+project,Qwen2.5-0.5B few-shot,marginal,O,2180,2195,0.9931662870159453
+project,Qwen2.5-0.5B few-shot,marginal,PE,1804,1826,0.9879518072289156
+project,Qwen2.5-0.5B few-shot,marginal,PO,269,269,1.0
+project,Qwen2.5-0.5B few-shot,marginal,SC,613,613,1.0
+project,Qwen2.5-0.5B few-shot,marginal,SE,3036,3377,0.8990228013029316
+project,Qwen2.5-0.5B few-shot,marginal,US,472,2439,0.19352193521935218
+project,Qwen2.5-0.5B few-shot,Mondrian,F,10080,11606,0.8685162846803377
+project,Qwen2.5-0.5B few-shot,Mondrian,A,818,835,0.9796407185628743
+project,Qwen2.5-0.5B few-shot,Mondrian,FT,508,513,0.9902534113060428
+project,Qwen2.5-0.5B few-shot,Mondrian,L,356,363,0.9807162534435262
+project,Qwen2.5-0.5B few-shot,Mondrian,LF,1201,1323,0.907785336356765
+project,Qwen2.5-0.5B few-shot,Mondrian,MN,677,690,0.981159420289855
+project,Qwen2.5-0.5B few-shot,Mondrian,O,2055,2195,0.9362186788154897
+project,Qwen2.5-0.5B few-shot,Mondrian,PE,1715,1826,0.93921139101862
+project,Qwen2.5-0.5B few-shot,Mondrian,PO,269,269,1.0
+project,Qwen2.5-0.5B few-shot,Mondrian,SC,600,613,0.9787928221859706
+project,Qwen2.5-0.5B few-shot,Mondrian,SE,3056,3377,0.9049452176488008
+project,Qwen2.5-0.5B few-shot,Mondrian,US,2226,2439,0.9126691266912669
+project,Qwen2.5-0.5B few-shot + calibration,marginal,F,11338,11606,0.9769084956057211
+project,Qwen2.5-0.5B few-shot + calibration,marginal,A,670,835,0.8023952095808383
+project,Qwen2.5-0.5B few-shot + calibration,marginal,FT,504,513,0.9824561403508771
+project,Qwen2.5-0.5B few-shot + calibration,marginal,L,249,363,0.6859504132231405
+project,Qwen2.5-0.5B few-shot + calibration,marginal,LF,914,1323,0.690854119425548
+project,Qwen2.5-0.5B few-shot + calibration,marginal,MN,521,690,0.755072463768116
+project,Qwen2.5-0.5B few-shot + calibration,marginal,O,2137,2195,0.9735763097949887
+project,Qwen2.5-0.5B few-shot + calibration,marginal,PE,1826,1826,1.0
+project,Qwen2.5-0.5B few-shot + calibration,marginal,PO,6,269,0.022304832713754646
+project,Qwen2.5-0.5B few-shot + calibration,marginal,SC,613,613,1.0
+project,Qwen2.5-0.5B few-shot + calibration,marginal,SE,3287,3377,0.973349126443589
+project,Qwen2.5-0.5B few-shot + calibration,marginal,US,1078,2439,0.44198441984419845
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,F,10060,11606,0.8667930380837497
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,A,816,835,0.9772455089820359
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,FT,508,513,0.9902534113060428
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,L,357,363,0.9834710743801653
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,LF,1212,1323,0.9160997732426304
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,MN,673,690,0.9753623188405797
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,O,2067,2195,0.9416856492027335
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,PE,1712,1826,0.9375684556407448
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,PO,269,269,1.0
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,SC,601,613,0.9804241435562806
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,SE,3079,3377,0.9117559964465501
+project,Qwen2.5-0.5B few-shot + calibration,Mondrian,US,2197,2439,0.9007790077900779
+project,Qwen2.5-1.5B zero-shot,marginal,F,11530,11606,0.9934516629329657
+project,Qwen2.5-1.5B zero-shot,marginal,A,835,835,1.0
+project,Qwen2.5-1.5B zero-shot,marginal,FT,508,513,0.9902534113060428
+project,Qwen2.5-1.5B zero-shot,marginal,L,356,363,0.9807162534435262
+project,Qwen2.5-1.5B zero-shot,marginal,LF,1320,1323,0.9977324263038548
+project,Qwen2.5-1.5B zero-shot,marginal,MN,689,690,0.9985507246376811
+project,Qwen2.5-1.5B zero-shot,marginal,O,1819,2195,0.8287015945330296
+project,Qwen2.5-1.5B zero-shot,marginal,PE,1568,1826,0.8587075575027382
+project,Qwen2.5-1.5B zero-shot,marginal,PO,239,269,0.8884758364312267
+project,Qwen2.5-1.5B zero-shot,marginal,SC,524,613,0.8548123980424144
+project,Qwen2.5-1.5B zero-shot,marginal,SE,2240,3377,0.6633106307373409
+project,Qwen2.5-1.5B zero-shot,marginal,US,1587,2439,0.6506765067650676
+project,Qwen2.5-1.5B zero-shot,Mondrian,F,10323,11606,0.8894537308288816
+project,Qwen2.5-1.5B zero-shot,Mondrian,A,821,835,0.9832335329341317
+project,Qwen2.5-1.5B zero-shot,Mondrian,FT,512,513,0.9980506822612085
+project,Qwen2.5-1.5B zero-shot,Mondrian,L,363,363,1.0
+project,Qwen2.5-1.5B zero-shot,Mondrian,LF,1259,1323,0.9516250944822373
+project,Qwen2.5-1.5B zero-shot,Mondrian,MN,681,690,0.9869565217391304
+project,Qwen2.5-1.5B zero-shot,Mondrian,O,2037,2195,0.9280182232346241
+project,Qwen2.5-1.5B zero-shot,Mondrian,PE,1629,1826,0.8921139101861993
+project,Qwen2.5-1.5B zero-shot,Mondrian,PO,269,269,1.0
+project,Qwen2.5-1.5B zero-shot,Mondrian,SC,608,613,0.9918433931484503
+project,Qwen2.5-1.5B zero-shot,Mondrian,SE,3043,3377,0.9010956470239858
+project,Qwen2.5-1.5B zero-shot,Mondrian,US,2235,2439,0.9163591635916359
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,F,11454,11606,0.9869033258659314
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,A,835,835,1.0
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,FT,513,513,1.0
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,L,363,363,1.0
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,LF,1323,1323,1.0
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,MN,690,690,1.0
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,O,1957,2195,0.8915717539863326
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,PE,1760,1826,0.963855421686747
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,PO,238,269,0.8847583643122676
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,SC,517,613,0.8433931484502447
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,SE,1794,3377,0.5312407462244596
+project,Qwen2.5-1.5B zero-shot + calibration,marginal,US,1879,2439,0.7703977039770398
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,F,10325,11606,0.8896260554885405
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,A,823,835,0.98562874251497
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,FT,512,513,0.9980506822612085
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,L,363,363,1.0
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,LF,1245,1323,0.9410430839002267
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,MN,679,690,0.9840579710144928
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,O,2017,2195,0.9189066059225512
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,PE,1609,1826,0.8811610076670318
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,PO,269,269,1.0
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,SC,608,613,0.9918433931484503
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,SE,3042,3377,0.9007995262066923
+project,Qwen2.5-1.5B zero-shot + calibration,Mondrian,US,2256,2439,0.9249692496924969
+project,Qwen2.5-1.5B few-shot,marginal,F,10511,11606,0.9056522488368085
+project,Qwen2.5-1.5B few-shot,marginal,A,835,835,1.0
+project,Qwen2.5-1.5B few-shot,marginal,FT,513,513,1.0
+project,Qwen2.5-1.5B few-shot,marginal,L,359,363,0.9889807162534435
+project,Qwen2.5-1.5B few-shot,marginal,LF,1320,1323,0.9977324263038548
+project,Qwen2.5-1.5B few-shot,marginal,MN,690,690,1.0
+project,Qwen2.5-1.5B few-shot,marginal,O,1776,2195,0.8091116173120729
+project,Qwen2.5-1.5B few-shot,marginal,PE,1800,1826,0.9857612267250822
+project,Qwen2.5-1.5B few-shot,marginal,PO,269,269,1.0
+project,Qwen2.5-1.5B few-shot,marginal,SC,613,613,1.0
+project,Qwen2.5-1.5B few-shot,marginal,SE,3377,3377,1.0
+project,Qwen2.5-1.5B few-shot,marginal,US,1256,2439,0.5149651496514965
+project,Qwen2.5-1.5B few-shot,Mondrian,F,10295,11606,0.8870411855936584
+project,Qwen2.5-1.5B few-shot,Mondrian,A,822,835,0.9844311377245509
+project,Qwen2.5-1.5B few-shot,Mondrian,FT,511,513,0.9961013645224172
+project,Qwen2.5-1.5B few-shot,Mondrian,L,363,363,1.0
+project,Qwen2.5-1.5B few-shot,Mondrian,LF,1242,1323,0.9387755102040817
+project,Qwen2.5-1.5B few-shot,Mondrian,MN,686,690,0.9942028985507246
+project,Qwen2.5-1.5B few-shot,Mondrian,O,2076,2195,0.9457858769931663
+project,Qwen2.5-1.5B few-shot,Mondrian,PE,1692,1826,0.9266155531215772
+project,Qwen2.5-1.5B few-shot,Mondrian,PO,269,269,1.0
+project,Qwen2.5-1.5B few-shot,Mondrian,SC,612,613,0.99836867862969
+project,Qwen2.5-1.5B few-shot,Mondrian,SE,3007,3377,0.8904352976014214
+project,Qwen2.5-1.5B few-shot,Mondrian,US,2276,2439,0.933169331693317
+project,Qwen2.5-1.5B few-shot + calibration,marginal,F,9459,11606,0.8150094778562812
+project,Qwen2.5-1.5B few-shot + calibration,marginal,A,835,835,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,FT,513,513,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,L,363,363,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,LF,1323,1323,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,MN,690,690,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,O,2152,2195,0.9804100227790433
+project,Qwen2.5-1.5B few-shot + calibration,marginal,PE,1826,1826,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,PO,269,269,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,SC,613,613,1.0
+project,Qwen2.5-1.5B few-shot + calibration,marginal,SE,3366,3377,0.996742671009772
+project,Qwen2.5-1.5B few-shot + calibration,marginal,US,1885,2439,0.7728577285772857
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,F,10304,11606,0.887816646562123
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,A,823,835,0.98562874251497
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,FT,513,513,1.0
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,L,363,363,1.0
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,LF,1246,1323,0.9417989417989417
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,MN,681,690,0.9869565217391304
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,O,2085,2195,0.9498861047835991
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,PE,1702,1826,0.932092004381161
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,PO,269,269,1.0
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,SC,613,613,1.0
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,SE,3000,3377,0.8883624518803672
+project,Qwen2.5-1.5B few-shot + calibration,Mondrian,US,2297,2439,0.941779417794178
+project,Qwen2.5-3B zero-shot,marginal,F,11324,11606,0.9757022229881096
+project,Qwen2.5-3B zero-shot,marginal,A,804,835,0.962874251497006
+project,Qwen2.5-3B zero-shot,marginal,FT,462,513,0.9005847953216374
+project,Qwen2.5-3B zero-shot,marginal,L,306,363,0.8429752066115702
+project,Qwen2.5-3B zero-shot,marginal,LF,1071,1323,0.8095238095238095
+project,Qwen2.5-3B zero-shot,marginal,MN,614,690,0.8898550724637682
+project,Qwen2.5-3B zero-shot,marginal,O,1776,2195,0.8091116173120729
+project,Qwen2.5-3B zero-shot,marginal,PE,1719,1826,0.9414019715224534
+project,Qwen2.5-3B zero-shot,marginal,PO,181,269,0.6728624535315985
+project,Qwen2.5-3B zero-shot,marginal,SC,524,613,0.8548123980424144
+project,Qwen2.5-3B zero-shot,marginal,SE,2646,3377,0.7835356825584838
+project,Qwen2.5-3B zero-shot,marginal,US,1911,2439,0.7835178351783518
+project,Qwen2.5-3B zero-shot,Mondrian,F,10331,11606,0.8901430294675168
+project,Qwen2.5-3B zero-shot,Mondrian,A,820,835,0.9820359281437125
+project,Qwen2.5-3B zero-shot,Mondrian,FT,512,513,0.9980506822612085
+project,Qwen2.5-3B zero-shot,Mondrian,L,363,363,1.0
+project,Qwen2.5-3B zero-shot,Mondrian,LF,1195,1323,0.9032501889644747
+project,Qwen2.5-3B zero-shot,Mondrian,MN,685,690,0.9927536231884058
+project,Qwen2.5-3B zero-shot,Mondrian,O,2005,2195,0.9134396355353075
+project,Qwen2.5-3B zero-shot,Mondrian,PE,1651,1826,0.9041621029572837
+project,Qwen2.5-3B zero-shot,Mondrian,PO,269,269,1.0
+project,Qwen2.5-3B zero-shot,Mondrian,SC,612,613,0.99836867862969
+project,Qwen2.5-3B zero-shot,Mondrian,SE,3074,3377,0.9102753923600829
+project,Qwen2.5-3B zero-shot,Mondrian,US,2243,2439,0.9196391963919639
+project,Qwen2.5-3B zero-shot + calibration,marginal,F,11236,11606,0.9681199379631226
+project,Qwen2.5-3B zero-shot + calibration,marginal,A,809,835,0.9688622754491018
+project,Qwen2.5-3B zero-shot + calibration,marginal,FT,500,513,0.9746588693957114
+project,Qwen2.5-3B zero-shot + calibration,marginal,L,334,363,0.9201101928374655
+project,Qwen2.5-3B zero-shot + calibration,marginal,LF,1050,1323,0.7936507936507936
+project,Qwen2.5-3B zero-shot + calibration,marginal,MN,646,690,0.936231884057971
+project,Qwen2.5-3B zero-shot + calibration,marginal,O,1904,2195,0.8674259681093394
+project,Qwen2.5-3B zero-shot + calibration,marginal,PE,1801,1826,0.9863088718510405
+project,Qwen2.5-3B zero-shot + calibration,marginal,PO,171,269,0.6356877323420075
+project,Qwen2.5-3B zero-shot + calibration,marginal,SC,497,613,0.8107667210440457
+project,Qwen2.5-3B zero-shot + calibration,marginal,SE,2778,3377,0.82262363044122
+project,Qwen2.5-3B zero-shot + calibration,marginal,US,1590,2439,0.6519065190651907
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,F,10326,11606,0.8897122178183698
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,A,820,835,0.9820359281437125
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,FT,512,513,0.9980506822612085
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,L,363,363,1.0
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,LF,1208,1323,0.9130763416477702
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,MN,685,690,0.9927536231884058
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,O,2011,2195,0.9161731207289294
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,PE,1652,1826,0.904709748083242
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,PO,269,269,1.0
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,SC,612,613,0.99836867862969
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,SE,3093,3377,0.9159016878886586
+project,Qwen2.5-3B zero-shot + calibration,Mondrian,US,2249,2439,0.9220992209922099
+project,Qwen2.5-3B few-shot,marginal,F,10676,11606,0.9198690332586593
+project,Qwen2.5-3B few-shot,marginal,A,770,835,0.9221556886227545
+project,Qwen2.5-3B few-shot,marginal,FT,487,513,0.949317738791423
+project,Qwen2.5-3B few-shot,marginal,L,171,363,0.47107438016528924
+project,Qwen2.5-3B few-shot,marginal,LF,1087,1323,0.8216175359032502
+project,Qwen2.5-3B few-shot,marginal,MN,624,690,0.9043478260869565
+project,Qwen2.5-3B few-shot,marginal,O,1877,2195,0.855125284738041
+project,Qwen2.5-3B few-shot,marginal,PE,1655,1826,0.9063526834611172
+project,Qwen2.5-3B few-shot,marginal,PO,209,269,0.7769516728624535
+project,Qwen2.5-3B few-shot,marginal,SC,556,613,0.9070146818923328
+project,Qwen2.5-3B few-shot,marginal,SE,3193,3377,0.9455137696180042
+project,Qwen2.5-3B few-shot,marginal,US,2126,2439,0.8716687166871668
+project,Qwen2.5-3B few-shot,Mondrian,F,10318,11606,0.8890229191797346
+project,Qwen2.5-3B few-shot,Mondrian,A,819,835,0.9808383233532935
+project,Qwen2.5-3B few-shot,Mondrian,FT,513,513,1.0
+project,Qwen2.5-3B few-shot,Mondrian,L,363,363,1.0
+project,Qwen2.5-3B few-shot,Mondrian,LF,1231,1323,0.9304610733182161
+project,Qwen2.5-3B few-shot,Mondrian,MN,684,690,0.991304347826087
+project,Qwen2.5-3B few-shot,Mondrian,O,2037,2195,0.9280182232346241
+project,Qwen2.5-3B few-shot,Mondrian,PE,1620,1826,0.8871851040525739
+project,Qwen2.5-3B few-shot,Mondrian,PO,269,269,1.0
+project,Qwen2.5-3B few-shot,Mondrian,SC,604,613,0.9853181076672104
+project,Qwen2.5-3B few-shot,Mondrian,SE,3097,3377,0.9170861711578324
+project,Qwen2.5-3B few-shot,Mondrian,US,2279,2439,0.9343993439934399
+project,Qwen2.5-3B few-shot + calibration,marginal,F,9638,11606,0.8304325348957435
+project,Qwen2.5-3B few-shot + calibration,marginal,A,789,835,0.9449101796407186
+project,Qwen2.5-3B few-shot + calibration,marginal,FT,513,513,1.0
+project,Qwen2.5-3B few-shot + calibration,marginal,L,356,363,0.9807162534435262
+project,Qwen2.5-3B few-shot + calibration,marginal,LF,1267,1323,0.9576719576719577
+project,Qwen2.5-3B few-shot + calibration,marginal,MN,662,690,0.9594202898550724
+project,Qwen2.5-3B few-shot + calibration,marginal,O,2065,2195,0.9407744874715261
+project,Qwen2.5-3B few-shot + calibration,marginal,PE,1824,1826,0.9989047097480832
+project,Qwen2.5-3B few-shot + calibration,marginal,PO,187,269,0.6951672862453532
+project,Qwen2.5-3B few-shot + calibration,marginal,SC,542,613,0.8841761827079935
+project,Qwen2.5-3B few-shot + calibration,marginal,SE,3246,3377,0.9612081729345573
+project,Qwen2.5-3B few-shot + calibration,marginal,US,2237,2439,0.9171791717917179
+project,Qwen2.5-3B few-shot + calibration,Mondrian,F,10318,11606,0.8890229191797346
+project,Qwen2.5-3B few-shot + calibration,Mondrian,A,819,835,0.9808383233532935
+project,Qwen2.5-3B few-shot + calibration,Mondrian,FT,513,513,1.0
+project,Qwen2.5-3B few-shot + calibration,Mondrian,L,361,363,0.9944903581267218
+project,Qwen2.5-3B few-shot + calibration,Mondrian,LF,1234,1323,0.9327286470143613
+project,Qwen2.5-3B few-shot + calibration,Mondrian,MN,683,690,0.9898550724637681
+project,Qwen2.5-3B few-shot + calibration,Mondrian,O,2028,2195,0.9239179954441914
+project,Qwen2.5-3B few-shot + calibration,Mondrian,PE,1565,1826,0.8570646221248631
+project,Qwen2.5-3B few-shot + calibration,Mondrian,PO,269,269,1.0
+project,Qwen2.5-3B few-shot + calibration,Mondrian,SC,604,613,0.9853181076672104
+project,Qwen2.5-3B few-shot + calibration,Mondrian,SE,3095,3377,0.9164939295232455
+project,Qwen2.5-3B few-shot + calibration,Mondrian,US,2244,2439,0.9200492004920049
+project,Llama-3.2-3B zero-shot,marginal,F,11483,11606,0.989402033430984
+project,Llama-3.2-3B zero-shot,marginal,A,832,835,0.9964071856287425
+project,Llama-3.2-3B zero-shot,marginal,FT,486,513,0.9473684210526315
+project,Llama-3.2-3B zero-shot,marginal,L,310,363,0.8539944903581267
+project,Llama-3.2-3B zero-shot,marginal,LF,1016,1323,0.7679516250944822
+project,Llama-3.2-3B zero-shot,marginal,MN,680,690,0.9855072463768116
+project,Llama-3.2-3B zero-shot,marginal,O,1344,2195,0.6123006833712984
+project,Llama-3.2-3B zero-shot,marginal,PE,1607,1826,0.880065717415115
+project,Llama-3.2-3B zero-shot,marginal,PO,148,269,0.550185873605948
+project,Llama-3.2-3B zero-shot,marginal,SC,437,613,0.7128874388254486
+project,Llama-3.2-3B zero-shot,marginal,SE,2536,3377,0.7509623926562037
+project,Llama-3.2-3B zero-shot,marginal,US,2394,2439,0.981549815498155
+project,Llama-3.2-3B zero-shot,Mondrian,F,10301,11606,0.8875581595726348
+project,Llama-3.2-3B zero-shot,Mondrian,A,822,835,0.9844311377245509
+project,Llama-3.2-3B zero-shot,Mondrian,FT,513,513,1.0
+project,Llama-3.2-3B zero-shot,Mondrian,L,363,363,1.0
+project,Llama-3.2-3B zero-shot,Mondrian,LF,1217,1323,0.9198790627362056
+project,Llama-3.2-3B zero-shot,Mondrian,MN,684,690,0.991304347826087
+project,Llama-3.2-3B zero-shot,Mondrian,O,2030,2195,0.9248291571753986
+project,Llama-3.2-3B zero-shot,Mondrian,PE,1639,1826,0.8975903614457831
+project,Llama-3.2-3B zero-shot,Mondrian,PO,269,269,1.0
+project,Llama-3.2-3B zero-shot,Mondrian,SC,611,613,0.9967373572593801
+project,Llama-3.2-3B zero-shot,Mondrian,SE,3062,3377,0.9067219425525614
+project,Llama-3.2-3B zero-shot,Mondrian,US,2221,2439,0.9106191061910619
+project,Llama-3.2-3B zero-shot + calibration,marginal,F,11336,11606,0.9767361709460624
+project,Llama-3.2-3B zero-shot + calibration,marginal,A,548,835,0.6562874251497006
+project,Llama-3.2-3B zero-shot + calibration,marginal,FT,513,513,1.0
+project,Llama-3.2-3B zero-shot + calibration,marginal,L,323,363,0.8898071625344353
+project,Llama-3.2-3B zero-shot + calibration,marginal,LF,977,1323,0.7384731670445956
+project,Llama-3.2-3B zero-shot + calibration,marginal,MN,617,690,0.8942028985507247
+project,Llama-3.2-3B zero-shot + calibration,marginal,O,1812,2195,0.8255125284738041
+project,Llama-3.2-3B zero-shot + calibration,marginal,PE,1782,1826,0.9759036144578314
+project,Llama-3.2-3B zero-shot + calibration,marginal,PO,71,269,0.26394052044609667
+project,Llama-3.2-3B zero-shot + calibration,marginal,SC,253,613,0.41272430668841764
+project,Llama-3.2-3B zero-shot + calibration,marginal,SE,3181,3377,0.9419603198104827
+project,Llama-3.2-3B zero-shot + calibration,marginal,US,1913,2439,0.7843378433784338
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,F,10281,11606,0.8858349129760469
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,A,813,835,0.9736526946107784
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,FT,513,513,1.0
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,L,363,363,1.0
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,LF,1222,1323,0.9236583522297808
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,MN,681,690,0.9869565217391304
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,O,2015,2195,0.9179954441913439
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,PE,1655,1826,0.9063526834611172
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,PO,269,269,1.0
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,SC,608,613,0.9918433931484503
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,SE,3083,3377,0.912940479715724
+project,Llama-3.2-3B zero-shot + calibration,Mondrian,US,2234,2439,0.9159491594915949
+project,Llama-3.2-3B few-shot,marginal,F,10383,11606,0.8946234706186456
+project,Llama-3.2-3B few-shot,marginal,A,763,835,0.9137724550898204
+project,Llama-3.2-3B few-shot,marginal,FT,443,513,0.8635477582846004
+project,Llama-3.2-3B few-shot,marginal,L,271,363,0.7465564738292011
+project,Llama-3.2-3B few-shot,marginal,LF,1182,1323,0.8934240362811792
+project,Llama-3.2-3B few-shot,marginal,MN,632,690,0.9159420289855073
+project,Llama-3.2-3B few-shot,marginal,O,1731,2195,0.7886104783599088
+project,Llama-3.2-3B few-shot,marginal,PE,1775,1826,0.9720700985761227
+project,Llama-3.2-3B few-shot,marginal,PO,265,269,0.9851301115241635
+project,Llama-3.2-3B few-shot,marginal,SC,466,613,0.7601957585644372
+project,Llama-3.2-3B few-shot,marginal,SE,3228,3377,0.9558779982232751
+project,Llama-3.2-3B few-shot,marginal,US,2135,2439,0.8753587535875359
+project,Llama-3.2-3B few-shot,Mondrian,F,10277,11606,0.8854902636567292
+project,Llama-3.2-3B few-shot,Mondrian,A,821,835,0.9832335329341317
+project,Llama-3.2-3B few-shot,Mondrian,FT,513,513,1.0
+project,Llama-3.2-3B few-shot,Mondrian,L,362,363,0.9972451790633609
+project,Llama-3.2-3B few-shot,Mondrian,LF,1229,1323,0.9289493575207861
+project,Llama-3.2-3B few-shot,Mondrian,MN,683,690,0.9898550724637681
+project,Llama-3.2-3B few-shot,Mondrian,O,2065,2195,0.9407744874715261
+project,Llama-3.2-3B few-shot,Mondrian,PE,1643,1826,0.8997809419496167
+project,Llama-3.2-3B few-shot,Mondrian,PO,269,269,1.0
+project,Llama-3.2-3B few-shot,Mondrian,SC,613,613,1.0
+project,Llama-3.2-3B few-shot,Mondrian,SE,3071,3377,0.9093870299082025
+project,Llama-3.2-3B few-shot,Mondrian,US,2238,2439,0.9175891758917589
+project,Llama-3.2-3B few-shot + calibration,marginal,F,9236,11606,0.7957952783043254
+project,Llama-3.2-3B few-shot + calibration,marginal,A,809,835,0.9688622754491018
+project,Llama-3.2-3B few-shot + calibration,marginal,FT,513,513,1.0
+project,Llama-3.2-3B few-shot + calibration,marginal,L,344,363,0.9476584022038568
+project,Llama-3.2-3B few-shot + calibration,marginal,LF,1225,1323,0.9259259259259259
+project,Llama-3.2-3B few-shot + calibration,marginal,MN,690,690,1.0
+project,Llama-3.2-3B few-shot + calibration,marginal,O,2043,2195,0.9307517084282461
+project,Llama-3.2-3B few-shot + calibration,marginal,PE,1806,1826,0.9890470974808324
+project,Llama-3.2-3B few-shot + calibration,marginal,PO,228,269,0.8475836431226765
+project,Llama-3.2-3B few-shot + calibration,marginal,SC,562,613,0.9168026101141925
+project,Llama-3.2-3B few-shot + calibration,marginal,SE,3376,3377,0.9997038791827065
+project,Llama-3.2-3B few-shot + calibration,marginal,US,2363,2439,0.968839688396884
+project,Llama-3.2-3B few-shot + calibration,Mondrian,F,10296,11606,0.8871273479234878
+project,Llama-3.2-3B few-shot + calibration,Mondrian,A,821,835,0.9832335329341317
+project,Llama-3.2-3B few-shot + calibration,Mondrian,FT,513,513,1.0
+project,Llama-3.2-3B few-shot + calibration,Mondrian,L,362,363,0.9972451790633609
+project,Llama-3.2-3B few-shot + calibration,Mondrian,LF,1230,1323,0.9297052154195011
+project,Llama-3.2-3B few-shot + calibration,Mondrian,MN,687,690,0.9956521739130435
+project,Llama-3.2-3B few-shot + calibration,Mondrian,O,2044,2195,0.9312072892938497
+project,Llama-3.2-3B few-shot + calibration,Mondrian,PE,1634,1826,0.8948521358159912
+project,Llama-3.2-3B few-shot + calibration,Mondrian,PO,269,269,1.0
+project,Llama-3.2-3B few-shot + calibration,Mondrian,SC,613,613,1.0
+project,Llama-3.2-3B few-shot + calibration,Mondrian,SE,3078,3377,0.9114598756292568
+project,Llama-3.2-3B few-shot + calibration,Mondrian,US,2231,2439,0.914719147191472
+project,Qwen2.5-0.5B + BGE fusion,marginal,F,11314,11606,0.9748405996898156
+project,Qwen2.5-0.5B + BGE fusion,marginal,A,724,835,0.8670658682634731
+project,Qwen2.5-0.5B + BGE fusion,marginal,FT,267,513,0.52046783625731
+project,Qwen2.5-0.5B + BGE fusion,marginal,L,173,363,0.4765840220385675
+project,Qwen2.5-0.5B + BGE fusion,marginal,LF,1050,1323,0.7936507936507936
+project,Qwen2.5-0.5B + BGE fusion,marginal,MN,471,690,0.6826086956521739
+project,Qwen2.5-0.5B + BGE fusion,marginal,O,1844,2195,0.8400911161731207
+project,Qwen2.5-0.5B + BGE fusion,marginal,PE,1663,1826,0.9107338444687842
+project,Qwen2.5-0.5B + BGE fusion,marginal,PO,159,269,0.5910780669144982
+project,Qwen2.5-0.5B + BGE fusion,marginal,SC,422,613,0.6884176182707994
+project,Qwen2.5-0.5B + BGE fusion,marginal,SE,3242,3377,0.9600236896653834
+project,Qwen2.5-0.5B + BGE fusion,marginal,US,2086,2439,0.8552685526855268
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,F,10271,11606,0.8849732896777529
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,A,820,835,0.9820359281437125
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,FT,512,513,0.9980506822612085
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,L,363,363,1.0
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,LF,1252,1323,0.9463340891912321
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,MN,681,690,0.9869565217391304
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,O,2060,2195,0.9384965831435079
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,PE,1682,1826,0.9211391018619934
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,PO,269,269,1.0
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,SC,611,613,0.9967373572593801
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,SE,3080,3377,0.9120521172638436
+project,Qwen2.5-0.5B + BGE fusion,Mondrian,US,2273,2439,0.931939319393194
+project,Qwen2.5-1.5B + BGE fusion,marginal,F,11301,11606,0.9737204894020335
+project,Qwen2.5-1.5B + BGE fusion,marginal,A,714,835,0.8550898203592814
+project,Qwen2.5-1.5B + BGE fusion,marginal,FT,328,513,0.6393762183235867
+project,Qwen2.5-1.5B + BGE fusion,marginal,L,294,363,0.8099173553719008
+project,Qwen2.5-1.5B + BGE fusion,marginal,LF,1060,1323,0.8012093726379441
+project,Qwen2.5-1.5B + BGE fusion,marginal,MN,497,690,0.7202898550724638
+project,Qwen2.5-1.5B + BGE fusion,marginal,O,1777,2195,0.8095671981776765
+project,Qwen2.5-1.5B + BGE fusion,marginal,PE,1599,1826,0.875684556407448
+project,Qwen2.5-1.5B + BGE fusion,marginal,PO,148,269,0.550185873605948
+project,Qwen2.5-1.5B + BGE fusion,marginal,SC,427,613,0.6965742251223491
+project,Qwen2.5-1.5B + BGE fusion,marginal,SE,3231,3377,0.9567663606751554
+project,Qwen2.5-1.5B + BGE fusion,marginal,US,2079,2439,0.8523985239852399
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,F,10359,11606,0.8925555747027399
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,A,819,835,0.9808383233532935
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,FT,509,513,0.9922027290448343
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,L,363,363,1.0
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,LF,1235,1323,0.9334845049130763
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,MN,686,690,0.9942028985507246
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,O,1996,2195,0.9093394077448748
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,PE,1699,1826,0.9304490690032858
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,PO,269,269,1.0
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,SC,611,613,0.9967373572593801
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,SE,3054,3377,0.9043529760142138
+project,Qwen2.5-1.5B + BGE fusion,Mondrian,US,2231,2439,0.914719147191472
+project,Qwen2.5-3B + BGE fusion,marginal,F,11284,11606,0.9722557297949337
+project,Qwen2.5-3B + BGE fusion,marginal,A,739,835,0.8850299401197604
+project,Qwen2.5-3B + BGE fusion,marginal,FT,334,513,0.6510721247563352
+project,Qwen2.5-3B + BGE fusion,marginal,L,244,363,0.6721763085399449
+project,Qwen2.5-3B + BGE fusion,marginal,LF,986,1323,0.745275888133031
+project,Qwen2.5-3B + BGE fusion,marginal,MN,448,690,0.6492753623188405
+project,Qwen2.5-3B + BGE fusion,marginal,O,1795,2195,0.8177676537585421
+project,Qwen2.5-3B + BGE fusion,marginal,PE,1591,1826,0.871303395399781
+project,Qwen2.5-3B + BGE fusion,marginal,PO,145,269,0.5390334572490706
+project,Qwen2.5-3B + BGE fusion,marginal,SC,379,613,0.6182707993474714
+project,Qwen2.5-3B + BGE fusion,marginal,SE,3224,3377,0.9546935149541013
+project,Qwen2.5-3B + BGE fusion,marginal,US,2088,2439,0.8560885608856088
+project,Qwen2.5-3B + BGE fusion,Mondrian,F,10314,11606,0.888678269860417
+project,Qwen2.5-3B + BGE fusion,Mondrian,A,821,835,0.9832335329341317
+project,Qwen2.5-3B + BGE fusion,Mondrian,FT,513,513,1.0
+project,Qwen2.5-3B + BGE fusion,Mondrian,L,363,363,1.0
+project,Qwen2.5-3B + BGE fusion,Mondrian,LF,1226,1323,0.926681783824641
+project,Qwen2.5-3B + BGE fusion,Mondrian,MN,683,690,0.9898550724637681
+project,Qwen2.5-3B + BGE fusion,Mondrian,O,2026,2195,0.9230068337129841
+project,Qwen2.5-3B + BGE fusion,Mondrian,PE,1649,1826,0.9030668127053669
+project,Qwen2.5-3B + BGE fusion,Mondrian,PO,269,269,1.0
+project,Qwen2.5-3B + BGE fusion,Mondrian,SC,611,613,0.9967373572593801
+project,Qwen2.5-3B + BGE fusion,Mondrian,SE,3090,3377,0.9150133254367782
+project,Qwen2.5-3B + BGE fusion,Mondrian,US,2231,2439,0.914719147191472
+project,Llama-3.2-3B + BGE fusion,marginal,F,11296,11606,0.9732896777528864
+project,Llama-3.2-3B + BGE fusion,marginal,A,746,835,0.8934131736526946
+project,Llama-3.2-3B + BGE fusion,marginal,FT,331,513,0.645224171539961
+project,Llama-3.2-3B + BGE fusion,marginal,L,220,363,0.6060606060606061
+project,Llama-3.2-3B + BGE fusion,marginal,LF,950,1323,0.7180650037792895
+project,Llama-3.2-3B + BGE fusion,marginal,MN,520,690,0.7536231884057971
+project,Llama-3.2-3B + BGE fusion,marginal,O,1918,2195,0.8738041002277904
+project,Llama-3.2-3B + BGE fusion,marginal,PE,1546,1826,0.8466593647316539
+project,Llama-3.2-3B + BGE fusion,marginal,PO,167,269,0.620817843866171
+project,Llama-3.2-3B + BGE fusion,marginal,SC,433,613,0.7063621533442088
+project,Llama-3.2-3B + BGE fusion,marginal,SE,3259,3377,0.9650577435593722
+project,Llama-3.2-3B + BGE fusion,marginal,US,2070,2439,0.8487084870848709
+project,Llama-3.2-3B + BGE fusion,Mondrian,F,10289,11606,0.8865242116146821
+project,Llama-3.2-3B + BGE fusion,Mondrian,A,822,835,0.9844311377245509
+project,Llama-3.2-3B + BGE fusion,Mondrian,FT,512,513,0.9980506822612085
+project,Llama-3.2-3B + BGE fusion,Mondrian,L,363,363,1.0
+project,Llama-3.2-3B + BGE fusion,Mondrian,LF,1238,1323,0.9357520786092215
+project,Llama-3.2-3B + BGE fusion,Mondrian,MN,688,690,0.9971014492753624
+project,Llama-3.2-3B + BGE fusion,Mondrian,O,2076,2195,0.9457858769931663
+project,Llama-3.2-3B + BGE fusion,Mondrian,PE,1695,1826,0.9282584884994524
+project,Llama-3.2-3B + BGE fusion,Mondrian,PO,269,269,1.0
+project,Llama-3.2-3B + BGE fusion,Mondrian,SC,613,613,1.0
+project,Llama-3.2-3B + BGE fusion,Mondrian,SE,3075,3377,0.9105715131773764
+project,Llama-3.2-3B + BGE fusion,Mondrian,US,2254,2439,0.924149241492415
+random,TF-IDF + LR,marginal,F,11169,11189,0.9982125301635535
+random,TF-IDF + LR,marginal,A,651,804,0.8097014925373134
+random,TF-IDF + LR,marginal,FT,78,450,0.17333333333333334
+random,TF-IDF + LR,marginal,L,141,380,0.37105263157894736
+random,TF-IDF + LR,marginal,LF,927,1197,0.7744360902255639
+random,TF-IDF + LR,marginal,MN,245,581,0.42168674698795183
+random,TF-IDF + LR,marginal,O,1686,1842,0.9153094462540716
+random,TF-IDF + LR,marginal,PE,1506,1666,0.9039615846338536
+random,TF-IDF + LR,marginal,PO,46,279,0.16487455197132617
+random,TF-IDF + LR,marginal,SC,271,491,0.5519348268839104
+random,TF-IDF + LR,marginal,SE,2948,3002,0.9820119920053297
+random,TF-IDF + LR,marginal,US,1926,2119,0.9089193015573384
+random,TF-IDF + LR,Mondrian,F,10177,11189,0.9095540262758066
+random,TF-IDF + LR,Mondrian,A,790,804,0.9825870646766169
+random,TF-IDF + LR,Mondrian,FT,450,450,1.0
+random,TF-IDF + LR,Mondrian,L,380,380,1.0
+random,TF-IDF + LR,Mondrian,LF,1117,1197,0.9331662489557226
+random,TF-IDF + LR,Mondrian,MN,571,581,0.9827882960413081
+random,TF-IDF + LR,Mondrian,O,1722,1842,0.9348534201954397
+random,TF-IDF + LR,Mondrian,PE,1535,1666,0.9213685474189676
+random,TF-IDF + LR,Mondrian,PO,279,279,1.0
+random,TF-IDF + LR,Mondrian,SC,488,491,0.9938900203665988
+random,TF-IDF + LR,Mondrian,SE,2764,3002,0.9207195203197868
+random,TF-IDF + LR,Mondrian,US,1955,2119,0.9226050023596036
+random,MiniLM + LR,marginal,F,11071,11189,0.9894539279649656
+random,MiniLM + LR,marginal,A,603,804,0.75
+random,MiniLM + LR,marginal,FT,256,450,0.5688888888888889
+random,MiniLM + LR,marginal,L,180,380,0.47368421052631576
+random,MiniLM + LR,marginal,LF,891,1197,0.7443609022556391
+random,MiniLM + LR,marginal,MN,366,581,0.6299483648881239
+random,MiniLM + LR,marginal,O,1554,1842,0.8436482084690554
+random,MiniLM + LR,marginal,PE,1565,1666,0.93937575030012
+random,MiniLM + LR,marginal,PO,161,279,0.5770609318996416
+random,MiniLM + LR,marginal,SC,311,491,0.6334012219959266
+random,MiniLM + LR,marginal,SE,2871,3002,0.9563624250499667
+random,MiniLM + LR,marginal,US,1702,2119,0.8032090608777726
+random,MiniLM + LR,Mondrian,F,10151,11189,0.9072303154884261
+random,MiniLM + LR,Mondrian,A,790,804,0.9825870646766169
+random,MiniLM + LR,Mondrian,FT,450,450,1.0
+random,MiniLM + LR,Mondrian,L,380,380,1.0
+random,MiniLM + LR,Mondrian,LF,1116,1197,0.9323308270676691
+random,MiniLM + LR,Mondrian,MN,576,581,0.9913941480206541
+random,MiniLM + LR,Mondrian,O,1703,1842,0.9245385450597177
+random,MiniLM + LR,Mondrian,PE,1566,1666,0.9399759903961584
+random,MiniLM + LR,Mondrian,PO,279,279,1.0
+random,MiniLM + LR,Mondrian,SC,488,491,0.9938900203665988
+random,MiniLM + LR,Mondrian,SE,2734,3002,0.9107261825449701
+random,MiniLM + LR,Mondrian,US,1960,2119,0.924964605946201
+random,BGE + LR,marginal,F,11102,11189,0.9922245062114576
+random,BGE + LR,marginal,A,642,804,0.7985074626865671
+random,BGE + LR,marginal,FT,252,450,0.56
+random,BGE + LR,marginal,L,151,380,0.3973684210526316
+random,BGE + LR,marginal,LF,910,1197,0.7602339181286549
+random,BGE + LR,marginal,MN,329,581,0.5662650602409639
+random,BGE + LR,marginal,O,1560,1842,0.8469055374592834
+random,BGE + LR,marginal,PE,1583,1666,0.9501800720288115
+random,BGE + LR,marginal,PO,129,279,0.46236559139784944
+random,BGE + LR,marginal,SC,311,491,0.6334012219959266
+random,BGE + LR,marginal,SE,2879,3002,0.9590273151232511
+random,BGE + LR,marginal,US,1750,2119,0.825861255309108
+random,BGE + LR,Mondrian,F,10164,11189,0.9083921708821163
+random,BGE + LR,Mondrian,A,787,804,0.9788557213930348
+random,BGE + LR,Mondrian,FT,450,450,1.0
+random,BGE + LR,Mondrian,L,380,380,1.0
+random,BGE + LR,Mondrian,LF,1115,1197,0.9314954051796157
+random,BGE + LR,Mondrian,MN,575,581,0.9896729776247849
+random,BGE + LR,Mondrian,O,1714,1842,0.9305103148751357
+random,BGE + LR,Mondrian,PE,1556,1666,0.9339735894357744
+random,BGE + LR,Mondrian,PO,279,279,1.0
+random,BGE + LR,Mondrian,SC,489,491,0.9959266802443992
+random,BGE + LR,Mondrian,SE,2729,3002,0.9090606262491672
+random,BGE + LR,Mondrian,US,1924,2119,0.9079754601226994
+random,Qwen2.5-0.5B zero-shot,marginal,F,11189,11189,1.0
+random,Qwen2.5-0.5B zero-shot,marginal,A,804,804,1.0
+random,Qwen2.5-0.5B zero-shot,marginal,FT,450,450,1.0
+random,Qwen2.5-0.5B zero-shot,marginal,L,380,380,1.0
+random,Qwen2.5-0.5B zero-shot,marginal,LF,1187,1197,0.9916457811194653
+random,Qwen2.5-0.5B zero-shot,marginal,MN,581,581,1.0
+random,Qwen2.5-0.5B zero-shot,marginal,O,1689,1842,0.9169381107491856
+random,Qwen2.5-0.5B zero-shot,marginal,PE,1662,1666,0.9975990396158463
+random,Qwen2.5-0.5B zero-shot,marginal,PO,252,279,0.9032258064516129
+random,Qwen2.5-0.5B zero-shot,marginal,SC,491,491,1.0
+random,Qwen2.5-0.5B zero-shot,marginal,SE,1324,3002,0.44103930712858097
+random,Qwen2.5-0.5B zero-shot,marginal,US,1729,2119,0.8159509202453987
+random,Qwen2.5-0.5B zero-shot,Mondrian,F,10075,11189,0.9004379301099293
+random,Qwen2.5-0.5B zero-shot,Mondrian,A,785,804,0.9763681592039801
+random,Qwen2.5-0.5B zero-shot,Mondrian,FT,450,450,1.0
+random,Qwen2.5-0.5B zero-shot,Mondrian,L,380,380,1.0
+random,Qwen2.5-0.5B zero-shot,Mondrian,LF,1121,1197,0.9365079365079365
+random,Qwen2.5-0.5B zero-shot,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-0.5B zero-shot,Mondrian,O,1734,1842,0.9413680781758957
+random,Qwen2.5-0.5B zero-shot,Mondrian,PE,1534,1666,0.9207683073229291
+random,Qwen2.5-0.5B zero-shot,Mondrian,PO,279,279,1.0
+random,Qwen2.5-0.5B zero-shot,Mondrian,SC,484,491,0.9857433808553971
+random,Qwen2.5-0.5B zero-shot,Mondrian,SE,2755,3002,0.9177215189873418
+random,Qwen2.5-0.5B zero-shot,Mondrian,US,1986,2119,0.9372345445965078
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,F,11156,11189,0.9970506747698633
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,A,804,804,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,FT,450,450,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,L,380,380,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,LF,1197,1197,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,MN,581,581,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,O,1790,1842,0.9717698154180239
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,PE,1224,1666,0.7346938775510204
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,PO,4,279,0.014336917562724014
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,SC,331,491,0.6741344195519349
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,SE,1782,3002,0.5936042638241172
+random,Qwen2.5-0.5B zero-shot + calibration,marginal,US,2087,2119,0.9848985370457763
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,F,10095,11189,0.9022253999463759
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,A,794,804,0.9875621890547264
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,FT,450,450,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,L,380,380,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,LF,1114,1197,0.9306599832915622
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,O,1727,1842,0.9375678610206297
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,PE,1548,1666,0.929171668667467
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,PO,279,279,1.0
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,SC,482,491,0.9816700610997964
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,SE,2723,3002,0.9070619586942039
+random,Qwen2.5-0.5B zero-shot + calibration,Mondrian,US,1979,2119,0.9339310995752713
+random,Qwen2.5-0.5B few-shot,marginal,F,11182,11189,0.9993743855572437
+random,Qwen2.5-0.5B few-shot,marginal,A,743,804,0.9241293532338308
+random,Qwen2.5-0.5B few-shot,marginal,FT,443,450,0.9844444444444445
+random,Qwen2.5-0.5B few-shot,marginal,L,155,380,0.40789473684210525
+random,Qwen2.5-0.5B few-shot,marginal,LF,1180,1197,0.985797827903091
+random,Qwen2.5-0.5B few-shot,marginal,MN,500,581,0.8605851979345955
+random,Qwen2.5-0.5B few-shot,marginal,O,1829,1842,0.992942453854506
+random,Qwen2.5-0.5B few-shot,marginal,PE,1656,1666,0.9939975990396158
+random,Qwen2.5-0.5B few-shot,marginal,PO,279,279,1.0
+random,Qwen2.5-0.5B few-shot,marginal,SC,491,491,1.0
+random,Qwen2.5-0.5B few-shot,marginal,SE,2717,3002,0.9050632911392406
+random,Qwen2.5-0.5B few-shot,marginal,US,428,2119,0.20198206701274185
+random,Qwen2.5-0.5B few-shot,Mondrian,F,10141,11189,0.9063365805702028
+random,Qwen2.5-0.5B few-shot,Mondrian,A,778,804,0.9676616915422885
+random,Qwen2.5-0.5B few-shot,Mondrian,FT,450,450,1.0
+random,Qwen2.5-0.5B few-shot,Mondrian,L,380,380,1.0
+random,Qwen2.5-0.5B few-shot,Mondrian,LF,1109,1197,0.9264828738512949
+random,Qwen2.5-0.5B few-shot,Mondrian,MN,571,581,0.9827882960413081
+random,Qwen2.5-0.5B few-shot,Mondrian,O,1706,1842,0.9261672095548317
+random,Qwen2.5-0.5B few-shot,Mondrian,PE,1555,1666,0.9333733493397359
+random,Qwen2.5-0.5B few-shot,Mondrian,PO,279,279,1.0
+random,Qwen2.5-0.5B few-shot,Mondrian,SC,486,491,0.9898167006109979
+random,Qwen2.5-0.5B few-shot,Mondrian,SE,2708,3002,0.9020652898067955
+random,Qwen2.5-0.5B few-shot,Mondrian,US,1935,2119,0.9131665880132138
+random,Qwen2.5-0.5B few-shot + calibration,marginal,F,10985,11189,0.9817678076682456
+random,Qwen2.5-0.5B few-shot + calibration,marginal,A,649,804,0.8072139303482587
+random,Qwen2.5-0.5B few-shot + calibration,marginal,FT,440,450,0.9777777777777777
+random,Qwen2.5-0.5B few-shot + calibration,marginal,L,284,380,0.7473684210526316
+random,Qwen2.5-0.5B few-shot + calibration,marginal,LF,853,1197,0.7126148705096074
+random,Qwen2.5-0.5B few-shot + calibration,marginal,MN,480,581,0.8261617900172117
+random,Qwen2.5-0.5B few-shot + calibration,marginal,O,1793,1842,0.9733984799131379
+random,Qwen2.5-0.5B few-shot + calibration,marginal,PE,1666,1666,1.0
+random,Qwen2.5-0.5B few-shot + calibration,marginal,PO,7,279,0.025089605734767026
+random,Qwen2.5-0.5B few-shot + calibration,marginal,SC,491,491,1.0
+random,Qwen2.5-0.5B few-shot + calibration,marginal,SE,2932,3002,0.9766822118587608
+random,Qwen2.5-0.5B few-shot + calibration,marginal,US,965,2119,0.45540349221330817
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,F,10117,11189,0.9041916167664671
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,A,784,804,0.9751243781094527
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,FT,450,450,1.0
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,L,380,380,1.0
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,LF,1097,1197,0.9164578111946533
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,O,1712,1842,0.9294245385450597
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,PE,1565,1666,0.93937575030012
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,PO,279,279,1.0
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,SC,485,491,0.9877800407331976
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,SE,2708,3002,0.9020652898067955
+random,Qwen2.5-0.5B few-shot + calibration,Mondrian,US,1947,2119,0.9188296366210477
+random,Qwen2.5-1.5B zero-shot,marginal,F,11124,11189,0.9941907230315489
+random,Qwen2.5-1.5B zero-shot,marginal,A,804,804,1.0
+random,Qwen2.5-1.5B zero-shot,marginal,FT,448,450,0.9955555555555555
+random,Qwen2.5-1.5B zero-shot,marginal,L,379,380,0.9973684210526316
+random,Qwen2.5-1.5B zero-shot,marginal,LF,1197,1197,1.0
+random,Qwen2.5-1.5B zero-shot,marginal,MN,581,581,1.0
+random,Qwen2.5-1.5B zero-shot,marginal,O,1569,1842,0.8517915309446255
+random,Qwen2.5-1.5B zero-shot,marginal,PE,1457,1666,0.8745498199279712
+random,Qwen2.5-1.5B zero-shot,marginal,PO,251,279,0.899641577060932
+random,Qwen2.5-1.5B zero-shot,marginal,SC,404,491,0.8228105906313645
+random,Qwen2.5-1.5B zero-shot,marginal,SE,2041,3002,0.6798800799467022
+random,Qwen2.5-1.5B zero-shot,marginal,US,1422,2119,0.6710712600283153
+random,Qwen2.5-1.5B zero-shot,Mondrian,F,10069,11189,0.8999016891589955
+random,Qwen2.5-1.5B zero-shot,Mondrian,A,786,804,0.9776119402985075
+random,Qwen2.5-1.5B zero-shot,Mondrian,FT,450,450,1.0
+random,Qwen2.5-1.5B zero-shot,Mondrian,L,380,380,1.0
+random,Qwen2.5-1.5B zero-shot,Mondrian,LF,1134,1197,0.9473684210526315
+random,Qwen2.5-1.5B zero-shot,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-1.5B zero-shot,Mondrian,O,1726,1842,0.9370249728555917
+random,Qwen2.5-1.5B zero-shot,Mondrian,PE,1536,1666,0.921968787515006
+random,Qwen2.5-1.5B zero-shot,Mondrian,PO,279,279,1.0
+random,Qwen2.5-1.5B zero-shot,Mondrian,SC,485,491,0.9877800407331976
+random,Qwen2.5-1.5B zero-shot,Mondrian,SE,2782,3002,0.9267155229846769
+random,Qwen2.5-1.5B zero-shot,Mondrian,US,1960,2119,0.924964605946201
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,F,11038,11189,0.9865046027348289
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,A,804,804,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,FT,450,450,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,L,380,380,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,LF,1197,1197,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,MN,581,581,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,O,1676,1842,0.9098805646036916
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,PE,1615,1666,0.9693877551020408
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,PO,251,279,0.899641577060932
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,SC,402,491,0.8187372708757638
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,SE,1599,3002,0.5326449033977348
+random,Qwen2.5-1.5B zero-shot + calibration,marginal,US,1686,2119,0.7956583294006607
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,F,10075,11189,0.9004379301099293
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,A,788,804,0.9800995024875622
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,FT,450,450,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,L,380,380,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,LF,1131,1197,0.9448621553884712
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,O,1719,1842,0.9332247557003257
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,PE,1535,1666,0.9213685474189676
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,PO,279,279,1.0
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,SC,485,491,0.9877800407331976
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,SE,2789,3002,0.9290473017988008
+random,Qwen2.5-1.5B zero-shot + calibration,Mondrian,US,1959,2119,0.9244926852288815
+random,Qwen2.5-1.5B few-shot,marginal,F,10272,11189,0.9180445079989276
+random,Qwen2.5-1.5B few-shot,marginal,A,804,804,1.0
+random,Qwen2.5-1.5B few-shot,marginal,FT,450,450,1.0
+random,Qwen2.5-1.5B few-shot,marginal,L,377,380,0.9921052631578947
+random,Qwen2.5-1.5B few-shot,marginal,LF,1192,1197,0.9958228905597326
+random,Qwen2.5-1.5B few-shot,marginal,MN,581,581,1.0
+random,Qwen2.5-1.5B few-shot,marginal,O,1466,1842,0.7958740499457112
+random,Qwen2.5-1.5B few-shot,marginal,PE,1638,1666,0.9831932773109243
+random,Qwen2.5-1.5B few-shot,marginal,PO,279,279,1.0
+random,Qwen2.5-1.5B few-shot,marginal,SC,491,491,1.0
+random,Qwen2.5-1.5B few-shot,marginal,SE,3002,3002,1.0
+random,Qwen2.5-1.5B few-shot,marginal,US,1082,2119,0.5106182161396885
+random,Qwen2.5-1.5B few-shot,Mondrian,F,10152,11189,0.9073196889802485
+random,Qwen2.5-1.5B few-shot,Mondrian,A,785,804,0.9763681592039801
+random,Qwen2.5-1.5B few-shot,Mondrian,FT,450,450,1.0
+random,Qwen2.5-1.5B few-shot,Mondrian,L,380,380,1.0
+random,Qwen2.5-1.5B few-shot,Mondrian,LF,1113,1197,0.9298245614035088
+random,Qwen2.5-1.5B few-shot,Mondrian,MN,569,581,0.9793459552495697
+random,Qwen2.5-1.5B few-shot,Mondrian,O,1676,1842,0.9098805646036916
+random,Qwen2.5-1.5B few-shot,Mondrian,PE,1568,1666,0.9411764705882353
+random,Qwen2.5-1.5B few-shot,Mondrian,PO,279,279,1.0
+random,Qwen2.5-1.5B few-shot,Mondrian,SC,488,491,0.9938900203665988
+random,Qwen2.5-1.5B few-shot,Mondrian,SE,2739,3002,0.9123917388407728
+random,Qwen2.5-1.5B few-shot,Mondrian,US,1973,2119,0.9310995752713545
+random,Qwen2.5-1.5B few-shot + calibration,marginal,F,9393,11189,0.8394852086871034
+random,Qwen2.5-1.5B few-shot + calibration,marginal,A,804,804,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,FT,450,450,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,L,380,380,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,LF,1197,1197,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,MN,581,581,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,O,1805,1842,0.9799131378935939
+random,Qwen2.5-1.5B few-shot + calibration,marginal,PE,1666,1666,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,PO,279,279,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,SC,491,491,1.0
+random,Qwen2.5-1.5B few-shot + calibration,marginal,SE,2994,3002,0.9973351099267155
+random,Qwen2.5-1.5B few-shot + calibration,marginal,US,1638,2119,0.7730061349693251
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,F,10156,11189,0.9076771829475377
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,A,787,804,0.9788557213930348
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,FT,450,450,1.0
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,L,380,380,1.0
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,LF,1127,1197,0.9415204678362573
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,MN,566,581,0.9741824440619621
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,O,1696,1842,0.9207383279044516
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,PE,1571,1666,0.9429771908763506
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,PO,279,279,1.0
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,SC,488,491,0.9938900203665988
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,SE,2728,3002,0.9087275149900067
+random,Qwen2.5-1.5B few-shot + calibration,Mondrian,US,1953,2119,0.9216611609249646
+random,Qwen2.5-3B zero-shot,marginal,F,10973,11189,0.9806953257663777
+random,Qwen2.5-3B zero-shot,marginal,A,771,804,0.9589552238805971
+random,Qwen2.5-3B zero-shot,marginal,FT,396,450,0.88
+random,Qwen2.5-3B zero-shot,marginal,L,321,380,0.8447368421052631
+random,Qwen2.5-3B zero-shot,marginal,LF,964,1197,0.8053467000835421
+random,Qwen2.5-3B zero-shot,marginal,MN,521,581,0.8967297762478486
+random,Qwen2.5-3B zero-shot,marginal,O,1431,1842,0.7768729641693811
+random,Qwen2.5-3B zero-shot,marginal,PE,1571,1666,0.9429771908763506
+random,Qwen2.5-3B zero-shot,marginal,PO,171,279,0.6129032258064516
+random,Qwen2.5-3B zero-shot,marginal,SC,437,491,0.890020366598778
+random,Qwen2.5-3B zero-shot,marginal,SE,2355,3002,0.784477015323118
+random,Qwen2.5-3B zero-shot,marginal,US,1677,2119,0.7914110429447853
+random,Qwen2.5-3B zero-shot,Mondrian,F,10150,11189,0.9071409419966038
+random,Qwen2.5-3B zero-shot,Mondrian,A,787,804,0.9788557213930348
+random,Qwen2.5-3B zero-shot,Mondrian,FT,450,450,1.0
+random,Qwen2.5-3B zero-shot,Mondrian,L,380,380,1.0
+random,Qwen2.5-3B zero-shot,Mondrian,LF,1122,1197,0.9373433583959899
+random,Qwen2.5-3B zero-shot,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-3B zero-shot,Mondrian,O,1704,1842,0.9250814332247557
+random,Qwen2.5-3B zero-shot,Mondrian,PE,1556,1666,0.9339735894357744
+random,Qwen2.5-3B zero-shot,Mondrian,PO,279,279,1.0
+random,Qwen2.5-3B zero-shot,Mondrian,SC,485,491,0.9877800407331976
+random,Qwen2.5-3B zero-shot,Mondrian,SE,2720,3002,0.9060626249167222
+random,Qwen2.5-3B zero-shot,Mondrian,US,1953,2119,0.9216611609249646
+random,Qwen2.5-3B zero-shot + calibration,marginal,F,10889,11189,0.9731879524533024
+random,Qwen2.5-3B zero-shot + calibration,marginal,A,774,804,0.9626865671641791
+random,Qwen2.5-3B zero-shot + calibration,marginal,FT,434,450,0.9644444444444444
+random,Qwen2.5-3B zero-shot + calibration,marginal,L,348,380,0.9157894736842105
+random,Qwen2.5-3B zero-shot + calibration,marginal,LF,936,1197,0.7819548872180451
+random,Qwen2.5-3B zero-shot + calibration,marginal,MN,537,581,0.9242685025817556
+random,Qwen2.5-3B zero-shot + calibration,marginal,O,1588,1842,0.8621064060803475
+random,Qwen2.5-3B zero-shot + calibration,marginal,PE,1640,1666,0.9843937575030012
+random,Qwen2.5-3B zero-shot + calibration,marginal,PO,164,279,0.5878136200716846
+random,Qwen2.5-3B zero-shot + calibration,marginal,SC,409,491,0.8329938900203666
+random,Qwen2.5-3B zero-shot + calibration,marginal,SE,2481,3002,0.8264490339773485
+random,Qwen2.5-3B zero-shot + calibration,marginal,US,1385,2119,0.653610193487494
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,F,10132,11189,0.905532219143802
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,A,787,804,0.9788557213930348
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,FT,450,450,1.0
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,L,380,380,1.0
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,LF,1121,1197,0.9365079365079365
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,O,1695,1842,0.9201954397394136
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,PE,1556,1666,0.9339735894357744
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,PO,279,279,1.0
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,SC,485,491,0.9877800407331976
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,SE,2736,3002,0.9113924050632911
+random,Qwen2.5-3B zero-shot + calibration,Mondrian,US,1963,2119,0.9263803680981595
+random,Qwen2.5-3B few-shot,marginal,F,10310,11189,0.9214407006881759
+random,Qwen2.5-3B few-shot,marginal,A,734,804,0.9129353233830846
+random,Qwen2.5-3B few-shot,marginal,FT,421,450,0.9355555555555556
+random,Qwen2.5-3B few-shot,marginal,L,198,380,0.5210526315789473
+random,Qwen2.5-3B few-shot,marginal,LF,958,1197,0.8003341687552213
+random,Qwen2.5-3B few-shot,marginal,MN,522,581,0.8984509466437177
+random,Qwen2.5-3B few-shot,marginal,O,1527,1842,0.8289902280130294
+random,Qwen2.5-3B few-shot,marginal,PE,1553,1666,0.9321728691476591
+random,Qwen2.5-3B few-shot,marginal,PO,195,279,0.6989247311827957
+random,Qwen2.5-3B few-shot,marginal,SC,444,491,0.9042769857433809
+random,Qwen2.5-3B few-shot,marginal,SE,2830,3002,0.9427048634243838
+random,Qwen2.5-3B few-shot,marginal,US,1831,2119,0.8640868334119868
+random,Qwen2.5-3B few-shot,Mondrian,F,10161,11189,0.9081240504066493
+random,Qwen2.5-3B few-shot,Mondrian,A,788,804,0.9800995024875622
+random,Qwen2.5-3B few-shot,Mondrian,FT,450,450,1.0
+random,Qwen2.5-3B few-shot,Mondrian,L,380,380,1.0
+random,Qwen2.5-3B few-shot,Mondrian,LF,1111,1197,0.9281537176274018
+random,Qwen2.5-3B few-shot,Mondrian,MN,572,581,0.9845094664371773
+random,Qwen2.5-3B few-shot,Mondrian,O,1690,1842,0.9174809989142236
+random,Qwen2.5-3B few-shot,Mondrian,PE,1565,1666,0.93937575030012
+random,Qwen2.5-3B few-shot,Mondrian,PO,279,279,1.0
+random,Qwen2.5-3B few-shot,Mondrian,SC,486,491,0.9898167006109979
+random,Qwen2.5-3B few-shot,Mondrian,SE,2758,3002,0.9187208527648234
+random,Qwen2.5-3B few-shot,Mondrian,US,1928,2119,0.9098631429919773
+random,Qwen2.5-3B few-shot + calibration,marginal,F,9530,11189,0.851729377066762
+random,Qwen2.5-3B few-shot + calibration,marginal,A,745,804,0.9266169154228856
+random,Qwen2.5-3B few-shot + calibration,marginal,FT,450,450,1.0
+random,Qwen2.5-3B few-shot + calibration,marginal,L,380,380,1.0
+random,Qwen2.5-3B few-shot + calibration,marginal,LF,1160,1197,0.9690893901420217
+random,Qwen2.5-3B few-shot + calibration,marginal,MN,555,581,0.955249569707401
+random,Qwen2.5-3B few-shot + calibration,marginal,O,1717,1842,0.9321389793702497
+random,Qwen2.5-3B few-shot + calibration,marginal,PE,1666,1666,1.0
+random,Qwen2.5-3B few-shot + calibration,marginal,PO,176,279,0.6308243727598566
+random,Qwen2.5-3B few-shot + calibration,marginal,SC,439,491,0.8940936863543788
+random,Qwen2.5-3B few-shot + calibration,marginal,SE,2901,3002,0.9663557628247835
+random,Qwen2.5-3B few-shot + calibration,marginal,US,1921,2119,0.9065596979707409
+random,Qwen2.5-3B few-shot + calibration,Mondrian,F,10181,11189,0.9099115202430959
+random,Qwen2.5-3B few-shot + calibration,Mondrian,A,790,804,0.9825870646766169
+random,Qwen2.5-3B few-shot + calibration,Mondrian,FT,450,450,1.0
+random,Qwen2.5-3B few-shot + calibration,Mondrian,L,380,380,1.0
+random,Qwen2.5-3B few-shot + calibration,Mondrian,LF,1116,1197,0.9323308270676691
+random,Qwen2.5-3B few-shot + calibration,Mondrian,MN,571,581,0.9827882960413081
+random,Qwen2.5-3B few-shot + calibration,Mondrian,O,1704,1842,0.9250814332247557
+random,Qwen2.5-3B few-shot + calibration,Mondrian,PE,1551,1666,0.9309723889555822
+random,Qwen2.5-3B few-shot + calibration,Mondrian,PO,279,279,1.0
+random,Qwen2.5-3B few-shot + calibration,Mondrian,SC,486,491,0.9898167006109979
+random,Qwen2.5-3B few-shot + calibration,Mondrian,SE,2769,3002,0.9223850766155897
+random,Qwen2.5-3B few-shot + calibration,Mondrian,US,1935,2119,0.9131665880132138
+random,Llama-3.2-3B zero-shot,marginal,F,11092,11189,0.9913307712932344
+random,Llama-3.2-3B zero-shot,marginal,A,804,804,1.0
+random,Llama-3.2-3B zero-shot,marginal,FT,421,450,0.9355555555555556
+random,Llama-3.2-3B zero-shot,marginal,L,322,380,0.8473684210526315
+random,Llama-3.2-3B zero-shot,marginal,LF,942,1197,0.7869674185463659
+random,Llama-3.2-3B zero-shot,marginal,MN,581,581,1.0
+random,Llama-3.2-3B zero-shot,marginal,O,1117,1842,0.6064060803474485
+random,Llama-3.2-3B zero-shot,marginal,PE,1496,1666,0.8979591836734694
+random,Llama-3.2-3B zero-shot,marginal,PO,136,279,0.4874551971326165
+random,Llama-3.2-3B zero-shot,marginal,SC,360,491,0.7331975560081466
+random,Llama-3.2-3B zero-shot,marginal,SE,2264,3002,0.754163890739507
+random,Llama-3.2-3B zero-shot,marginal,US,2081,2119,0.9820670127418594
+random,Llama-3.2-3B zero-shot,Mondrian,F,10119,11189,0.9043703637501117
+random,Llama-3.2-3B zero-shot,Mondrian,A,796,804,0.9900497512437811
+random,Llama-3.2-3B zero-shot,Mondrian,FT,450,450,1.0
+random,Llama-3.2-3B zero-shot,Mondrian,L,380,380,1.0
+random,Llama-3.2-3B zero-shot,Mondrian,LF,1116,1197,0.9323308270676691
+random,Llama-3.2-3B zero-shot,Mondrian,MN,568,581,0.9776247848537005
+random,Llama-3.2-3B zero-shot,Mondrian,O,1742,1842,0.9457111834961998
+random,Llama-3.2-3B zero-shot,Mondrian,PE,1545,1666,0.9273709483793517
+random,Llama-3.2-3B zero-shot,Mondrian,PO,279,279,1.0
+random,Llama-3.2-3B zero-shot,Mondrian,SC,487,491,0.9918533604887984
+random,Llama-3.2-3B zero-shot,Mondrian,SE,2713,3002,0.9037308461025982
+random,Llama-3.2-3B zero-shot,Mondrian,US,1958,2119,0.924020764511562
+random,Llama-3.2-3B zero-shot + calibration,marginal,F,10991,11189,0.9823040486191795
+random,Llama-3.2-3B zero-shot + calibration,marginal,A,489,804,0.6082089552238806
+random,Llama-3.2-3B zero-shot + calibration,marginal,FT,450,450,1.0
+random,Llama-3.2-3B zero-shot + calibration,marginal,L,341,380,0.8973684210526316
+random,Llama-3.2-3B zero-shot + calibration,marginal,LF,888,1197,0.7418546365914787
+random,Llama-3.2-3B zero-shot + calibration,marginal,MN,519,581,0.8932874354561101
+random,Llama-3.2-3B zero-shot + calibration,marginal,O,1537,1842,0.8344191096634094
+random,Llama-3.2-3B zero-shot + calibration,marginal,PE,1624,1666,0.9747899159663865
+random,Llama-3.2-3B zero-shot + calibration,marginal,PO,69,279,0.24731182795698925
+random,Llama-3.2-3B zero-shot + calibration,marginal,SC,205,491,0.4175152749490835
+random,Llama-3.2-3B zero-shot + calibration,marginal,SE,2835,3002,0.9443704197201865
+random,Llama-3.2-3B zero-shot + calibration,marginal,US,1664,2119,0.7852760736196319
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,F,10139,11189,0.9061578335865582
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,A,789,804,0.9813432835820896
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,FT,450,450,1.0
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,L,380,380,1.0
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,LF,1119,1197,0.9348370927318296
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,MN,572,581,0.9845094664371773
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,O,1735,1842,0.9419109663409337
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,PE,1532,1666,0.9195678271308524
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,PO,279,279,1.0
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,SC,488,491,0.9938900203665988
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,SE,2694,3002,0.8974017321785477
+random,Llama-3.2-3B zero-shot + calibration,Mondrian,US,1946,2119,0.9183577159037282
+random,Llama-3.2-3B few-shot,marginal,F,10168,11189,0.9087496648494057
+random,Llama-3.2-3B few-shot,marginal,A,727,804,0.904228855721393
+random,Llama-3.2-3B few-shot,marginal,FT,386,450,0.8577777777777778
+random,Llama-3.2-3B few-shot,marginal,L,295,380,0.7763157894736842
+random,Llama-3.2-3B few-shot,marginal,LF,1081,1197,0.9030910609857978
+random,Llama-3.2-3B few-shot,marginal,MN,531,581,0.9139414802065404
+random,Llama-3.2-3B few-shot,marginal,O,1455,1842,0.7899022801302932
+random,Llama-3.2-3B few-shot,marginal,PE,1624,1666,0.9747899159663865
+random,Llama-3.2-3B few-shot,marginal,PO,271,279,0.9713261648745519
+random,Llama-3.2-3B few-shot,marginal,SC,390,491,0.7942973523421588
+random,Llama-3.2-3B few-shot,marginal,SE,2872,3002,0.9566955363091273
+random,Llama-3.2-3B few-shot,marginal,US,1872,2119,0.8834355828220859
+random,Llama-3.2-3B few-shot,Mondrian,F,10192,11189,0.9108946286531415
+random,Llama-3.2-3B few-shot,Mondrian,A,795,804,0.9888059701492538
+random,Llama-3.2-3B few-shot,Mondrian,FT,450,450,1.0
+random,Llama-3.2-3B few-shot,Mondrian,L,380,380,1.0
+random,Llama-3.2-3B few-shot,Mondrian,LF,1109,1197,0.9264828738512949
+random,Llama-3.2-3B few-shot,Mondrian,MN,573,581,0.9862306368330465
+random,Llama-3.2-3B few-shot,Mondrian,O,1693,1842,0.9191096634093376
+random,Llama-3.2-3B few-shot,Mondrian,PE,1555,1666,0.9333733493397359
+random,Llama-3.2-3B few-shot,Mondrian,PO,279,279,1.0
+random,Llama-3.2-3B few-shot,Mondrian,SC,486,491,0.9898167006109979
+random,Llama-3.2-3B few-shot,Mondrian,SE,2725,3002,0.907728181212525
+random,Llama-3.2-3B few-shot,Mondrian,US,1972,2119,0.930627654554035
+random,Llama-3.2-3B few-shot + calibration,marginal,F,9332,11189,0.8340334256859415
+random,Llama-3.2-3B few-shot + calibration,marginal,A,784,804,0.9751243781094527
+random,Llama-3.2-3B few-shot + calibration,marginal,FT,450,450,1.0
+random,Llama-3.2-3B few-shot + calibration,marginal,L,372,380,0.9789473684210527
+random,Llama-3.2-3B few-shot + calibration,marginal,LF,1116,1197,0.9323308270676691
+random,Llama-3.2-3B few-shot + calibration,marginal,MN,581,581,1.0
+random,Llama-3.2-3B few-shot + calibration,marginal,O,1702,1842,0.9239956568946797
+random,Llama-3.2-3B few-shot + calibration,marginal,PE,1640,1666,0.9843937575030012
+random,Llama-3.2-3B few-shot + calibration,marginal,PO,237,279,0.8494623655913979
+random,Llama-3.2-3B few-shot + calibration,marginal,SC,464,491,0.945010183299389
+random,Llama-3.2-3B few-shot + calibration,marginal,SE,3002,3002,1.0
+random,Llama-3.2-3B few-shot + calibration,marginal,US,2041,2119,0.9631901840490797
+random,Llama-3.2-3B few-shot + calibration,Mondrian,F,10196,11189,0.9112521226204308
+random,Llama-3.2-3B few-shot + calibration,Mondrian,A,795,804,0.9888059701492538
+random,Llama-3.2-3B few-shot + calibration,Mondrian,FT,450,450,1.0
+random,Llama-3.2-3B few-shot + calibration,Mondrian,L,380,380,1.0
+random,Llama-3.2-3B few-shot + calibration,Mondrian,LF,1112,1197,0.9289891395154553
+random,Llama-3.2-3B few-shot + calibration,Mondrian,MN,574,581,0.9879518072289156
+random,Llama-3.2-3B few-shot + calibration,Mondrian,O,1695,1842,0.9201954397394136
+random,Llama-3.2-3B few-shot + calibration,Mondrian,PE,1558,1666,0.9351740696278511
+random,Llama-3.2-3B few-shot + calibration,Mondrian,PO,279,279,1.0
+random,Llama-3.2-3B few-shot + calibration,Mondrian,SC,485,491,0.9877800407331976
+random,Llama-3.2-3B few-shot + calibration,Mondrian,SE,2731,3002,0.9097268487674883
+random,Llama-3.2-3B few-shot + calibration,Mondrian,US,1959,2119,0.9244926852288815
+random,Qwen2.5-0.5B + BGE fusion,marginal,F,10891,11189,0.973366699436947
+random,Qwen2.5-0.5B + BGE fusion,marginal,A,667,804,0.8296019900497512
+random,Qwen2.5-0.5B + BGE fusion,marginal,FT,277,450,0.6155555555555555
+random,Qwen2.5-0.5B + BGE fusion,marginal,L,237,380,0.6236842105263158
+random,Qwen2.5-0.5B + BGE fusion,marginal,LF,971,1197,0.8111946532999165
+random,Qwen2.5-0.5B + BGE fusion,marginal,MN,395,581,0.6798623063683304
+random,Qwen2.5-0.5B + BGE fusion,marginal,O,1512,1842,0.8208469055374593
+random,Qwen2.5-0.5B + BGE fusion,marginal,PE,1532,1666,0.9195678271308524
+random,Qwen2.5-0.5B + BGE fusion,marginal,PO,151,279,0.5412186379928315
+random,Qwen2.5-0.5B + BGE fusion,marginal,SC,365,491,0.7433808553971487
+random,Qwen2.5-0.5B + BGE fusion,marginal,SE,2864,3002,0.9540306462358428
+random,Qwen2.5-0.5B + BGE fusion,marginal,US,1750,2119,0.825861255309108
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,F,10132,11189,0.905532219143802
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,A,789,804,0.9813432835820896
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,FT,450,450,1.0
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,L,380,380,1.0
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,LF,1120,1197,0.935672514619883
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,MN,568,581,0.9776247848537005
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,O,1662,1842,0.9022801302931596
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,PE,1552,1666,0.9315726290516206
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,PO,279,279,1.0
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,SC,488,491,0.9938900203665988
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,SE,2743,3002,0.913724183877415
+random,Qwen2.5-0.5B + BGE fusion,Mondrian,US,1950,2119,0.9202453987730062
+random,Qwen2.5-1.5B + BGE fusion,marginal,F,10852,11189,0.9698811332558763
+random,Qwen2.5-1.5B + BGE fusion,marginal,A,675,804,0.8395522388059702
+random,Qwen2.5-1.5B + BGE fusion,marginal,FT,299,450,0.6644444444444444
+random,Qwen2.5-1.5B + BGE fusion,marginal,L,309,380,0.8131578947368421
+random,Qwen2.5-1.5B + BGE fusion,marginal,LF,997,1197,0.8329156223893066
+random,Qwen2.5-1.5B + BGE fusion,marginal,MN,381,581,0.6557659208261618
+random,Qwen2.5-1.5B + BGE fusion,marginal,O,1487,1842,0.8072747014115093
+random,Qwen2.5-1.5B + BGE fusion,marginal,PE,1525,1666,0.9153661464585834
+random,Qwen2.5-1.5B + BGE fusion,marginal,PO,159,279,0.5698924731182796
+random,Qwen2.5-1.5B + BGE fusion,marginal,SC,348,491,0.7087576374745418
+random,Qwen2.5-1.5B + BGE fusion,marginal,SE,2850,3002,0.9493670886075949
+random,Qwen2.5-1.5B + BGE fusion,marginal,US,1744,2119,0.8230297310051912
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,F,10139,11189,0.9061578335865582
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,A,792,804,0.9850746268656716
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,FT,450,450,1.0
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,L,380,380,1.0
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,LF,1125,1197,0.9398496240601504
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,MN,573,581,0.9862306368330465
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,O,1709,1842,0.9277958740499457
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,PE,1555,1666,0.9333733493397359
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,PO,279,279,1.0
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,SC,486,491,0.9898167006109979
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,SE,2731,3002,0.9097268487674883
+random,Qwen2.5-1.5B + BGE fusion,Mondrian,US,1940,2119,0.9155261915998112
+random,Qwen2.5-3B + BGE fusion,marginal,F,10892,11189,0.9734560729287693
+random,Qwen2.5-3B + BGE fusion,marginal,A,705,804,0.8768656716417911
+random,Qwen2.5-3B + BGE fusion,marginal,FT,301,450,0.6688888888888889
+random,Qwen2.5-3B + BGE fusion,marginal,L,306,380,0.8052631578947368
+random,Qwen2.5-3B + BGE fusion,marginal,LF,931,1197,0.7777777777777778
+random,Qwen2.5-3B + BGE fusion,marginal,MN,361,581,0.621342512908778
+random,Qwen2.5-3B + BGE fusion,marginal,O,1524,1842,0.8273615635179153
+random,Qwen2.5-3B + BGE fusion,marginal,PE,1521,1666,0.9129651860744298
+random,Qwen2.5-3B + BGE fusion,marginal,PO,134,279,0.48028673835125446
+random,Qwen2.5-3B + BGE fusion,marginal,SC,337,491,0.6863543788187373
+random,Qwen2.5-3B + BGE fusion,marginal,SE,2822,3002,0.9400399733510992
+random,Qwen2.5-3B + BGE fusion,marginal,US,1791,2119,0.8452100047192072
+random,Qwen2.5-3B + BGE fusion,Mondrian,F,10140,11189,0.9062472070783806
+random,Qwen2.5-3B + BGE fusion,Mondrian,A,784,804,0.9751243781094527
+random,Qwen2.5-3B + BGE fusion,Mondrian,FT,450,450,1.0
+random,Qwen2.5-3B + BGE fusion,Mondrian,L,380,380,1.0
+random,Qwen2.5-3B + BGE fusion,Mondrian,LF,1119,1197,0.9348370927318296
+random,Qwen2.5-3B + BGE fusion,Mondrian,MN,575,581,0.9896729776247849
+random,Qwen2.5-3B + BGE fusion,Mondrian,O,1688,1842,0.9163952225841476
+random,Qwen2.5-3B + BGE fusion,Mondrian,PE,1551,1666,0.9309723889555822
+random,Qwen2.5-3B + BGE fusion,Mondrian,PO,279,279,1.0
+random,Qwen2.5-3B + BGE fusion,Mondrian,SC,484,491,0.9857433808553971
+random,Qwen2.5-3B + BGE fusion,Mondrian,SE,2725,3002,0.907728181212525
+random,Qwen2.5-3B + BGE fusion,Mondrian,US,1940,2119,0.9155261915998112
+random,Llama-3.2-3B + BGE fusion,marginal,F,10882,11189,0.972562338010546
+random,Llama-3.2-3B + BGE fusion,marginal,A,694,804,0.8631840796019901
+random,Llama-3.2-3B + BGE fusion,marginal,FT,287,450,0.6377777777777778
+random,Llama-3.2-3B + BGE fusion,marginal,L,274,380,0.7210526315789474
+random,Llama-3.2-3B + BGE fusion,marginal,LF,916,1197,0.7652464494569757
+random,Llama-3.2-3B + BGE fusion,marginal,MN,412,581,0.7091222030981067
+random,Llama-3.2-3B + BGE fusion,marginal,O,1536,1842,0.8338762214983714
+random,Llama-3.2-3B + BGE fusion,marginal,PE,1471,1666,0.882953181272509
+random,Llama-3.2-3B + BGE fusion,marginal,PO,173,279,0.6200716845878136
+random,Llama-3.2-3B + BGE fusion,marginal,SC,375,491,0.7637474541751528
+random,Llama-3.2-3B + BGE fusion,marginal,SE,2839,3002,0.9457028647568287
+random,Llama-3.2-3B + BGE fusion,marginal,US,1723,2119,0.8131193959414819
+random,Llama-3.2-3B + BGE fusion,Mondrian,F,10181,11189,0.9099115202430959
+random,Llama-3.2-3B + BGE fusion,Mondrian,A,793,804,0.986318407960199
+random,Llama-3.2-3B + BGE fusion,Mondrian,FT,450,450,1.0
+random,Llama-3.2-3B + BGE fusion,Mondrian,L,380,380,1.0
+random,Llama-3.2-3B + BGE fusion,Mondrian,LF,1131,1197,0.9448621553884712
+random,Llama-3.2-3B + BGE fusion,Mondrian,MN,570,581,0.9810671256454389
+random,Llama-3.2-3B + BGE fusion,Mondrian,O,1684,1842,0.9142236699239956
+random,Llama-3.2-3B + BGE fusion,Mondrian,PE,1526,1666,0.9159663865546218
+random,Llama-3.2-3B + BGE fusion,Mondrian,PO,279,279,1.0
+random,Llama-3.2-3B + BGE fusion,Mondrian,SC,487,491,0.9918533604887984
+random,Llama-3.2-3B + BGE fusion,Mondrian,SE,2734,3002,0.9107261825449701
+random,Llama-3.2-3B + BGE fusion,Mondrian,US,1920,2119,0.9060877772534214

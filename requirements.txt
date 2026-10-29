@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+onnxruntime>=1.18
+matplotlib>=3.8
+pillow>=10
+# plus: llama.cpp (llama-server, release b11398 or later; set LLAMA_SERVER), Graphviz (dot), Node.js 18+ with the docx package
