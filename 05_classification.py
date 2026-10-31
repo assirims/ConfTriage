@@ -7,9 +7,13 @@ Methods (probabilistic classifiers over the 12 PROMISE_exp classes)
 Evaluation design: repeated random splits into training (50%), calibration (25%) and test (25%) requirements, either
 by project (whole projects are held out; realistic for a new project) or by requirement (i.i.d.); N_SPLITS each.
 For every split and method we record test accuracy and macro-F1 (12 classes and functional vs non-functional),
-split-conformal LAC prediction sets (marginal and class-conditional/Mondrian) and Learn-then-Test automation, i.e.
-the share of test requirements that can be labelled automatically with a guaranteed error rate.
-Outputs: results/tables/cls_*.csv, data/processed/cls_split_results.csv
+split-conformal LAC prediction sets (marginal and class-conditional/Mondrian), risk-controlled automation by conformal
+risk control with a marginal error budget and with a class-conditional budget (one threshold per predicted class, so
+that the budget holds within every predicted class), and Learn-then-Test automation.
+P values of the McNemar tests (all pairs of LLM configurations) and of the sign tests (fusion comparisons) are reported
+raw (p) and Holm-adjusted within their family (p_holm).
+Outputs: results/tables/cls_*.csv (cls_class_conditional.csv = Table 14, cls_class_conditional_per_class.csv = Fig. 7),
+data/processed/cls_split_results.csv
 """
 import os
 import sys
@@ -28,7 +32,7 @@ from sklearn.model_selection import GroupKFold, KFold
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ALPHAS, CLASSES, DELTA, LLM_LABEL, LLMS, PROC, SEED, TABLES  # noqa: E402
 from lib.conformal import crc_automation_threshold, lac_sets, lac_threshold, ltt_threshold, mondrian_sets, mondrian_thresholds  # noqa: E402
-from lib.metrics import cluster_bootstrap, mcnemar_exact  # noqa: E402
+from lib.metrics import cluster_bootstrap, holm, mcnemar_exact  # noqa: E402
 
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 N_SPLITS = int(os.environ.get("CLS_SPLITS", 100))
@@ -103,8 +107,23 @@ def point_metrics(p, y):
             "acc_fnfr": np.mean(b_true == b_pred), "f1_fnfr": f1_score(b_true, b_pred, average="macro", zero_division=0)}
 
 
+def cc_automation(pc, yc, pt, yt, eps):
+    """Class-conditional conformal risk control: one threshold per predicted class, calibrated on the calibration
+    requirements that received that predicted class, so that the error budget eps holds within every predicted class.
+    Returns (labelled automatically, labelled automatically and wrongly) for the test requirements."""
+    predc, predt, confc, conft = pc.argmax(1), pt.argmax(1), pc.max(1), pt.max(1)
+    acc = np.zeros(len(yt), bool)
+    for k in range(pc.shape[1]):
+        mc, mt = predc == k, predt == k
+        if not mt.any():
+            continue
+        lam = crc_automation_threshold(confc[mc], predc[mc] != yc[mc], eps) if mc.any() else np.inf
+        acc[mt] = conft[mt] >= lam
+    return acc, acc & (predt != yt)
+
+
 def conformal_metrics(pc, yc, pt, yt):
-    out = {}
+    out, per_pred = {}, {}
     idx = np.arange(len(yt))
     for a in ALPHAS:
         s = lac_sets(pt, lac_threshold(pc, yc, a))
@@ -127,6 +146,16 @@ def conformal_metrics(pc, yc, pt, yt):
             out[f"crc{tag}_auto_{b}"] = acc.mean()
             out[f"crc{tag}_risk_{b}"] = wrong.mean()
             out[f"crc{tag}_selerr_{b}"] = wrong.sum() / acc.sum() if acc.any() else np.nan
+            # class-conditional budget: the same eps, but guaranteed within every predicted class
+            cacc, cwrong = cc_automation(qc, qyc, qt, qyt, b)
+            out[f"cc{tag}_auto_{b}"] = cacc.mean()
+            out[f"cc{tag}_risk_{b}"] = cwrong.mean()
+            out[f"cc{tag}_selerr_{b}"] = cwrong.sum() / cacc.sum() if cacc.any() else np.nan
+            if b == 0.05:   # counts per predicted class, pooled over splits in main() (Table 14, Fig. 7)
+                pred, nk = qt.argmax(1), qc.shape[1]
+                per_pred[tag] = np.stack([np.bincount(pred, minlength=nk), np.bincount(pred[acc], minlength=nk),
+                                          np.bincount(pred[wrong], minlength=nk), np.bincount(pred[cacc], minlength=nk),
+                                          np.bincount(pred[cwrong], minlength=nk)])
     # risk-controlled automation (Learn-then-Test, high-probability guarantee on the selective error rate)
     for e in EPS12:
         lam = ltt_threshold(pc.max(1), pc.argmax(1) == yc, e, DELTA)
@@ -138,7 +167,7 @@ def conformal_metrics(pc, yc, pt, yt):
         acc = bt.max(1) >= lam
         out[f"auto2_{e}"] = acc.mean()
         out[f"err2_{e}"] = np.mean(bt.argmax(1)[acc] != ybt[acc]) if acc.any() else np.nan
-    return out, per_class, per_class_m
+    return out, per_class, per_class_m, per_pred
 
 
 def run_split(P, y, E, llm, tr, ca, te, design):
@@ -188,10 +217,10 @@ def run_split(P, y, E, llm, tr, ca, te, design):
     for name, p in probs.items():
         r = {"method": name}
         r.update(point_metrics(p[te], y[te]))
-        cm, pc1, pc2 = conformal_metrics(p[ca], y[ca], p[te], y[te])
+        cm, pc1, pc2, pp = conformal_metrics(p[ca], y[ca], p[te], y[te])
         r.update(cm)
         rows.append(r)
-        pcs.append((name, pc1, pc2))
+        pcs.append((name, pc1, pc2, pp))
     return rows, pcs, calsize
 
 
@@ -225,7 +254,10 @@ def llm_full_sample(P, y, llm):
             n10, n01, pv = mcnemar_exact(preds[keys[i]], preds[keys[j]])
             tests.append({"a": f"{LLM_LABEL[keys[i][0]]} {MODE_LABEL[keys[i][1]]}", "b": f"{LLM_LABEL[keys[j][0]]} {MODE_LABEL[keys[j][1]]}",
                           "acc_a": preds[keys[i]].mean(), "acc_b": preds[keys[j]].mean(), "a_only": n10, "b_only": n01, "p": pv})
-    return pd.DataFrame(rows), pd.DataFrame(tests)
+    tests = pd.DataFrame(tests)
+    if len(tests):
+        tests["p_holm"] = holm(tests.p)      # Holm-adjusted within the family of all pairwise McNemar tests
+    return pd.DataFrame(rows), tests
 
 
 def main():
@@ -235,7 +267,7 @@ def main():
     full, tests = llm_full_sample(P, y, llm)
     full.to_csv(os.path.join(TABLES, "cls_llm_full_sample.csv"), index=False)
     tests.to_csv(os.path.join(TABLES, "cls_llm_mcnemar.csv"), index=False)
-    rows, cls_counts, calrows = [], {}, []
+    rows, cls_counts, calrows, pred_counts = [], {}, [], {}
     for design in ("project", "random"):
         rng = np.random.default_rng(SEED)
         for s in range(N_SPLITS):
@@ -247,11 +279,13 @@ def main():
             for x in r:
                 x.update({"design": design, "split": s})
             rows += r
-            for name, pc1, pc2 in pcs:
+            for name, pc1, pc2, pp in pcs:
                 for k, (cov, n) in {**pc1, **pc2}.items():
                     acc = cls_counts.setdefault((design, name, k), [0, 0])
                     acc[0] += cov
                     acc[1] += n
+                for tag, counts in pp.items():
+                    pred_counts[(design, name, tag)] = pred_counts.get((design, name, tag), 0) + counts
             if s % 20 == 0:
                 print(f"{design} split {s}/{N_SPLITS} ({time.time() - t0:.0f}s)", flush=True)
     R = pd.DataFrame(rows)
@@ -267,6 +301,28 @@ def main():
                        "class": k.split("_")[-1], "covered": v[0], "n": v[1], "coverage": v[0] / v[1] if v[1] else np.nan}
                       for (d, m, k), v in cls_counts.items()])
     C.to_csv(os.path.join(TABLES, "cls_class_coverage.csv"), index=False)
+    # risk-controlled automation at a 5% budget per predicted class, pooled over the test sets of all splits:
+    # marginal versus class-conditional thresholds (Fig. 7), and the worst predicted class per method (Table 14)
+    pp_rows = []
+    for (d, m, tag), v in pred_counts.items():
+        for k, cl in enumerate(CLASSES if tag == "12" else ["F", "NFR"]):
+            pp_rows.append({"design": d, "method": m, "task": tag, "class": cl, "n_pred": int(v[0, k]),
+                            "marginal_auto": int(v[1, k]), "marginal_wrong": int(v[2, k]), "cc_auto": int(v[3, k]), "cc_wrong": int(v[4, k])})
+    PP = pd.DataFrame(pp_rows)
+    PP.to_csv(os.path.join(TABLES, "cls_class_conditional_per_class.csv"), index=False)
+    Sx = S.set_index(["design", "method"])
+    cc_rows = []
+    for (d, m), g in PP.groupby(["design", "method"]):
+        g12, g2 = g[g.task == "12"], g[g.task == "2"]
+        worst = lambda x, col: float(np.nanmax(x[col] / x.n_pred.replace(0, np.nan)))   # noqa: E731
+        cc_rows.append({"design": d, "method": m,
+                        "marginal_auto": Sx.loc[(d, m), "crc12_auto_0.05_mean"], "marginal_risk": Sx.loc[(d, m), "crc12_risk_0.05_mean"],
+                        "marginal_worst_class": worst(g12, "marginal_wrong"),
+                        "cc_auto": Sx.loc[(d, m), "cc12_auto_0.05_mean"], "cc_risk": Sx.loc[(d, m), "cc12_risk_0.05_mean"],
+                        "cc_worst_class": worst(g12, "cc_wrong"),
+                        "fnfr_marginal_auto": Sx.loc[(d, m), "crc2_auto_0.05_mean"], "fnfr_marginal_worst_class": worst(g2, "marginal_wrong"),
+                        "fnfr_cc_auto": Sx.loc[(d, m), "cc2_auto_0.05_mean"], "fnfr_cc_worst_class": worst(g2, "cc_wrong")})
+    pd.DataFrame(cc_rows).to_csv(os.path.join(TABLES, "cls_class_conditional.csv"), index=False)
     # paired comparison of each fusion with its own LLM and with BGE + LR (project design), sign test over splits
     comp = []
     Rp = R[R.design == "project"].set_index(["split", "method"])
@@ -283,7 +339,10 @@ def main():
                 pv = stats.binomtest(int((d > 0).sum()), int((d != 0).sum()), 0.5).pvalue if (d != 0).any() else 1.0
                 comp.append({"fusion": f, "vs": other, "metric": metric, "mean_diff": d.mean(), "sd_diff": d.std(),
                              "share_better": (d > 0).mean(), "share_worse": (d < 0).mean(), "p_sign": pv})
-    pd.DataFrame(comp).to_csv(os.path.join(TABLES, "cls_paired_comparisons.csv"), index=False)
+    comp = pd.DataFrame(comp)
+    if len(comp):
+        comp["p_holm"] = holm(comp.p_sign)   # Holm-adjusted within the family of all sign tests
+    comp.to_csv(os.path.join(TABLES, "cls_paired_comparisons.csv"), index=False)
     print(S[S.design == "project"][["method", "acc_mean", "macro_f1_mean", "cov_0.1_mean", "size_0.1_mean", "crc12_auto_0.05_mean",
                                     "crc12_risk_0.05_mean", "crc12_auto_0.1_mean", "crc2_auto_0.02_mean", "crc2_auto_0.05_mean",
                                     "auto12_0.2_mean"]].round(3).to_string())

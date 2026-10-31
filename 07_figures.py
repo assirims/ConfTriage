@@ -1,4 +1,4 @@
-"""Step 07 - Figures 2-7 (300 dpi PNG). Colour encodes the method family (fixed order, colour-blind-checked palette);
+"""Step 07 - Figures 2-8 (300 dpi PNG), numbered as in the manuscript. Colour encodes the method family (fixed order, colour-blind-checked palette);
 markers and direct labels carry the same information for print."""
 import os
 import sys
@@ -128,7 +128,7 @@ def fig4_automation(S, pick):
     plt.close(fig)
 
 
-def fig5_class_coverage(C, method, counts):
+def fig6_class_coverage(C, method, counts):
     """Per-class coverage of marginal versus class-conditional (Mondrian) sets at alpha = 0.1 (project design)."""
     c = C[(C.design == "project") & (C.method == method)]
     fig, ax = plt.subplots(figsize=(7.2, 2.6))
@@ -147,7 +147,7 @@ def fig5_class_coverage(C, method, counts):
     plt.close(fig)
 
 
-def fig6_trace_curves(curves, crc, pick):
+def fig5_trace_curves(curves, crc, pick):
     """Links to vet per requirement versus recall within the K = 20 shortlist, with the conformal operating points."""
     fig, axes = plt.subplots(1, 4, figsize=(7.4, 2.6), sharey=False)
     for ax, ds in zip(axes, TRACE_SETS):
@@ -171,32 +171,64 @@ def fig6_trace_curves(curves, crc, pick):
     plt.close(fig)
 
 
-def fig7_trace_validity(crc, shift, pick):
-    """Realised recall at target 0.90: within-system calibration (mean and 5th percentile over splits) and
-    cross-system calibration."""
-    fig, ax = plt.subplots(figsize=(7.2, 2.8))
+def fig7_class_conditional(PP, method):
+    """Automatic labelling at a 5% error budget per predicted class (project design, pooled over the test sets of all
+    splits): share labelled automatically and wrongly (left) and share labelled automatically (right), under marginal
+    and class-conditional risk control."""
+    p = PP[(PP.design == "project") & (PP.method == method) & (PP.task.astype(str) == "12")].set_index("class").reindex(CLASSES)
+    n = p.n_pred.replace(0, np.nan)
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.9))
+    x = np.arange(len(CLASSES))
+    for ax, (cm, cc, lab, line) in zip(axes, [("marginal_wrong", "cc_wrong", "Automatically and wrongly\nlabelled (% of class)", 5.0),
+                                              ("marginal_auto", "cc_auto", "Labelled automatically\n(% of class)", None)]):
+        ax.bar(x - 0.18, 100 * p[cm] / n, width=0.34, color="#eb6834", label="Marginal risk control")
+        ax.bar(x + 0.18, 100 * p[cc] / n, width=0.34, color="#2a78d6", label="Class-conditional risk control")
+        if line is not None:
+            ax.axhline(line, color=INK2, lw=1, ls="--")
+        ax.set_xticks(x)
+        ax.set_xticklabels(CLASSES, fontsize=7)
+        ax.set_xlabel("Predicted class")
+        ax.set_ylabel(lab)
+        ax.set_ylim(0, None)
+        ax.grid(axis="x", visible=False)
+    h, l = axes[0].get_legend_handles_labels()
+    fig.legend(handles=h, labels=l, loc="upper center", ncol=2, bbox_to_anchor=(0.5, 1.06))
+    fig.savefig(os.path.join(FIGS, "Fig7_class_conditional_risk.png"))
+    plt.close(fig)
+
+
+def fig8_trace_validity(crc, shift, calsize, pick):
+    """Realised recall at target 0.90 (all requirement-code pairs) when the threshold is calibrated on half of the same
+    system (filled), on only its first 20 requirements with gold links (half-filled) or on the other three systems (open)."""
+    fig, ax = plt.subplots(figsize=(7.2, 3.0))
     x = np.arange(len(TRACE_SETS))
     w = 0.8 / len(pick)
     for k, m in enumerate(pick):
         c, mk = style(m)
+        xs = x - 0.4 + w * (k + 0.5)
         within = [crc[(crc.universe == "all") & (crc.dataset == ds) & (crc.method == m) & (crc.alpha == 0.1)].recall_mean.iloc[0]
                   for ds in TRACE_SETS]
-        ax.plot(x - 0.4 + w * (k + 0.5), within, marker=mk, color=c, ls="none", ms=6)
+        ax.plot(xs - 0.06, within, marker=mk, color=c, ls="none", ms=6)
+        cs = calsize[(calsize.universe == "all") & (calsize.method == m) & (calsize.alpha == 0.1) & (calsize.n_cal == 20)]
+        if not cs.empty:
+            twenty = [cs[cs.dataset == ds].recall_mean.iloc[0] for ds in TRACE_SETS]
+            ax.plot(xs, twenty, marker=mk, color=c, ls="none", ms=6, fillstyle="left", mfcalt="white")
         sh = shift[(shift.method == m) & (shift.alpha == 0.1)]
         if not sh.empty:
             cross = [sh[sh.dataset == ds].recall.iloc[0] for ds in TRACE_SETS]
-            ax.plot(x - 0.4 + w * (k + 0.5), cross, marker=mk, color=c, mfc="white", ls="none", ms=6)
+            ax.plot(xs + 0.06, cross, marker=mk, color=c, mfc="white", ls="none", ms=6)
     ax.axhline(0.9, color=INK2, lw=1, ls="--")
     ax.set_xticks(x)
     ax.set_xticklabels(TRACE_SETS)
     ax.set_ylabel("Realised mean recall (target 0.90)")
     from matplotlib.lines import Line2D
     h = method_handles(pick, linestyle="none")
-    h += [Line2D([0], [0], marker="o", color=INK2, ls="none", label="filled: calibrated on the same system"),
-          Line2D([0], [0], marker="o", color=INK2, mfc="white", ls="none", label="open: calibrated on the other systems")]
+    h += [Line2D([0], [0], marker="o", color=INK2, ls="none", label="filled: half of the same system"),
+          Line2D([0], [0], marker="o", color=INK2, ls="none", fillstyle="left", mfcalt="white", label="half-filled: 20 requirements of the same system"),
+          Line2D([0], [0], marker="o", color=INK2, mfc="white", ls="none", label="open: the other systems")]
     ax.legend(handles=h, loc="upper center", ncol=3, fontsize=7, bbox_to_anchor=(0.5, -0.12))
     ax.grid(axis="x", visible=False)
-    fig.savefig(os.path.join(FIGS, "Fig7_trace_validity.png"))
+    fig.savefig(os.path.join(FIGS, "Fig8_trace_validity.png"))
     plt.close(fig)
 
 
@@ -212,7 +244,10 @@ def main():
     fig3_coverage(S, cov_pick)
     fig4_automation(S, ["TF-IDF + LR", "BGE + LR", llm_zero, best_fusion])
     P = pd.read_csv(os.path.join(os.path.dirname(TABLES), "..", "data", "processed", "promise_exp.csv"))
-    fig5_class_coverage(C, best_fusion, P[P.exemplar == 0].label.value_counts().to_dict())
+    fig6_class_coverage(C, best_fusion, P[P.exemplar == 0].label.value_counts().to_dict())
+    f = os.path.join(TABLES, "cls_class_conditional_per_class.csv")
+    if os.path.exists(f):
+        fig7_class_conditional(pd.read_csv(f), best_fusion)
     f = os.path.join(TABLES, "trace_crc.csv")
     if os.path.exists(f):
         crc = pd.read_csv(f)
@@ -224,8 +259,9 @@ def main():
         llms = [m for m in methods if m.endswith("re-rank")]
         fus = [m for m in methods if m.endswith("+ retrieval fusion") or m.endswith("+ RRF")]
         pick = ["RRF (BM25 + BGE)", "Cross-encoder", max(llms, key=lambda m: mmap[m]), max(fus, key=lambda m: mmap[m])]
-        fig6_trace_curves(curves, crc, pick)
-        fig7_trace_validity(crc, shift, [m for m in pick if "fusion" not in m])
+        fig5_trace_curves(curves, crc, pick)
+        calsize = pd.read_csv(os.path.join(TABLES, "trace_crc_calsize.csv"))
+        fig8_trace_validity(crc, shift, calsize, [m for m in pick if "fusion" not in m])
     print("figures written")
 
 

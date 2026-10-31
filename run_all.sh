@@ -1,5 +1,6 @@
 #!/bin/bash
-# Full pipeline. Steps 04 (generative models) take about 10-12 hours on two CPU cores; they resume from results/llm/*.jsonl.
+# Full pipeline. Steps 04 (generative models) take about 10 hours on two CPU cores; they resume from results/llm/*.jsonl.
+# The analyses (05-10) can be re-run from the stored model outputs without the models (see README).
 set -e
 cd "$(dirname "$0")"
 python3 01_verify_raw.py --verify
@@ -15,5 +16,5 @@ python3 09_make_diagram.py
 python3 08_collect_results.py
 python3 tests/test_conformal.py
 python3 tests/test_wordpiece_metrics.py
-node manuscript/build_manuscript.js
-python3 10_verify_manuscript.py
+# optional: check a Word manuscript against the result files (every table cell, key numbers, citations)
+if [ -f manuscript/RELLM_Manuscript.docx ]; then python3 10_verify_manuscript.py manuscript/RELLM_Manuscript.docx; fi

@@ -596,12 +596,14 @@ iTrust,UC9S2.txt,FamilyDAO.java
 SMOS,SMOS1.txt,Utente.java
 SMOS,SMOS1.txt,Ruolo.java
 SMOS,SMOS1.txt,VoceElencoUtenti.java
+SMOS,SMOS1.txt,managerUser.html
 SMOS,SMOS1.txt,ServletAccesso.java
 SMOS,SMOS1.txt,ServletDisconnettersi.java
 SMOS,SMOS1.txt,ServletAlteraIDatiPersonali.java
 SMOS,SMOS10.txt,Utente.java
 SMOS,SMOS10.txt,Ruolo.java
 SMOS,SMOS10.txt,VoceElencoUtenti.java
+SMOS,SMOS10.txt,managerUser.html
 SMOS,SMOS10.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS10.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS10.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -620,6 +622,7 @@ SMOS,SMOS10.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS11.txt,Utente.java
 SMOS,SMOS11.txt,Ruolo.java
 SMOS,SMOS11.txt,VoceElencoUtenti.java
+SMOS,SMOS11.txt,managerUser.html
 SMOS,SMOS11.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS11.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS11.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -638,6 +641,7 @@ SMOS,SMOS11.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS12.txt,Utente.java
 SMOS,SMOS12.txt,Ruolo.java
 SMOS,SMOS12.txt,VoceElencoUtenti.java
+SMOS,SMOS12.txt,managerUser.html
 SMOS,SMOS12.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS12.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS12.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -656,6 +660,7 @@ SMOS,SMOS12.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS13.txt,Utente.java
 SMOS,SMOS13.txt,Ruolo.java
 SMOS,SMOS13.txt,VoceElencoUtenti.java
+SMOS,SMOS13.txt,managerUser.html
 SMOS,SMOS13.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS13.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS13.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -794,6 +799,7 @@ SMOS,SMOS19.txt,ServletEliminaInsegnamento.java
 SMOS,SMOS2.txt,Utente.java
 SMOS,SMOS2.txt,Ruolo.java
 SMOS,SMOS2.txt,VoceElencoUtenti.java
+SMOS,SMOS2.txt,managerUser.html
 SMOS,SMOS2.txt,ServletAccesso.java
 SMOS,SMOS2.txt,ServletDisconnettersi.java
 SMOS,SMOS2.txt,ServletAlteraIDatiPersonali.java
@@ -991,6 +997,7 @@ SMOS,SMOS29.txt,ServletStatisticheDiCalcolo.java
 SMOS,SMOS3.txt,Utente.java
 SMOS,SMOS3.txt,Ruolo.java
 SMOS,SMOS3.txt,VoceElencoUtenti.java
+SMOS,SMOS3.txt,managerUser.html
 SMOS,SMOS3.txt,ServletAccesso.java
 SMOS,SMOS3.txt,ServletDisconnettersi.java
 SMOS,SMOS3.txt,ServletAlteraIDatiPersonali.java
@@ -1167,6 +1174,7 @@ SMOS,SMOS39.txt,ServletStatisticheDiCalcolo.java
 SMOS,SMOS4.txt,Utente.java
 SMOS,SMOS4.txt,Ruolo.java
 SMOS,SMOS4.txt,VoceElencoUtenti.java
+SMOS,SMOS4.txt,managerUser.html
 SMOS,SMOS4.txt,ServletAccesso.java
 SMOS,SMOS4.txt,ServletDisconnettersi.java
 SMOS,SMOS4.txt,ServletAlteraIDatiPersonali.java
@@ -1294,6 +1302,7 @@ SMOS,SMOS48.txt,ServletCaricareElencoDiInsegnamento.java
 SMOS,SMOS49.txt,Utente.java
 SMOS,SMOS49.txt,Ruolo.java
 SMOS,SMOS49.txt,VoceElencoUtenti.java
+SMOS,SMOS49.txt,managerUser.html
 SMOS,SMOS49.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS49.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS49.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1312,6 +1321,7 @@ SMOS,SMOS49.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS5.txt,Utente.java
 SMOS,SMOS5.txt,Ruolo.java
 SMOS,SMOS5.txt,VoceElencoUtenti.java
+SMOS,SMOS5.txt,managerUser.html
 SMOS,SMOS5.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS5.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS5.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1330,6 +1340,7 @@ SMOS,SMOS5.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS50.txt,Utente.java
 SMOS,SMOS50.txt,Ruolo.java
 SMOS,SMOS50.txt,VoceElencoUtenti.java
+SMOS,SMOS50.txt,managerUser.html
 SMOS,SMOS50.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS50.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS50.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1348,6 +1359,7 @@ SMOS,SMOS50.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS51.txt,Utente.java
 SMOS,SMOS51.txt,Ruolo.java
 SMOS,SMOS51.txt,VoceElencoUtenti.java
+SMOS,SMOS51.txt,managerUser.html
 SMOS,SMOS51.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS51.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS51.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1465,6 +1477,7 @@ SMOS,SMOS59.txt,ServletCaricareElencoDiInsegnamento.java
 SMOS,SMOS6.txt,Utente.java
 SMOS,SMOS6.txt,Ruolo.java
 SMOS,SMOS6.txt,VoceElencoUtenti.java
+SMOS,SMOS6.txt,managerUser.html
 SMOS,SMOS6.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS6.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS6.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1551,6 +1564,7 @@ SMOS,SMOS66.txt,ServletCaricareElencoDiInsegnamento.java
 SMOS,SMOS67.txt,Utente.java
 SMOS,SMOS67.txt,Ruolo.java
 SMOS,SMOS67.txt,VoceElencoUtenti.java
+SMOS,SMOS67.txt,managerUser.html
 SMOS,SMOS67.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS67.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS67.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1569,6 +1583,7 @@ SMOS,SMOS67.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS7.txt,Utente.java
 SMOS,SMOS7.txt,Ruolo.java
 SMOS,SMOS7.txt,VoceElencoUtenti.java
+SMOS,SMOS7.txt,managerUser.html
 SMOS,SMOS7.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS7.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS7.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1587,6 +1602,7 @@ SMOS,SMOS7.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS8.txt,Utente.java
 SMOS,SMOS8.txt,Ruolo.java
 SMOS,SMOS8.txt,VoceElencoUtenti.java
+SMOS,SMOS8.txt,managerUser.html
 SMOS,SMOS8.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS8.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS8.txt,ServletMostraInsegnanteModuloPerClasse.java
@@ -1605,6 +1621,7 @@ SMOS,SMOS8.txt,ServletMostraDettagliUtente.java
 SMOS,SMOS9.txt,Utente.java
 SMOS,SMOS9.txt,Ruolo.java
 SMOS,SMOS9.txt,VoceElencoUtenti.java
+SMOS,SMOS9.txt,managerUser.html
 SMOS,SMOS9.txt,ServletMostraModuloDiInsegnamentoUtente.java
 SMOS,SMOS9.txt,ServletRimuoviLaStanzaDellaClasseStudentesca.java
 SMOS,SMOS9.txt,ServletMostraInsegnanteModuloPerClasse.java

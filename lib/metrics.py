@@ -20,7 +20,7 @@ def summarise_ranks(ranks, ks=(1, 5, 10)):
 
 
 def cluster_bootstrap(values, clusters, stat=np.mean, B=2000, seed=2026, alpha=0.05):
-    """Percentile CI that resamples whole clusters (people), since experiences of one person are correlated."""
+    """Percentile CI that resamples whole clusters (projects), since requirements of one project are correlated."""
     values = np.asarray(values, dtype=float)
     clusters = np.asarray(clusters)
     uniq, inv = np.unique(clusters, return_inverse=True)

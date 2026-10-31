@@ -14,6 +14,9 @@ Conformal recall control (conformal risk control with requirements as exchangeab
 calibrated on a random half of the requirements so that the expected share of a requirement's true links that is
 kept is >= 1 - alpha; the analyst vets only the kept links. Evaluated over N_SPLITS random halves, and under shift
 (calibration on the other data sets).
+The Wilcoxon P values are reported raw (p_wilcoxon) and Holm-adjusted within the family of all tests (p_holm).
+trace_crc_calsize.csv: recall control calibrated on only the first 10, 20 or 30 requirements with at least one gold
+link of the calibration half of the same splits (Table 16, Fig. 8); n_cal = -1 is the whole calibration half.
 Outputs: results/tables/trace_*.csv, data/processed/trace_scores.csv
 """
 import os
@@ -29,11 +32,13 @@ from sklearn.linear_model import LogisticRegression
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import LLM_LABEL, LLMS, N_BOOT, PROC, SEED, TABLES, TRACE_SETS  # noqa: E402
+from lib.metrics import holm  # noqa: E402
 from lib.conformal import crc_threshold  # noqa: E402
 
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 N_SPLITS = int(os.environ.get("TRACE_SPLITS", 500))
 TRACE_ALPHAS = (0.10, 0.20)
+CAL_SIZES = (10, 20, 30, -1)   # recall control calibrated on the first n requirements of the calibration half (-1 = all of it)
 RETRIEVAL = {"TF-IDF": "tfidf", "BM25": "bm25", "MiniLM": "minilm", "BGE": "bge", "Cross-encoder": "cross",
              "RRF (BM25 + BGE)": "rrf"}
 
@@ -133,7 +138,10 @@ def ranking_tables(S, methods):
                 p = stats.wilcoxon(a, b).pvalue if np.any(d != 0) else 1.0
                 e, lo, hi = boot_ci(d, rng)
                 tests.append({"dataset": ds, "method": m, "vs": ref, "map_diff": e, "lo": lo, "hi": hi, "p_wilcoxon": p})
-    return T, pd.DataFrame(tests)
+    tests = pd.DataFrame(tests)
+    if len(tests):
+        tests["p_holm"] = holm(tests.p_wilcoxon)
+    return T, tests
 
 
 def recall_loss_matrix(G, scores_by_req, lambdas):
@@ -154,7 +162,7 @@ def crc_eval(S, methods, universe="all"):
     """universe='all': every requirement-code pair (recall of all gold links); universe='shortlist': only the top-K
     candidates of each requirement (the analyst vets a pruned shortlist; recall of the gold links in the shortlist)."""
     rng = np.random.default_rng(SEED + 7)
-    rows, curves = [], []
+    rows, curves, calsize = [], [], []
     for ds in TRACE_SETS:
         Sd = S[S.dataset == ds]
         if universe == "shortlist":
@@ -177,6 +185,7 @@ def crc_eval(S, methods, universe="all"):
                                "kept_per_req": Kept[:, j].mean()})
             for a in TRACE_ALPHAS:
                 rec, eff, prec, ok = [], [], [], []
+                sub = {n: [] for n in CAL_SIZES}                # calibration on the first n requirements only
                 rng = np.random.default_rng(SEED + 7)          # identical calibration/test splits for every method
                 idx = np.arange(len(groups))
                 for _ in range(N_SPLITS):
@@ -191,13 +200,22 @@ def crc_eval(S, methods, universe="all"):
                     eff.append(Kept[te, j].mean())
                     tp = sum(((sc[i] >= lambdas[j]) & (gl[i] == 1)).sum() for i in te)
                     prec.append(tp / max(1, Kept[te, j].sum()))
+                    for n in CAL_SIZES:   # the first n requirements (with >= 1 gold link) of the same calibration half
+                        jn = crc_threshold(Lfull[cal_h[:n]], lambdas, a) if n > 0 else j
+                        rn = 1 - Lfull[te_h, jn].mean()
+                        sub[n].append((rn, rn >= 1 - a, Kept[te, jn].mean()))
+                for n, v in sub.items():
+                    v = np.array(v, float)
+                    calsize.append({"universe": universe, "dataset": ds, "method": m, "alpha": a, "target_recall": 1 - a, "n_cal": n,
+                                    "recall_mean": v[:, 0].mean(), "recall_sd": v[:, 0].std(), "share_splits_met": v[:, 1].mean(),
+                                    "kept_per_req": v[:, 2].mean(), "kept_per_req_sd": v[:, 2].std(), "n_splits": N_SPLITS})
                 rows.append({"universe": universe, "dataset": ds, "method": m, "alpha": a, "target_recall": 1 - a, "recall_mean": np.mean(rec),
                              "recall_sd": np.std(rec), "share_splits_met": np.mean(ok), "kept_per_req": np.mean(eff),
                              "kept_per_req_sd": np.std(eff), "share_of_pairs": np.mean(eff) / n_code,
                              "precision": np.mean(prec), "n_req": len(groups), "n_code": n_code,
                              "gold_per_req": Gold.mean(), "n_splits": N_SPLITS})
         print(f"CRC {universe} {ds} done", flush=True)
-    return pd.DataFrame(rows), pd.DataFrame(curves)
+    return pd.DataFrame(rows), pd.DataFrame(curves), pd.DataFrame(calsize)
 
 
 def crc_shift(S, methods):
@@ -229,11 +247,12 @@ def main():
     T.to_csv(os.path.join(TABLES, "trace_ranking.csv"), index=False)
     tests.to_csv(os.path.join(TABLES, "trace_ranking_tests.csv"), index=False)
     print(T[["dataset", "method", "MAP", "r5", "r10"]].round(3).to_string(), flush=True)
-    C1, cu1 = crc_eval(S, methods, "all")
-    C2, cu2 = crc_eval(S, methods, "shortlist")
+    C1, cu1, cs1 = crc_eval(S, methods, "all")
+    C2, cu2, cs2 = crc_eval(S, methods, "shortlist")
     C = pd.concat([C1, C2], ignore_index=True)
     C.to_csv(os.path.join(TABLES, "trace_crc.csv"), index=False)
     pd.concat([cu1, cu2], ignore_index=True).to_csv(os.path.join(TABLES, "trace_tradeoff_curves.csv"), index=False)
+    pd.concat([cs1, cs2], ignore_index=True).to_csv(os.path.join(TABLES, "trace_crc_calsize.csv"), index=False)
     # ranking quality inside the shortlist (how well each score orders the K candidates)
     Ts, _ = ranking_tables(S[S.cand == 1], methods)
     Ts.to_csv(os.path.join(TABLES, "trace_ranking_shortlist.csv"), index=False)

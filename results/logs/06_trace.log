@@ -10,9 +10,9 @@ methods: ['TF-IDF', 'BM25', 'MiniLM', 'BGE', 'Cross-encoder', 'RRF (BM25 + BGE)'
 7    eTour               Qwen2.5-1.5B + RRF  0.404  0.398  0.511
 8    eTour               Qwen2.5-3B re-rank  0.424  0.386  0.481
 9    eTour                 Qwen2.5-3B + RRF  0.429  0.417  0.504
-10   eTour                 Retrieval fusion  0.385  0.362  0.484
-11   eTour  Qwen2.5-1.5B + retrieval fusion  0.339  0.347  0.434
-12   eTour    Qwen2.5-3B + retrieval fusion  0.425  0.413  0.506
+10   eTour                 Retrieval fusion  0.376  0.359  0.478
+11   eTour  Qwen2.5-1.5B + retrieval fusion  0.339  0.337  0.413
+12   eTour    Qwen2.5-3B + retrieval fusion  0.417  0.415  0.501
 13  iTrust                           TF-IDF  0.272  0.357  0.466
 14  iTrust                             BM25  0.314  0.370  0.469
 15  iTrust                           MiniLM  0.208  0.257  0.333
@@ -23,22 +23,22 @@ methods: ['TF-IDF', 'BM25', 'MiniLM', 'BGE', 'Cross-encoder', 'RRF (BM25 + BGE)'
 20  iTrust               Qwen2.5-1.5B + RRF  0.299  0.347  0.417
 21  iTrust               Qwen2.5-3B re-rank  0.318  0.358  0.419
 22  iTrust                 Qwen2.5-3B + RRF  0.326  0.358  0.457
-23  iTrust                 Retrieval fusion  0.262  0.326  0.425
-24  iTrust  Qwen2.5-1.5B + retrieval fusion  0.276  0.344  0.430
-25  iTrust    Qwen2.5-3B + retrieval fusion  0.296  0.350  0.463
-26    SMOS                           TF-IDF  0.445  0.193  0.319
-27    SMOS                             BM25  0.335  0.104  0.220
-28    SMOS                           MiniLM  0.375  0.175  0.282
-29    SMOS                              BGE  0.396  0.182  0.285
-30    SMOS                    Cross-encoder  0.318  0.136  0.226
-31    SMOS                 RRF (BM25 + BGE)  0.419  0.185  0.297
-32    SMOS             Qwen2.5-1.5B re-rank  0.392  0.164  0.292
-33    SMOS               Qwen2.5-1.5B + RRF  0.426  0.185  0.302
-34    SMOS               Qwen2.5-3B re-rank  0.432  0.186  0.312
-35    SMOS                 Qwen2.5-3B + RRF  0.442  0.199  0.325
-36    SMOS                 Retrieval fusion  0.449  0.196  0.322
-37    SMOS  Qwen2.5-1.5B + retrieval fusion  0.433  0.201  0.301
-38    SMOS    Qwen2.5-3B + retrieval fusion  0.461  0.209  0.334
+23  iTrust                 Retrieval fusion  0.278  0.340  0.423
+24  iTrust  Qwen2.5-1.5B + retrieval fusion  0.291  0.346  0.449
+25  iTrust    Qwen2.5-3B + retrieval fusion  0.306  0.357  0.466
+26    SMOS                           TF-IDF  0.446  0.189  0.315
+27    SMOS                             BM25  0.349  0.116  0.231
+28    SMOS                           MiniLM  0.374  0.169  0.274
+29    SMOS                              BGE  0.397  0.178  0.280
+30    SMOS                    Cross-encoder  0.315  0.133  0.219
+31    SMOS                 RRF (BM25 + BGE)  0.429  0.187  0.298
+32    SMOS             Qwen2.5-1.5B re-rank  0.415  0.175  0.300
+33    SMOS               Qwen2.5-1.5B + RRF  0.438  0.188  0.307
+34    SMOS               Qwen2.5-3B re-rank  0.446  0.193  0.322
+35    SMOS                 Qwen2.5-3B + RRF  0.454  0.202  0.329
+36    SMOS                 Retrieval fusion  0.450  0.192  0.318
+37    SMOS  Qwen2.5-1.5B + retrieval fusion  0.437  0.199  0.301
+38    SMOS    Qwen2.5-3B + retrieval fusion  0.462  0.206  0.330
 39  LibEST                           TF-IDF  0.696  0.655  0.980
 40  LibEST                             BM25  0.754  0.671  0.932
 41  LibEST                           MiniLM  0.576  0.591  0.914
@@ -49,9 +49,9 @@ methods: ['TF-IDF', 'BM25', 'MiniLM', 'BGE', 'Cross-encoder', 'RRF (BM25 + BGE)'
 46  LibEST               Qwen2.5-1.5B + RRF  0.767  0.699  0.949
 47  LibEST               Qwen2.5-3B re-rank  0.756  0.686  0.918
 48  LibEST                 Qwen2.5-3B + RRF  0.770  0.672  0.946
-49  LibEST                 Retrieval fusion  0.695  0.641  0.948
-50  LibEST  Qwen2.5-1.5B + retrieval fusion  0.685  0.641  0.936
-51  LibEST    Qwen2.5-3B + retrieval fusion  0.732  0.660  0.951
+49  LibEST                 Retrieval fusion  0.694  0.634  0.952
+50  LibEST  Qwen2.5-1.5B + retrieval fusion  0.694  0.633  0.952
+51  LibEST    Qwen2.5-3B + retrieval fusion  0.729  0.649  0.948
 CRC all eTour done
 CRC all iTrust done
 CRC all SMOS done
@@ -71,9 +71,9 @@ CRC shortlist LibEST done
 7    eTour               Qwen2.5-1.5B + RRF  0.594  0.651  0.838
 8    eTour               Qwen2.5-3B re-rank  0.600  0.627  0.784
 9    eTour                 Qwen2.5-3B + RRF  0.615  0.663  0.825
-10   eTour                 Retrieval fusion  0.557  0.619  0.819
-11   eTour  Qwen2.5-1.5B + retrieval fusion  0.496  0.574  0.765
-12   eTour    Qwen2.5-3B + retrieval fusion  0.619  0.676  0.841
+10   eTour                 Retrieval fusion  0.548  0.614  0.815
+11   eTour  Qwen2.5-1.5B + retrieval fusion  0.501  0.567  0.749
+12   eTour    Qwen2.5-3B + retrieval fusion  0.610  0.675  0.841
 13  iTrust                           TF-IDF  0.493  0.702  0.873
 14  iTrust                             BM25  0.536  0.686  0.891
 15  iTrust                           MiniLM  0.412  0.535  0.748
@@ -84,22 +84,22 @@ CRC shortlist LibEST done
 20  iTrust               Qwen2.5-1.5B + RRF  0.527  0.647  0.797
 21  iTrust               Qwen2.5-3B re-rank  0.572  0.693  0.810
 22  iTrust                 Qwen2.5-3B + RRF  0.593  0.685  0.872
-23  iTrust                 Retrieval fusion  0.487  0.621  0.839
-24  iTrust  Qwen2.5-1.5B + retrieval fusion  0.519  0.647  0.858
-25  iTrust    Qwen2.5-3B + retrieval fusion  0.553  0.675  0.865
-26    SMOS                           TF-IDF  0.602  0.401  0.659
-27    SMOS                             BM25  0.453  0.239  0.524
-28    SMOS                           MiniLM  0.555  0.368  0.577
-29    SMOS                              BGE  0.589  0.390  0.618
-30    SMOS                    Cross-encoder  0.520  0.317  0.565
-31    SMOS                 RRF (BM25 + BGE)  0.557  0.364  0.589
-32    SMOS             Qwen2.5-1.5B re-rank  0.501  0.329  0.582
-33    SMOS               Qwen2.5-1.5B + RRF  0.570  0.363  0.598
-34    SMOS               Qwen2.5-3B re-rank  0.580  0.369  0.626
-35    SMOS                 Qwen2.5-3B + RRF  0.601  0.391  0.648
-36    SMOS                 Retrieval fusion  0.604  0.381  0.661
-37    SMOS  Qwen2.5-1.5B + retrieval fusion  0.607  0.398  0.641
-38    SMOS    Qwen2.5-3B + retrieval fusion  0.635  0.414  0.679
+23  iTrust                 Retrieval fusion  0.510  0.637  0.834
+24  iTrust  Qwen2.5-1.5B + retrieval fusion  0.541  0.654  0.876
+25  iTrust    Qwen2.5-3B + retrieval fusion  0.567  0.682  0.871
+26    SMOS                           TF-IDF  0.601  0.390  0.642
+27    SMOS                             BM25  0.479  0.263  0.542
+28    SMOS                           MiniLM  0.552  0.353  0.562
+29    SMOS                              BGE  0.589  0.379  0.605
+30    SMOS                    Cross-encoder  0.518  0.307  0.548
+31    SMOS                 RRF (BM25 + BGE)  0.571  0.366  0.589
+32    SMOS             Qwen2.5-1.5B re-rank  0.544  0.351  0.598
+33    SMOS               Qwen2.5-1.5B + RRF  0.588  0.371  0.607
+34    SMOS               Qwen2.5-3B re-rank  0.601  0.382  0.641
+35    SMOS                 Qwen2.5-3B + RRF  0.620  0.398  0.653
+36    SMOS                 Retrieval fusion  0.605  0.372  0.651
+37    SMOS  Qwen2.5-1.5B + retrieval fusion  0.616  0.392  0.648
+38    SMOS    Qwen2.5-3B + retrieval fusion  0.637  0.405  0.671
 39  LibEST                           TF-IDF  0.696  0.655  0.980
 40  LibEST                             BM25  0.754  0.671  0.932
 41  LibEST                           MiniLM  0.576  0.591  0.914
@@ -110,9 +110,9 @@ CRC shortlist LibEST done
 46  LibEST               Qwen2.5-1.5B + RRF  0.767  0.699  0.949
 47  LibEST               Qwen2.5-3B re-rank  0.756  0.686  0.918
 48  LibEST                 Qwen2.5-3B + RRF  0.770  0.672  0.946
-49  LibEST                 Retrieval fusion  0.695  0.641  0.948
-50  LibEST  Qwen2.5-1.5B + retrieval fusion  0.685  0.641  0.936
-51  LibEST    Qwen2.5-3B + retrieval fusion  0.732  0.660  0.951
+49  LibEST                 Retrieval fusion  0.694  0.634  0.952
+50  LibEST  Qwen2.5-1.5B + retrieval fusion  0.694  0.633  0.952
+51  LibEST    Qwen2.5-3B + retrieval fusion  0.729  0.649  0.948
       universe dataset                           method  recall_mean  share_splits_met  kept_per_req  precision
 0          all   eTour                           TF-IDF        0.926             0.780        71.281      0.070
 2          all   eTour                             BM25        0.929             0.782        75.571      0.066
@@ -124,9 +124,9 @@ CRC shortlist LibEST done
 14         all   eTour               Qwen2.5-1.5B + RRF        0.931             0.844        66.455      0.075
 16         all   eTour               Qwen2.5-3B re-rank        0.931             0.844        66.455      0.075
 18         all   eTour                 Qwen2.5-3B + RRF        0.931             0.844        66.455      0.075
-20         all   eTour                 Retrieval fusion        0.929             0.782        76.681      0.065
-22         all   eTour  Qwen2.5-1.5B + retrieval fusion        0.930             0.788        81.513      0.061
-24         all   eTour    Qwen2.5-3B + retrieval fusion        0.930             0.792        82.855      0.061
+20         all   eTour                 Retrieval fusion        0.930             0.792        78.610      0.064
+22         all   eTour  Qwen2.5-1.5B + retrieval fusion        0.930             0.792        82.199      0.061
+24         all   eTour    Qwen2.5-3B + retrieval fusion        0.930             0.794        84.714      0.059
 26         all  iTrust                           TF-IDF        0.914             0.660       127.716      0.016
 28         all  iTrust                             BM25        0.921             0.736       136.555      0.015
 30         all  iTrust                           MiniLM        0.909             0.618       201.505      0.010
@@ -137,22 +137,22 @@ CRC shortlist LibEST done
 40         all  iTrust               Qwen2.5-1.5B + RRF        0.911             0.652       134.710      0.015
 42         all  iTrust               Qwen2.5-3B re-rank        0.911             0.652       134.710      0.015
 44         all  iTrust                 Qwen2.5-3B + RRF        0.911             0.652       134.710      0.015
-46         all  iTrust                 Retrieval fusion        0.910             0.650       152.517      0.013
-48         all  iTrust  Qwen2.5-1.5B + retrieval fusion        0.909             0.648       155.967      0.013
-50         all  iTrust    Qwen2.5-3B + retrieval fusion        0.910             0.646       151.973      0.013
-52         all    SMOS                           TF-IDF        0.925             0.836        76.668      0.187
-54         all    SMOS                             BM25        0.923             0.784        76.951      0.186
-56         all    SMOS                           MiniLM        0.925             0.798        84.453      0.167
-58         all    SMOS                              BGE        0.927             0.812        81.229      0.174
-60         all    SMOS                    Cross-encoder        0.920             0.718        89.996      0.157
-62         all    SMOS                 RRF (BM25 + BGE)        0.924             0.868        73.725      0.191
-64         all    SMOS             Qwen2.5-1.5B re-rank        0.924             0.868        73.725      0.191
-66         all    SMOS               Qwen2.5-1.5B + RRF        0.924             0.868        73.725      0.191
-68         all    SMOS               Qwen2.5-3B re-rank        0.924             0.868        73.725      0.191
-70         all    SMOS                 Qwen2.5-3B + RRF        0.924             0.868        73.725      0.191
-72         all    SMOS                 Retrieval fusion        0.925             0.888        75.621      0.188
-74         all    SMOS  Qwen2.5-1.5B + retrieval fusion        0.925             0.902        76.068      0.187
-76         all    SMOS    Qwen2.5-3B + retrieval fusion        0.925             0.888        76.687      0.186
+46         all  iTrust                 Retrieval fusion        0.910             0.678       149.465      0.013
+48         all  iTrust  Qwen2.5-1.5B + retrieval fusion        0.910             0.664       153.932      0.013
+50         all  iTrust    Qwen2.5-3B + retrieval fusion        0.910             0.658       148.606      0.013
+52         all    SMOS                           TF-IDF        0.925             0.834        76.369      0.191
+54         all    SMOS                             BM25        0.924             0.802        76.489      0.190
+56         all    SMOS                           MiniLM        0.925             0.796        84.283      0.170
+58         all    SMOS                              BGE        0.927             0.830        81.610      0.177
+60         all    SMOS                    Cross-encoder        0.920             0.710        90.288      0.160
+62         all    SMOS                 RRF (BM25 + BGE)        0.925             0.864        73.868      0.194
+64         all    SMOS             Qwen2.5-1.5B re-rank        0.925             0.864        73.868      0.194
+66         all    SMOS               Qwen2.5-1.5B + RRF        0.925             0.864        73.868      0.194
+68         all    SMOS               Qwen2.5-3B re-rank        0.925             0.864        73.868      0.194
+70         all    SMOS                 Qwen2.5-3B + RRF        0.925             0.864        73.868      0.194
+72         all    SMOS                 Retrieval fusion        0.925             0.880        76.608      0.189
+74         all    SMOS  Qwen2.5-1.5B + retrieval fusion        0.925             0.916        76.588      0.189
+76         all    SMOS    Qwen2.5-3B + retrieval fusion        0.925             0.864        77.771      0.187
 78         all  LibEST                           TF-IDF        0.930             0.806         8.588      0.420
 80         all  LibEST                             BM25        0.937             0.852         9.860      0.367
 82         all  LibEST                           MiniLM        0.936             0.858        11.441      0.316
@@ -163,9 +163,9 @@ CRC shortlist LibEST done
 92         all  LibEST               Qwen2.5-1.5B + RRF        0.937             0.900         9.685      0.369
 94         all  LibEST               Qwen2.5-3B re-rank        0.933             0.858        10.658      0.338
 96         all  LibEST                 Qwen2.5-3B + RRF        0.935             0.874         9.773      0.363
-98         all  LibEST                 Retrieval fusion        0.935             0.864         9.335      0.379
-100        all  LibEST  Qwen2.5-1.5B + retrieval fusion        0.936             0.906         9.841      0.360
-102        all  LibEST    Qwen2.5-3B + retrieval fusion        0.933             0.812         9.450      0.376
+98         all  LibEST                 Retrieval fusion        0.934             0.870         9.362      0.378
+100        all  LibEST  Qwen2.5-1.5B + retrieval fusion        0.935             0.858         9.287      0.382
+102        all  LibEST    Qwen2.5-3B + retrieval fusion        0.933             0.822         9.619      0.370
 104  shortlist   eTour                           TF-IDF        0.928             0.750        17.512      0.157
 106  shortlist   eTour                             BM25        0.924             0.778        18.361      0.149
 108  shortlist   eTour                           MiniLM        0.918             0.716        14.799      0.194
@@ -176,9 +176,9 @@ CRC shortlist LibEST done
 118  shortlist   eTour               Qwen2.5-1.5B + RRF        0.925             0.742        14.467      0.191
 120  shortlist   eTour               Qwen2.5-3B re-rank        0.929             0.814        16.951      0.163
 122  shortlist   eTour                 Qwen2.5-3B + RRF        0.926             0.770        14.492      0.190
-124  shortlist   eTour                 Retrieval fusion        0.926             0.782        16.086      0.170
-126  shortlist   eTour  Qwen2.5-1.5B + retrieval fusion        0.927             0.772        17.072      0.160
-128  shortlist   eTour    Qwen2.5-3B + retrieval fusion        0.926             0.752        12.881      0.213
+124  shortlist   eTour                 Retrieval fusion        0.926             0.790        16.609      0.164
+126  shortlist   eTour  Qwen2.5-1.5B + retrieval fusion        0.928             0.790        17.487      0.157
+128  shortlist   eTour    Qwen2.5-3B + retrieval fusion        0.927             0.752        13.168      0.208
 130  shortlist  iTrust                           TF-IDF        0.919             0.678        12.391      0.084
 132  shortlist  iTrust                             BM25        0.919             0.698        13.263      0.079
 134  shortlist  iTrust                           MiniLM        0.912             0.634        14.263      0.073
@@ -189,22 +189,22 @@ CRC shortlist LibEST done
 144  shortlist  iTrust               Qwen2.5-1.5B + RRF        0.912             0.632        14.779      0.071
 146  shortlist  iTrust               Qwen2.5-3B re-rank        0.913             0.654        15.867      0.065
 148  shortlist  iTrust                 Qwen2.5-3B + RRF        0.914             0.648        13.383      0.079
-150  shortlist  iTrust                 Retrieval fusion        0.916             0.652        15.690      0.066
-152  shortlist  iTrust  Qwen2.5-1.5B + retrieval fusion        0.915             0.688        13.571      0.075
-154  shortlist  iTrust    Qwen2.5-3B + retrieval fusion        0.916             0.662        13.303      0.078
-156  shortlist    SMOS                           TF-IDF        0.924             0.744        18.160      0.359
-158  shortlist    SMOS                             BM25        0.925             0.778        18.525      0.352
-160  shortlist    SMOS                           MiniLM        0.923             0.754        18.138      0.358
-162  shortlist    SMOS                              BGE        0.926             0.784        17.342      0.372
-164  shortlist    SMOS                    Cross-encoder        0.919             0.708        18.007      0.361
-166  shortlist    SMOS                 RRF (BM25 + BGE)        0.923             0.782        18.235      0.358
-168  shortlist    SMOS             Qwen2.5-1.5B re-rank        0.920             0.718        17.819      0.367
-170  shortlist    SMOS               Qwen2.5-1.5B + RRF        0.923             0.806        17.944      0.365
-172  shortlist    SMOS               Qwen2.5-3B re-rank        0.923             0.762        17.533      0.371
-174  shortlist    SMOS                 Qwen2.5-3B + RRF        0.925             0.834        17.787      0.368
-176  shortlist    SMOS                 Retrieval fusion        0.926             0.820        17.191      0.381
-178  shortlist    SMOS  Qwen2.5-1.5B + retrieval fusion        0.926             0.834        16.973      0.385
-180  shortlist    SMOS    Qwen2.5-3B + retrieval fusion        0.925             0.772        17.304      0.379
+150  shortlist  iTrust                 Retrieval fusion        0.914             0.654        14.562      0.071
+152  shortlist  iTrust  Qwen2.5-1.5B + retrieval fusion        0.917             0.682        12.257      0.084
+154  shortlist  iTrust    Qwen2.5-3B + retrieval fusion        0.915             0.666        12.563      0.082
+156  shortlist    SMOS                           TF-IDF        0.924             0.750        18.104      0.371
+158  shortlist    SMOS                             BM25        0.925             0.782        18.450      0.365
+160  shortlist    SMOS                           MiniLM        0.922             0.738        18.228      0.368
+162  shortlist    SMOS                              BGE        0.925             0.786        17.659      0.378
+164  shortlist    SMOS                    Cross-encoder        0.919             0.710        18.059      0.371
+166  shortlist    SMOS                 RRF (BM25 + BGE)        0.924             0.784        18.225      0.369
+168  shortlist    SMOS             Qwen2.5-1.5B re-rank        0.920             0.702        17.706      0.380
+170  shortlist    SMOS               Qwen2.5-1.5B + RRF        0.922             0.802        17.846      0.378
+172  shortlist    SMOS               Qwen2.5-3B re-rank        0.924             0.794        17.462      0.385
+174  shortlist    SMOS                 Qwen2.5-3B + RRF        0.925             0.844        17.654      0.382
+176  shortlist    SMOS                 Retrieval fusion        0.926             0.798        17.527      0.386
+178  shortlist    SMOS  Qwen2.5-1.5B + retrieval fusion        0.926             0.838        16.956      0.397
+180  shortlist    SMOS    Qwen2.5-3B + retrieval fusion        0.926             0.790        17.629      0.385
 182  shortlist  LibEST                           TF-IDF        0.930             0.806         8.588      0.420
 184  shortlist  LibEST                             BM25        0.937             0.852         9.860      0.367
 186  shortlist  LibEST                           MiniLM        0.936             0.858        11.441      0.316
@@ -215,7 +215,7 @@ CRC shortlist LibEST done
 196  shortlist  LibEST               Qwen2.5-1.5B + RRF        0.937             0.900         9.685      0.369
 198  shortlist  LibEST               Qwen2.5-3B re-rank        0.933             0.858        10.658      0.338
 200  shortlist  LibEST                 Qwen2.5-3B + RRF        0.935             0.874         9.773      0.363
-202  shortlist  LibEST                 Retrieval fusion        0.935             0.864         9.335      0.379
-204  shortlist  LibEST  Qwen2.5-1.5B + retrieval fusion        0.936             0.906         9.841      0.360
-206  shortlist  LibEST    Qwen2.5-3B + retrieval fusion        0.933             0.812         9.450      0.376
-done (37s)
+202  shortlist  LibEST                 Retrieval fusion        0.934             0.870         9.362      0.378
+204  shortlist  LibEST  Qwen2.5-1.5B + retrieval fusion        0.935             0.858         9.287      0.382
+206  shortlist  LibEST    Qwen2.5-3B + retrieval fusion        0.933             0.822         9.619      0.370
+done (20s)

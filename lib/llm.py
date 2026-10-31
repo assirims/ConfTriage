@@ -11,7 +11,7 @@ import time
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LLAMA_SERVER = os.environ.get("LLAMA_SERVER", "/home/claude/tools/llama.cpp/build/bin/llama-server")
+LLAMA_SERVER = os.environ.get("LLAMA_SERVER", "llama-server")   # llama.cpp release b11398; set LLAMA_SERVER to the binary path
 MODEL = os.environ.get("LLM_GGUF", os.path.join(ROOT, "models", "qwen2.5-1.5b-instruct-gguf", "qwen2.5-1.5b-instruct-q4_k_m.gguf"))
 PORT = int(os.environ.get("LLM_PORT", "8089"))
 URL = f"http://127.0.0.1:{PORT}"

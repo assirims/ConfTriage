@@ -1,4 +1,4 @@
-"""Shared settings for the study 'Enhancing software requirements engineering through large language model assistance'."""
+"""Shared settings for the study 'ConfTriage: risk-controlled large language model assistance for requirements classification and traceability'."""
 import os
 
 ROOT = os.path.dirname(os.path.abspath(__file__))

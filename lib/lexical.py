@@ -1,4 +1,4 @@
-"""Lexical retrieval baselines: TF-IDF cosine and Okapi BM25 over the ESCO occupation documents."""
+"""Lexical retrieval baselines: TF-IDF cosine and Okapi BM25 over the code artefact texts."""
 import re
 
 import numpy as np

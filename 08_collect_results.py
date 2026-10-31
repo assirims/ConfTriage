@@ -54,6 +54,8 @@ def main():
         N["cls_mcnemar"] = table("cls_llm_mcnemar.csv")
         N["cls_paired"] = table("cls_paired_comparisons.csv")
         N["cls_class_cov"] = table("cls_class_coverage.csv")
+        N["cls_class_conditional"] = table("cls_class_conditional.csv")                     # Table 14
+        N["cls_class_conditional_per_class"] = table("cls_class_conditional_per_class.csv")  # Fig. 7
     N["cls_per_class"] = table("cls_per_class.csv")
     f = os.path.join(TABLES, "cls_calibration_size.csv")
     if os.path.exists(f):
@@ -77,6 +79,7 @@ def main():
         N["trace_tests"] = table("trace_ranking_tests.csv")
         N["trace_crc"] = records(pd.read_csv(f))
         N["trace_shift"] = table("trace_crc_shift.csv")
+        N["trace_calsize"] = table("trace_crc_calsize.csv")                                 # Table 16, Fig. 8
         N["trace_splits"] = int(pd.read_csv(f).n_splits.iloc[0]) if "n_splits" in pd.read_csv(f).columns else int(os.environ.get("TRACE_SPLITS", 500))
     # timing of the generative models
     tm = []

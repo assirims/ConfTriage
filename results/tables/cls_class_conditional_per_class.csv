@@ -1,0 +1,645 @@
+design,method,task,class,n_pred,marginal_auto,marginal_wrong,cc_auto,cc_wrong
+project,TF-IDF + LR,12,F,16755,6780,1203,6010,977
+project,TF-IDF + LR,12,A,475,117,12,0,0
+project,TF-IDF + LR,12,FT,16,0,0,0,0
+project,TF-IDF + LR,12,L,3,0,0,0,0
+project,TF-IDF + LR,12,LF,406,43,21,0,0
+project,TF-IDF + LR,12,MN,23,0,0,0,0
+project,TF-IDF + LR,12,O,1793,248,27,120,35
+project,TF-IDF + LR,12,PE,954,306,4,11,3
+project,TF-IDF + LR,12,PO,6,0,0,0,0
+project,TF-IDF + LR,12,SC,138,8,0,0,0
+project,TF-IDF + LR,12,SE,3328,847,99,932,148
+project,TF-IDF + LR,12,US,2152,392,23,285,55
+project,TF-IDF + LR,2,F,9450,3480,375,4335,532
+project,TF-IDF + LR,2,NFR,16599,7677,1005,7203,930
+project,MiniLM + LR,12,F,13563,6673,903,6030,803
+project,MiniLM + LR,12,A,711,76,3,0,0
+project,MiniLM + LR,12,FT,140,1,0,0,0
+project,MiniLM + LR,12,L,51,0,0,0,0
+project,MiniLM + LR,12,LF,1002,116,36,11,4
+project,MiniLM + LR,12,MN,277,6,1,0,0
+project,MiniLM + LR,12,O,2213,377,128,130,50
+project,MiniLM + LR,12,PE,1686,549,88,138,34
+project,MiniLM + LR,12,PO,117,9,0,0,0
+project,MiniLM + LR,12,SC,328,27,0,0,0
+project,MiniLM + LR,12,SE,3878,1814,105,1892,140
+project,MiniLM + LR,12,US,2083,356,63,118,22
+project,MiniLM + LR,2,F,11069,5289,643,5366,635
+project,MiniLM + LR,2,NFR,14980,9165,713,9609,800
+project,BGE + LR,12,F,14382,7396,948,6814,906
+project,BGE + LR,12,A,513,37,0,0,0
+project,BGE + LR,12,FT,82,5,0,0,0
+project,BGE + LR,12,L,19,0,0,0,0
+project,BGE + LR,12,LF,888,123,49,5,3
+project,BGE + LR,12,MN,168,5,0,0,0
+project,BGE + LR,12,O,2282,260,67,114,35
+project,BGE + LR,12,PE,1800,408,40,148,20
+project,BGE + LR,12,PO,60,0,0,0,0
+project,BGE + LR,12,SC,233,7,0,0,0
+project,BGE + LR,12,SE,3654,1872,85,1938,125
+project,BGE + LR,12,US,1968,414,76,149,29
+project,BGE + LR,2,F,11223,5654,632,5712,695
+project,BGE + LR,2,NFR,14826,9651,636,10097,745
+project,Qwen2.5-0.5B zero-shot,12,F,18499,4543,1055,3925,850
+project,Qwen2.5-0.5B zero-shot,12,A,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,FT,4955,193,193,171,171
+project,Qwen2.5-0.5B zero-shot,12,L,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,LF,287,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,MN,689,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,O,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,PE,663,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,PO,226,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,SC,268,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,SE,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,12,US,462,0,0,0,0
+project,Qwen2.5-0.5B zero-shot,2,F,11802,2216,415,2696,548
+project,Qwen2.5-0.5B zero-shot,2,NFR,14247,3990,847,3385,670
+project,Qwen2.5-0.5B zero-shot + calibration,12,F,3991,951,83,984,154
+project,Qwen2.5-0.5B zero-shot + calibration,12,A,144,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,FT,10189,378,378,469,469
+project,Qwen2.5-0.5B zero-shot + calibration,12,L,10731,467,415,602,542
+project,Qwen2.5-0.5B zero-shot + calibration,12,LF,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,MN,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,O,110,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,PE,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,PO,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,SC,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,SE,0,0,0,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,12,US,884,309,309,0,0
+project,Qwen2.5-0.5B zero-shot + calibration,2,F,1160,0,0,90,13
+project,Qwen2.5-0.5B zero-shot + calibration,2,NFR,24889,5214,1268,5032,1197
+project,Qwen2.5-0.5B few-shot,12,F,2857,326,101,307,105
+project,Qwen2.5-0.5B few-shot,12,A,8587,489,489,554,554
+project,Qwen2.5-0.5B few-shot,12,FT,3930,128,103,156,132
+project,Qwen2.5-0.5B few-shot,12,L,0,0,0,0,0
+project,Qwen2.5-0.5B few-shot,12,LF,698,28,28,0,0
+project,Qwen2.5-0.5B few-shot,12,MN,0,0,0,0,0
+project,Qwen2.5-0.5B few-shot,12,O,3939,199,199,122,122
+project,Qwen2.5-0.5B few-shot,12,PE,1196,557,233,4,0
+project,Qwen2.5-0.5B few-shot,12,PO,1248,3,3,2,2
+project,Qwen2.5-0.5B few-shot,12,SC,1778,60,33,25,21
+project,Qwen2.5-0.5B few-shot,12,SE,1634,222,66,29,7
+project,Qwen2.5-0.5B few-shot,12,US,182,146,124,0,0
+project,Qwen2.5-0.5B few-shot,2,F,836,62,16,0,0
+project,Qwen2.5-0.5B few-shot,2,NFR,25213,7689,1513,7586,1478
+project,Qwen2.5-0.5B few-shot + calibration,12,F,283,100,32,0,0
+project,Qwen2.5-0.5B few-shot + calibration,12,A,3772,117,117,189,189
+project,Qwen2.5-0.5B few-shot + calibration,12,FT,12607,522,497,752,727
+project,Qwen2.5-0.5B few-shot + calibration,12,L,0,0,0,0,0
+project,Qwen2.5-0.5B few-shot + calibration,12,LF,0,0,0,0,0
+project,Qwen2.5-0.5B few-shot + calibration,12,MN,0,0,0,0,0
+project,Qwen2.5-0.5B few-shot + calibration,12,O,382,31,31,0,0
+project,Qwen2.5-0.5B few-shot + calibration,12,PE,5658,806,385,611,272
+project,Qwen2.5-0.5B few-shot + calibration,12,PO,0,0,0,0,0
+project,Qwen2.5-0.5B few-shot + calibration,12,SC,60,7,7,0,0
+project,Qwen2.5-0.5B few-shot + calibration,12,SE,2933,489,236,210,71
+project,Qwen2.5-0.5B few-shot + calibration,12,US,354,149,127,0,0
+project,Qwen2.5-0.5B few-shot + calibration,2,F,185,0,0,0,0
+project,Qwen2.5-0.5B few-shot + calibration,2,NFR,25864,8309,1472,8267,1451
+project,Qwen2.5-1.5B zero-shot,12,F,18562,5381,838,4352,691
+project,Qwen2.5-1.5B zero-shot,12,A,1193,200,4,0,0
+project,Qwen2.5-1.5B zero-shot,12,FT,486,0,0,0,0
+project,Qwen2.5-1.5B zero-shot,12,L,1130,312,90,0,0
+project,Qwen2.5-1.5B zero-shot,12,LF,1938,294,146,23,15
+project,Qwen2.5-1.5B zero-shot,12,MN,67,0,0,0,0
+project,Qwen2.5-1.5B zero-shot,12,O,932,0,0,0,0
+project,Qwen2.5-1.5B zero-shot,12,PE,347,0,0,0,0
+project,Qwen2.5-1.5B zero-shot,12,PO,112,0,0,0,0
+project,Qwen2.5-1.5B zero-shot,12,SC,423,0,0,0,0
+project,Qwen2.5-1.5B zero-shot,12,SE,826,8,0,0,0
+project,Qwen2.5-1.5B zero-shot,12,US,33,0,0,0,0
+project,Qwen2.5-1.5B zero-shot,2,F,18031,5585,861,4152,648
+project,Qwen2.5-1.5B zero-shot,2,NFR,8018,3271,180,3989,276
+project,Qwen2.5-1.5B zero-shot + calibration,12,F,14716,5291,532,6314,751
+project,Qwen2.5-1.5B zero-shot + calibration,12,A,3176,752,163,545,163
+project,Qwen2.5-1.5B zero-shot + calibration,12,FT,1469,9,5,4,2
+project,Qwen2.5-1.5B zero-shot + calibration,12,L,1395,539,229,31,15
+project,Qwen2.5-1.5B zero-shot + calibration,12,LF,2901,899,452,103,54
+project,Qwen2.5-1.5B zero-shot + calibration,12,MN,883,0,0,0,0
+project,Qwen2.5-1.5B zero-shot + calibration,12,O,427,1,0,0,0
+project,Qwen2.5-1.5B zero-shot + calibration,12,PE,192,0,0,0,0
+project,Qwen2.5-1.5B zero-shot + calibration,12,PO,20,0,0,0,0
+project,Qwen2.5-1.5B zero-shot + calibration,12,SC,78,1,0,0,0
+project,Qwen2.5-1.5B zero-shot + calibration,12,SE,774,261,0,0,0
+project,Qwen2.5-1.5B zero-shot + calibration,12,US,18,0,0,0,0
+project,Qwen2.5-1.5B zero-shot + calibration,2,F,13949,6201,718,6242,737
+project,Qwen2.5-1.5B zero-shot + calibration,2,NFR,12100,7476,567,6110,525
+project,Qwen2.5-1.5B few-shot,12,F,652,79,0,15,3
+project,Qwen2.5-1.5B few-shot,12,A,995,464,1,0,0
+project,Qwen2.5-1.5B few-shot,12,FT,187,53,0,0,0
+project,Qwen2.5-1.5B few-shot,12,L,1040,535,280,0,0
+project,Qwen2.5-1.5B few-shot,12,LF,1941,767,329,87,29
+project,Qwen2.5-1.5B few-shot,12,MN,603,26,24,0,0
+project,Qwen2.5-1.5B few-shot,12,O,417,20,0,0,0
+project,Qwen2.5-1.5B few-shot,12,PE,2214,739,81,407,60
+project,Qwen2.5-1.5B few-shot,12,PO,11155,547,522,608,583
+project,Qwen2.5-1.5B few-shot,12,SC,2857,72,20,194,86
+project,Qwen2.5-1.5B few-shot,12,SE,3875,1293,90,1126,133
+project,Qwen2.5-1.5B few-shot,12,US,113,0,0,0,0
+project,Qwen2.5-1.5B few-shot,2,F,280,0,0,0,0
+project,Qwen2.5-1.5B few-shot,2,NFR,25769,857,256,799,239
+project,Qwen2.5-1.5B few-shot + calibration,12,F,80,33,0,0,0
+project,Qwen2.5-1.5B few-shot + calibration,12,A,2471,537,1,540,100
+project,Qwen2.5-1.5B few-shot + calibration,12,FT,519,104,6,0,0
+project,Qwen2.5-1.5B few-shot + calibration,12,L,1227,611,356,12,3
+project,Qwen2.5-1.5B few-shot + calibration,12,LF,3879,1277,788,322,118
+project,Qwen2.5-1.5B few-shot + calibration,12,MN,7583,48,38,522,437
+project,Qwen2.5-1.5B few-shot + calibration,12,O,826,32,9,0,0
+project,Qwen2.5-1.5B few-shot + calibration,12,PE,2619,640,41,489,50
+project,Qwen2.5-1.5B few-shot + calibration,12,PO,3037,1,1,153,132
+project,Qwen2.5-1.5B few-shot + calibration,12,SC,923,26,17,0,0
+project,Qwen2.5-1.5B few-shot + calibration,12,SE,2745,556,59,777,85
+project,Qwen2.5-1.5B few-shot + calibration,12,US,140,0,0,0,0
+project,Qwen2.5-1.5B few-shot + calibration,2,F,80,0,0,0,0
+project,Qwen2.5-1.5B few-shot + calibration,2,NFR,25969,0,0,0,0
+project,Qwen2.5-3B zero-shot,12,F,14018,3252,520,748,131
+project,Qwen2.5-3B zero-shot,12,A,1443,283,37,0,0
+project,Qwen2.5-3B zero-shot,12,FT,1437,40,2,10,2
+project,Qwen2.5-3B zero-shot,12,L,228,0,0,0,0
+project,Qwen2.5-3B zero-shot,12,LF,1102,155,35,0,0
+project,Qwen2.5-3B zero-shot,12,MN,113,7,0,0,0
+project,Qwen2.5-3B zero-shot,12,O,1046,66,14,4,1
+project,Qwen2.5-3B zero-shot,12,PE,2731,154,2,714,119
+project,Qwen2.5-3B zero-shot,12,PO,340,15,0,0,0
+project,Qwen2.5-3B zero-shot,12,SC,201,16,9,0,0
+project,Qwen2.5-3B zero-shot,12,SE,2127,262,19,277,32
+project,Qwen2.5-3B zero-shot,12,US,1263,16,0,1,0
+project,Qwen2.5-3B zero-shot,2,F,13803,3311,503,748,131
+project,Qwen2.5-3B zero-shot,2,NFR,12246,3031,166,8157,649
+project,Qwen2.5-3B zero-shot + calibration,12,F,13187,5126,690,2277,310
+project,Qwen2.5-3B zero-shot + calibration,12,A,1463,509,62,0,0
+project,Qwen2.5-3B zero-shot + calibration,12,FT,2232,91,13,143,61
+project,Qwen2.5-3B zero-shot + calibration,12,L,322,0,0,0,0
+project,Qwen2.5-3B zero-shot + calibration,12,LF,1240,216,52,0,0
+project,Qwen2.5-3B zero-shot + calibration,12,MN,176,17,0,0,0
+project,Qwen2.5-3B zero-shot + calibration,12,O,1024,120,34,4,1
+project,Qwen2.5-3B zero-shot + calibration,12,PE,3396,413,32,943,188
+project,Qwen2.5-3B zero-shot + calibration,12,PO,144,4,0,0,0
+project,Qwen2.5-3B zero-shot + calibration,12,SC,279,24,8,0,0
+project,Qwen2.5-3B zero-shot + calibration,12,SE,2152,559,48,238,26
+project,Qwen2.5-3B zero-shot + calibration,12,US,434,0,0,0,0
+project,Qwen2.5-3B zero-shot + calibration,2,F,12831,3703,547,2072,279
+project,Qwen2.5-3B zero-shot + calibration,2,NFR,13218,4398,342,6417,618
+project,Qwen2.5-3B few-shot,12,F,8057,2045,47,4660,326
+project,Qwen2.5-3B few-shot,12,A,901,505,18,0,0
+project,Qwen2.5-3B few-shot,12,FT,562,96,19,0,0
+project,Qwen2.5-3B few-shot,12,L,219,51,0,0,0
+project,Qwen2.5-3B few-shot,12,LF,1786,648,257,0,0
+project,Qwen2.5-3B few-shot,12,MN,2339,317,132,29,20
+project,Qwen2.5-3B few-shot,12,O,1418,342,85,25,13
+project,Qwen2.5-3B few-shot,12,PE,2610,1148,194,30,9
+project,Qwen2.5-3B few-shot,12,PO,689,82,25,0,0
+project,Qwen2.5-3B few-shot,12,SC,401,114,28,0,0
+project,Qwen2.5-3B few-shot,12,SE,5800,1335,172,1178,201
+project,Qwen2.5-3B few-shot,12,US,1267,145,51,0,0
+project,Qwen2.5-3B few-shot,2,F,7631,1964,57,4505,301
+project,Qwen2.5-3B few-shot,2,NFR,18418,7594,955,3305,434
+project,Qwen2.5-3B few-shot + calibration,12,F,3143,29,0,1818,65
+project,Qwen2.5-3B few-shot + calibration,12,A,948,200,5,0,0
+project,Qwen2.5-3B few-shot + calibration,12,FT,1259,39,6,4,2
+project,Qwen2.5-3B few-shot + calibration,12,L,241,20,4,0,0
+project,Qwen2.5-3B few-shot + calibration,12,LF,2366,290,136,24,12
+project,Qwen2.5-3B few-shot + calibration,12,MN,6194,212,124,320,214
+project,Qwen2.5-3B few-shot + calibration,12,O,1417,152,34,18,9
+project,Qwen2.5-3B few-shot + calibration,12,PE,4380,582,187,122,51
+project,Qwen2.5-3B few-shot + calibration,12,PO,102,1,0,0,0
+project,Qwen2.5-3B few-shot + calibration,12,SC,241,6,0,0,0
+project,Qwen2.5-3B few-shot + calibration,12,SE,4535,437,73,889,166
+project,Qwen2.5-3B few-shot + calibration,12,US,1223,47,26,0,0
+project,Qwen2.5-3B few-shot + calibration,2,F,2717,0,0,1457,39
+project,Qwen2.5-3B few-shot + calibration,2,NFR,23332,0,0,0,0
+project,Llama-3.2-3B zero-shot,12,F,15900,7815,986,7358,898
+project,Llama-3.2-3B zero-shot,12,A,399,17,4,0,0
+project,Llama-3.2-3B zero-shot,12,FT,320,58,0,0,0
+project,Llama-3.2-3B zero-shot,12,L,414,200,11,0,0
+project,Llama-3.2-3B zero-shot,12,LF,1204,679,121,3,0
+project,Llama-3.2-3B zero-shot,12,MN,277,25,0,0,0
+project,Llama-3.2-3B zero-shot,12,O,756,307,62,0,0
+project,Llama-3.2-3B zero-shot,12,PE,1778,465,29,204,40
+project,Llama-3.2-3B zero-shot,12,PO,157,46,0,0,0
+project,Llama-3.2-3B zero-shot,12,SC,163,42,0,0,0
+project,Llama-3.2-3B zero-shot,12,SE,1308,542,0,13,1
+project,Llama-3.2-3B zero-shot,12,US,3373,878,135,667,132
+project,Llama-3.2-3B zero-shot,2,F,13887,8470,1195,6987,819
+project,Llama-3.2-3B zero-shot,2,NFR,12162,7279,245,9492,585
+project,Llama-3.2-3B zero-shot + calibration,12,F,11301,4924,377,6690,714
+project,Llama-3.2-3B zero-shot + calibration,12,A,52,0,0,0,0
+project,Llama-3.2-3B zero-shot + calibration,12,FT,3650,101,13,291,139
+project,Llama-3.2-3B zero-shot + calibration,12,L,307,231,10,0,0
+project,Llama-3.2-3B zero-shot + calibration,12,LF,1345,982,277,29,5
+project,Llama-3.2-3B zero-shot + calibration,12,MN,844,48,0,0,0
+project,Llama-3.2-3B zero-shot + calibration,12,O,1151,670,122,3,1
+project,Llama-3.2-3B zero-shot + calibration,12,PE,3922,1428,452,748,137
+project,Llama-3.2-3B zero-shot + calibration,12,PO,46,34,0,0,0
+project,Llama-3.2-3B zero-shot + calibration,12,SC,102,49,0,0,0
+project,Llama-3.2-3B zero-shot + calibration,12,SE,2354,1213,75,782,46
+project,Llama-3.2-3B zero-shot + calibration,12,US,975,521,65,2,0
+project,Llama-3.2-3B zero-shot + calibration,2,F,8673,2998,148,5612,481
+project,Llama-3.2-3B zero-shot + calibration,2,NFR,17376,12199,1255,11090,926
+project,Llama-3.2-3B few-shot,12,F,7301,1205,3,6180,407
+project,Llama-3.2-3B few-shot,12,A,664,367,5,0,0
+project,Llama-3.2-3B few-shot,12,FT,573,221,50,0,0
+project,Llama-3.2-3B few-shot,12,L,746,326,122,0,0
+project,Llama-3.2-3B few-shot,12,LF,2610,1235,468,306,73
+project,Llama-3.2-3B few-shot,12,MN,1307,250,45,4,2
+project,Llama-3.2-3B few-shot,12,O,1608,401,14,90,16
+project,Llama-3.2-3B few-shot,12,PE,2071,1004,47,479,45
+project,Llama-3.2-3B few-shot,12,PO,644,216,112,0,0
+project,Llama-3.2-3B few-shot,12,SC,361,50,5,0,0
+project,Llama-3.2-3B few-shot,12,SE,4356,2467,351,1673,139
+project,Llama-3.2-3B few-shot,12,US,3808,956,168,701,207
+project,Llama-3.2-3B few-shot,2,F,6343,765,1,5662,267
+project,Llama-3.2-3B few-shot,2,NFR,19706,12462,1375,10742,970
+project,Llama-3.2-3B few-shot + calibration,12,F,1115,0,0,194,0
+project,Llama-3.2-3B few-shot + calibration,12,A,608,224,0,0,0
+project,Llama-3.2-3B few-shot + calibration,12,FT,943,219,53,0,0
+project,Llama-3.2-3B few-shot + calibration,12,L,782,266,75,0,0
+project,Llama-3.2-3B few-shot + calibration,12,LF,2570,1071,369,269,73
+project,Llama-3.2-3B few-shot + calibration,12,MN,3384,298,56,362,100
+project,Llama-3.2-3B few-shot + calibration,12,O,1516,291,25,64,12
+project,Llama-3.2-3B few-shot + calibration,12,PE,2854,1041,55,869,79
+project,Llama-3.2-3B few-shot + calibration,12,PO,199,0,0,0,0
+project,Llama-3.2-3B few-shot + calibration,12,SC,388,61,1,0,0
+project,Llama-3.2-3B few-shot + calibration,12,SE,4578,2518,371,1704,159
+project,Llama-3.2-3B few-shot + calibration,12,US,7112,1267,377,1261,411
+project,Llama-3.2-3B few-shot + calibration,2,F,499,0,0,0,0
+project,Llama-3.2-3B few-shot + calibration,2,NFR,25550,5047,656,4596,575
+project,Qwen2.5-0.5B + BGE fusion,12,F,12464,5143,561,5731,686
+project,Qwen2.5-0.5B + BGE fusion,12,A,929,319,50,0,0
+project,Qwen2.5-0.5B + BGE fusion,12,FT,243,18,5,1,1
+project,Qwen2.5-0.5B + BGE fusion,12,L,112,8,2,0,0
+project,Qwen2.5-0.5B + BGE fusion,12,LF,1391,272,127,24,15
+project,Qwen2.5-0.5B + BGE fusion,12,MN,500,39,28,0,0
+project,Qwen2.5-0.5B + BGE fusion,12,O,1878,231,84,55,31
+project,Qwen2.5-0.5B + BGE fusion,12,PE,1930,565,100,145,30
+project,Qwen2.5-0.5B + BGE fusion,12,PO,328,26,13,0,0
+project,Qwen2.5-0.5B + BGE fusion,12,SC,489,54,9,0,0
+project,Qwen2.5-0.5B + BGE fusion,12,SE,3473,1779,102,1681,105
+project,Qwen2.5-0.5B + BGE fusion,12,US,2312,514,113,173,47
+project,Qwen2.5-0.5B + BGE fusion,2,F,11366,5247,610,5317,617
+project,Qwen2.5-0.5B + BGE fusion,2,NFR,14683,9499,681,9769,785
+project,Qwen2.5-1.5B + BGE fusion,12,F,12224,4866,449,6137,660
+project,Qwen2.5-1.5B + BGE fusion,12,A,846,461,94,0,0
+project,Qwen2.5-1.5B + BGE fusion,12,FT,274,47,14,0,0
+project,Qwen2.5-1.5B + BGE fusion,12,L,280,54,9,0,0
+project,Qwen2.5-1.5B + BGE fusion,12,LF,1482,274,121,20,9
+project,Qwen2.5-1.5B + BGE fusion,12,MN,585,64,31,0,0
+project,Qwen2.5-1.5B + BGE fusion,12,O,1959,325,110,77,26
+project,Qwen2.5-1.5B + BGE fusion,12,PE,1807,676,111,174,34
+project,Qwen2.5-1.5B + BGE fusion,12,PO,269,29,16,0,0
+project,Qwen2.5-1.5B + BGE fusion,12,SC,530,65,23,0,0
+project,Qwen2.5-1.5B + BGE fusion,12,SE,3444,1731,115,1565,127
+project,Qwen2.5-1.5B + BGE fusion,12,US,2349,672,141,222,48
+project,Qwen2.5-1.5B + BGE fusion,2,F,11514,5774,593,5898,620
+project,Qwen2.5-1.5B + BGE fusion,2,NFR,14535,10079,672,9950,691
+project,Qwen2.5-3B + BGE fusion,12,F,12187,4627,445,6179,674
+project,Qwen2.5-3B + BGE fusion,12,A,882,439,45,0,0
+project,Qwen2.5-3B + BGE fusion,12,FT,403,77,15,3,2
+project,Qwen2.5-3B + BGE fusion,12,L,237,28,7,0,0
+project,Qwen2.5-3B + BGE fusion,12,LF,1341,424,123,37,10
+project,Qwen2.5-3B + BGE fusion,12,MN,545,80,27,0,0
+project,Qwen2.5-3B + BGE fusion,12,O,1918,456,113,111,36
+project,Qwen2.5-3B + BGE fusion,12,PE,1899,1024,227,212,36
+project,Qwen2.5-3B + BGE fusion,12,PO,382,111,80,0,0
+project,Qwen2.5-3B + BGE fusion,12,SC,408,116,38,0,0
+project,Qwen2.5-3B + BGE fusion,12,SE,3450,1902,120,1791,138
+project,Qwen2.5-3B + BGE fusion,12,US,2397,679,112,259,48
+project,Qwen2.5-3B + BGE fusion,2,F,11570,6139,687,6039,651
+project,Qwen2.5-3B + BGE fusion,2,NFR,14479,10615,690,10648,728
+project,Llama-3.2-3B + BGE fusion,12,F,12336,6393,482,7179,653
+project,Llama-3.2-3B + BGE fusion,12,A,808,371,17,0,0
+project,Llama-3.2-3B + BGE fusion,12,FT,365,67,19,3,1
+project,Llama-3.2-3B + BGE fusion,12,L,249,94,8,0,0
+project,Llama-3.2-3B + BGE fusion,12,LF,1274,435,121,16,7
+project,Llama-3.2-3B + BGE fusion,12,MN,579,83,17,4,3
+project,Llama-3.2-3B + BGE fusion,12,O,2014,587,101,162,40
+project,Llama-3.2-3B + BGE fusion,12,PE,1842,825,139,196,40
+project,Llama-3.2-3B + BGE fusion,12,PO,227,90,29,0,0
+project,Llama-3.2-3B + BGE fusion,12,SC,438,117,28,0,0
+project,Llama-3.2-3B + BGE fusion,12,SE,3457,1975,167,1612,141
+project,Llama-3.2-3B + BGE fusion,12,US,2460,892,130,289,48
+project,Llama-3.2-3B + BGE fusion,2,F,11701,7592,705,6974,609
+project,Llama-3.2-3B + BGE fusion,2,NFR,14348,11027,642,11441,789
+random,TF-IDF + LR,12,F,16242,10436,1033,9616,715
+random,TF-IDF + LR,12,A,425,94,2,0,0
+random,TF-IDF + LR,12,FT,27,0,0,0,0
+random,TF-IDF + LR,12,L,61,1,0,0,0
+random,TF-IDF + LR,12,LF,494,60,17,0,0
+random,TF-IDF + LR,12,MN,15,0,0,0,0
+random,TF-IDF + LR,12,O,1494,267,20,86,18
+random,TF-IDF + LR,12,PE,1046,415,6,9,2
+random,TF-IDF + LR,12,PO,0,0,0,0,0
+random,TF-IDF + LR,12,SC,115,4,0,0,0
+random,TF-IDF + LR,12,SE,2452,878,71,909,88
+random,TF-IDF + LR,12,US,1629,410,36,180,27
+random,TF-IDF + LR,2,F,12099,9532,698,8889,519
+random,TF-IDF + LR,2,NFR,11901,8898,462,9326,519
+random,MiniLM + LR,12,F,13523,9343,873,8374,653
+random,MiniLM + LR,12,A,584,100,2,0,0
+random,MiniLM + LR,12,FT,102,0,0,0,0
+random,MiniLM + LR,12,L,104,3,0,0,0
+random,MiniLM + LR,12,LF,893,221,29,0,0
+random,MiniLM + LR,12,MN,294,14,0,0,0
+random,MiniLM + LR,12,O,1914,473,136,192,53
+random,MiniLM + LR,12,PE,1633,663,60,201,20
+random,MiniLM + LR,12,PO,65,4,0,0,0
+random,MiniLM + LR,12,SC,322,35,1,0,0
+random,MiniLM + LR,12,SE,3036,1731,69,1821,111
+random,MiniLM + LR,12,US,1530,501,85,105,17
+random,MiniLM + LR,2,F,11886,8990,792,8006,580
+random,MiniLM + LR,2,NFR,12114,9114,445,9582,543
+random,BGE + LR,12,F,13918,9809,913,8594,652
+random,BGE + LR,12,A,471,79,0,0,0
+random,BGE + LR,12,FT,85,6,0,0,0
+random,BGE + LR,12,L,70,2,0,0,0
+random,BGE + LR,12,LF,829,181,46,0,0
+random,BGE + LR,12,MN,201,8,0,0,0
+random,BGE + LR,12,O,1872,372,101,171,52
+random,BGE + LR,12,PE,1715,542,27,251,30
+random,BGE + LR,12,PO,29,0,0,0,0
+random,BGE + LR,12,SC,231,11,0,0,0
+random,BGE + LR,12,SE,2996,1876,87,1958,113
+random,BGE + LR,12,US,1583,611,92,111,22
+random,BGE + LR,2,F,11824,9222,778,8078,559
+random,BGE + LR,2,NFR,12176,9377,418,9922,504
+random,Qwen2.5-0.5B zero-shot,12,F,17083,4274,978,3633,757
+random,Qwen2.5-0.5B zero-shot,12,A,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,FT,4511,169,169,186,186
+random,Qwen2.5-0.5B zero-shot,12,L,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,LF,257,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,MN,602,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,O,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,PE,667,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,PO,199,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,SC,245,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,SE,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,12,US,436,0,0,0,0
+random,Qwen2.5-0.5B zero-shot,2,F,10844,2069,357,2409,449
+random,Qwen2.5-0.5B zero-shot,2,NFR,13156,3753,812,3113,634
+random,Qwen2.5-0.5B zero-shot + calibration,12,F,3581,962,83,1010,123
+random,Qwen2.5-0.5B zero-shot + calibration,12,A,126,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,FT,9167,352,352,382,382
+random,Qwen2.5-0.5B zero-shot + calibration,12,L,10218,508,453,543,482
+random,Qwen2.5-0.5B zero-shot + calibration,12,LF,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,MN,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,O,98,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,PE,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,PO,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,SC,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,SE,0,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,12,US,810,323,322,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,2,F,1077,0,0,0,0
+random,Qwen2.5-0.5B zero-shot + calibration,2,NFR,22923,4509,1171,4267,1063
+random,Qwen2.5-0.5B few-shot,12,F,2804,328,79,302,92
+random,Qwen2.5-0.5B few-shot,12,A,7953,362,362,291,291
+random,Qwen2.5-0.5B few-shot,12,FT,3555,104,83,156,135
+random,Qwen2.5-0.5B few-shot,12,L,0,0,0,0,0
+random,Qwen2.5-0.5B few-shot,12,LF,625,24,24,0,0
+random,Qwen2.5-0.5B few-shot,12,MN,0,0,0,0,0
+random,Qwen2.5-0.5B few-shot,12,O,3735,224,224,147,147
+random,Qwen2.5-0.5B few-shot,12,PE,1077,498,231,0,0
+random,Qwen2.5-0.5B few-shot,12,PO,1190,0,0,0,0
+random,Qwen2.5-0.5B few-shot,12,SC,1495,52,25,16,16
+random,Qwen2.5-0.5B few-shot,12,SE,1395,197,37,12,2
+random,Qwen2.5-0.5B few-shot,12,US,171,145,126,0,0
+random,Qwen2.5-0.5B few-shot,2,F,815,67,11,0,0
+random,Qwen2.5-0.5B few-shot,2,NFR,23185,6385,1152,6127,1050
+random,Qwen2.5-0.5B few-shot + calibration,12,F,272,120,26,0,0
+random,Qwen2.5-0.5B few-shot + calibration,12,A,3625,88,88,131,131
+random,Qwen2.5-0.5B few-shot + calibration,12,FT,11642,422,401,548,527
+random,Qwen2.5-0.5B few-shot + calibration,12,L,0,0,0,0,0
+random,Qwen2.5-0.5B few-shot + calibration,12,LF,0,0,0,0,0
+random,Qwen2.5-0.5B few-shot + calibration,12,MN,0,0,0,0,0
+random,Qwen2.5-0.5B few-shot + calibration,12,O,435,49,49,0,0
+random,Qwen2.5-0.5B few-shot + calibration,12,PE,5103,699,341,484,231
+random,Qwen2.5-0.5B few-shot + calibration,12,PO,0,0,0,0,0
+random,Qwen2.5-0.5B few-shot + calibration,12,SC,52,0,0,0,0
+random,Qwen2.5-0.5B few-shot + calibration,12,SE,2521,432,213,228,78
+random,Qwen2.5-0.5B few-shot + calibration,12,US,350,145,126,0,0
+random,Qwen2.5-0.5B few-shot + calibration,2,F,179,0,0,0,0
+random,Qwen2.5-0.5B few-shot + calibration,2,NFR,23821,6771,1073,6577,998
+random,Qwen2.5-1.5B zero-shot,12,F,17332,5200,667,3935,492
+random,Qwen2.5-1.5B zero-shot,12,A,1082,203,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,FT,429,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,L,1050,312,58,0,0
+random,Qwen2.5-1.5B zero-shot,12,LF,1716,235,108,40,22
+random,Qwen2.5-1.5B zero-shot,12,MN,71,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,O,824,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,PE,272,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,PO,108,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,SC,359,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,SE,735,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,12,US,22,0,0,0,0
+random,Qwen2.5-1.5B zero-shot,2,F,16846,5450,710,3799,474
+random,Qwen2.5-1.5B zero-shot,2,NFR,7154,3055,181,3676,265
+random,Qwen2.5-1.5B zero-shot + calibration,12,F,13808,4774,375,5625,571
+random,Qwen2.5-1.5B zero-shot + calibration,12,A,2981,670,120,456,102
+random,Qwen2.5-1.5B zero-shot + calibration,12,FT,1341,0,0,3,1
+random,Qwen2.5-1.5B zero-shot + calibration,12,L,1269,503,180,2,0
+random,Qwen2.5-1.5B zero-shot + calibration,12,LF,2542,773,390,98,56
+random,Qwen2.5-1.5B zero-shot + calibration,12,MN,691,0,0,0,0
+random,Qwen2.5-1.5B zero-shot + calibration,12,O,406,0,0,0,0
+random,Qwen2.5-1.5B zero-shot + calibration,12,PE,159,0,0,0,0
+random,Qwen2.5-1.5B zero-shot + calibration,12,PO,29,0,0,0,0
+random,Qwen2.5-1.5B zero-shot + calibration,12,SC,69,0,0,0,0
+random,Qwen2.5-1.5B zero-shot + calibration,12,SE,684,242,0,0,0
+random,Qwen2.5-1.5B zero-shot + calibration,12,US,21,0,0,0,0
+random,Qwen2.5-1.5B zero-shot + calibration,2,F,13074,5768,598,5470,537
+random,Qwen2.5-1.5B zero-shot + calibration,2,NFR,10926,6687,540,5747,491
+random,Qwen2.5-1.5B few-shot,12,F,753,100,0,0,0
+random,Qwen2.5-1.5B few-shot,12,A,869,427,2,0,0
+random,Qwen2.5-1.5B few-shot,12,FT,178,56,0,0,0
+random,Qwen2.5-1.5B few-shot,12,L,942,501,223,0,0
+random,Qwen2.5-1.5B few-shot,12,LF,1713,630,262,50,22
+random,Qwen2.5-1.5B few-shot,12,MN,484,28,27,0,0
+random,Qwen2.5-1.5B few-shot,12,O,391,25,0,0,0
+random,Qwen2.5-1.5B few-shot,12,PE,2032,727,98,540,75
+random,Qwen2.5-1.5B few-shot,12,PO,10201,449,426,471,448
+random,Qwen2.5-1.5B few-shot,12,SC,2770,73,27,197,102
+random,Qwen2.5-1.5B few-shot,12,SE,3570,1161,89,1053,132
+random,Qwen2.5-1.5B few-shot,12,US,97,0,0,0,0
+random,Qwen2.5-1.5B few-shot,2,F,364,0,0,0,0
+random,Qwen2.5-1.5B few-shot,2,NFR,23636,476,130,275,82
+random,Qwen2.5-1.5B few-shot + calibration,12,F,100,57,0,0,0
+random,Qwen2.5-1.5B few-shot + calibration,12,A,2240,510,0,498,74
+random,Qwen2.5-1.5B few-shot + calibration,12,FT,511,100,5,0,0
+random,Qwen2.5-1.5B few-shot + calibration,12,L,1125,559,281,0,0
+random,Qwen2.5-1.5B few-shot + calibration,12,LF,3403,1099,685,222,87
+random,Qwen2.5-1.5B few-shot + calibration,12,MN,7176,47,39,394,333
+random,Qwen2.5-1.5B few-shot + calibration,12,O,724,43,10,0,0
+random,Qwen2.5-1.5B few-shot + calibration,12,PE,2418,627,55,696,103
+random,Qwen2.5-1.5B few-shot + calibration,12,PO,2840,0,0,96,87
+random,Qwen2.5-1.5B few-shot + calibration,12,SC,831,34,23,0,0
+random,Qwen2.5-1.5B few-shot + calibration,12,SE,2510,508,67,797,98
+random,Qwen2.5-1.5B few-shot + calibration,12,US,122,0,0,0,0
+random,Qwen2.5-1.5B few-shot + calibration,2,F,100,0,0,0,0
+random,Qwen2.5-1.5B few-shot + calibration,2,NFR,23900,0,0,0,0
+random,Qwen2.5-3B zero-shot,12,F,13266,2797,396,259,42
+random,Qwen2.5-3B zero-shot,12,A,1312,229,26,0,0
+random,Qwen2.5-3B zero-shot,12,FT,1315,31,1,4,0
+random,Qwen2.5-3B zero-shot,12,L,182,0,0,0,0
+random,Qwen2.5-3B zero-shot,12,LF,940,136,28,0,0
+random,Qwen2.5-3B zero-shot,12,MN,98,7,0,0,0
+random,Qwen2.5-3B zero-shot,12,O,961,50,23,0,0
+random,Qwen2.5-3B zero-shot,12,PE,2365,131,2,735,65
+random,Qwen2.5-3B zero-shot,12,PO,295,19,0,0,0
+random,Qwen2.5-3B zero-shot,12,SC,173,11,4,0,0
+random,Qwen2.5-3B zero-shot,12,SE,1940,205,20,380,55
+random,Qwen2.5-3B zero-shot,12,US,1153,5,1,0,0
+random,Qwen2.5-3B zero-shot,2,F,13077,2373,329,259,42
+random,Qwen2.5-3B zero-shot,2,NFR,10923,2138,91,6536,403
+random,Qwen2.5-3B zero-shot + calibration,12,F,12514,6174,739,2050,257
+random,Qwen2.5-3B zero-shot + calibration,12,A,1332,604,61,0,0
+random,Qwen2.5-3B zero-shot + calibration,12,FT,2044,90,16,127,46
+random,Qwen2.5-3B zero-shot + calibration,12,L,267,0,0,0,0
+random,Qwen2.5-3B zero-shot + calibration,12,LF,1080,229,62,0,0
+random,Qwen2.5-3B zero-shot + calibration,12,MN,145,18,0,0,0
+random,Qwen2.5-3B zero-shot + calibration,12,O,930,131,50,0,0
+random,Qwen2.5-3B zero-shot + calibration,12,PE,2972,472,19,812,83
+random,Qwen2.5-3B zero-shot + calibration,12,PO,128,2,0,0,0
+random,Qwen2.5-3B zero-shot + calibration,12,SC,228,24,6,0,0
+random,Qwen2.5-3B zero-shot + calibration,12,SE,1970,621,70,313,50
+random,Qwen2.5-3B zero-shot + calibration,12,US,390,0,0,0,0
+random,Qwen2.5-3B zero-shot + calibration,2,F,12173,3425,411,1965,247
+random,Qwen2.5-3B zero-shot + calibration,2,NFR,11827,4095,263,4728,345
+random,Qwen2.5-3B few-shot,12,F,7983,2638,65,5020,334
+random,Qwen2.5-3B few-shot,12,A,844,574,26,0,0
+random,Qwen2.5-3B few-shot,12,FT,508,92,25,0,0
+random,Qwen2.5-3B few-shot,12,L,215,70,0,0,0
+random,Qwen2.5-3B few-shot,12,LF,1530,605,230,7,2
+random,Qwen2.5-3B few-shot,12,MN,2020,297,128,78,41
+random,Qwen2.5-3B few-shot,12,O,1285,441,142,0,0
+random,Qwen2.5-3B few-shot,12,PE,2329,1251,201,156,33
+random,Qwen2.5-3B few-shot,12,PO,559,110,31,0,0
+random,Qwen2.5-3B few-shot,12,SC,377,117,20,0,0
+random,Qwen2.5-3B few-shot,12,SE,5224,1473,208,967,160
+random,Qwen2.5-3B few-shot,12,US,1126,158,55,0,0
+random,Qwen2.5-3B few-shot,2,F,7556,2109,54,4795,303
+random,Qwen2.5-3B few-shot,2,NFR,16444,7375,853,2246,259
+random,Qwen2.5-3B few-shot + calibration,12,F,3282,31,0,2384,82
+random,Qwen2.5-3B few-shot + calibration,12,A,867,287,13,0,0
+random,Qwen2.5-3B few-shot + calibration,12,FT,1188,40,6,0,0
+random,Qwen2.5-3B few-shot + calibration,12,L,247,37,1,0,0
+random,Qwen2.5-3B few-shot + calibration,12,LF,2087,322,141,0,0
+random,Qwen2.5-3B few-shot + calibration,12,MN,5685,232,127,220,129
+random,Qwen2.5-3B few-shot + calibration,12,O,1268,246,66,0,0
+random,Qwen2.5-3B few-shot + calibration,12,PE,3841,725,219,61,20
+random,Qwen2.5-3B few-shot + calibration,12,PO,112,0,0,0,0
+random,Qwen2.5-3B few-shot + calibration,12,SC,226,10,0,0,0
+random,Qwen2.5-3B few-shot + calibration,12,SE,4129,539,85,623,118
+random,Qwen2.5-3B few-shot + calibration,12,US,1068,51,33,0,0
+random,Qwen2.5-3B few-shot + calibration,2,F,2877,0,0,2199,62
+random,Qwen2.5-3B few-shot + calibration,2,NFR,21123,0,0,0,0
+random,Llama-3.2-3B zero-shot,12,F,14815,7309,811,6513,636
+random,Llama-3.2-3B zero-shot,12,A,381,11,0,0,0
+random,Llama-3.2-3B zero-shot,12,FT,292,53,0,0,0
+random,Llama-3.2-3B zero-shot,12,L,408,232,9,0,0
+random,Llama-3.2-3B zero-shot,12,LF,1073,579,96,0,0
+random,Llama-3.2-3B zero-shot,12,MN,222,25,0,0,0
+random,Llama-3.2-3B zero-shot,12,O,637,286,74,0,0
+random,Llama-3.2-3B zero-shot,12,PE,1634,395,14,83,11
+random,Llama-3.2-3B zero-shot,12,PO,157,51,0,0,0
+random,Llama-3.2-3B zero-shot,12,SC,139,34,0,0,0
+random,Llama-3.2-3B zero-shot,12,SE,1157,501,0,0,0
+random,Llama-3.2-3B zero-shot,12,US,3085,784,122,540,113
+random,Llama-3.2-3B zero-shot,2,F,13040,7879,948,6009,527
+random,Llama-3.2-3B zero-shot,2,NFR,10960,6464,180,8490,471
+random,Llama-3.2-3B zero-shot + calibration,12,F,10728,4662,287,5480,404
+random,Llama-3.2-3B zero-shot + calibration,12,A,53,0,0,0,0
+random,Llama-3.2-3B zero-shot + calibration,12,FT,3415,65,8,242,129
+random,Llama-3.2-3B zero-shot + calibration,12,L,339,260,8,0,0
+random,Llama-3.2-3B zero-shot + calibration,12,LF,1196,862,242,0,0
+random,Llama-3.2-3B zero-shot + calibration,12,MN,717,56,0,0,0
+random,Llama-3.2-3B zero-shot + calibration,12,O,987,569,137,0,0
+random,Llama-3.2-3B zero-shot + calibration,12,PE,3462,1239,346,737,123
+random,Llama-3.2-3B zero-shot + calibration,12,PO,51,45,0,0,0
+random,Llama-3.2-3B zero-shot + calibration,12,SC,81,37,0,0,0
+random,Llama-3.2-3B zero-shot + calibration,12,SE,2120,1053,54,801,60
+random,Llama-3.2-3B zero-shot + calibration,12,US,851,475,58,0,0
+random,Llama-3.2-3B zero-shot + calibration,2,F,8167,2510,91,4744,311
+random,Llama-3.2-3B zero-shot + calibration,2,NFR,15833,10714,1057,9579,706
+random,Llama-3.2-3B few-shot,12,F,7346,1306,1,6269,286
+random,Llama-3.2-3B few-shot,12,A,631,354,6,0,0
+random,Llama-3.2-3B few-shot,12,FT,513,206,59,0,0
+random,Llama-3.2-3B few-shot,12,L,729,337,106,0,0
+random,Llama-3.2-3B few-shot,12,LF,2320,1059,372,307,67
+random,Llama-3.2-3B few-shot,12,MN,1167,202,39,2,0
+random,Llama-3.2-3B few-shot,12,O,1360,372,20,24,2
+random,Llama-3.2-3B few-shot,12,PE,1872,920,29,532,32
+random,Llama-3.2-3B few-shot,12,PO,549,187,84,0,0
+random,Llama-3.2-3B few-shot,12,SC,329,47,2,0,0
+random,Llama-3.2-3B few-shot,12,SE,3856,2238,322,1617,132
+random,Llama-3.2-3B few-shot,12,US,3328,803,137,549,124
+random,Llama-3.2-3B few-shot,2,F,6445,753,0,5938,213
+random,Llama-3.2-3B few-shot,2,NFR,17555,11097,1116,9506,760
+random,Llama-3.2-3B few-shot + calibration,12,F,1239,0,0,2,0
+random,Llama-3.2-3B few-shot + calibration,12,A,585,210,0,0,0
+random,Llama-3.2-3B few-shot + calibration,12,FT,889,207,59,0,0
+random,Llama-3.2-3B few-shot + calibration,12,L,745,297,71,0,0
+random,Llama-3.2-3B few-shot + calibration,12,LF,2320,940,309,299,73
+random,Llama-3.2-3B few-shot + calibration,12,MN,3339,237,48,298,87
+random,Llama-3.2-3B few-shot + calibration,12,O,1297,251,22,10,1
+random,Llama-3.2-3B few-shot + calibration,12,PE,2532,958,36,990,104
+random,Llama-3.2-3B few-shot + calibration,12,PO,182,0,0,0,0
+random,Llama-3.2-3B few-shot + calibration,12,SC,347,59,0,0,0
+random,Llama-3.2-3B few-shot + calibration,12,SE,4068,2298,332,1665,151
+random,Llama-3.2-3B few-shot + calibration,12,US,6457,1060,304,1048,300
+random,Llama-3.2-3B few-shot + calibration,2,F,586,0,0,0,0
+random,Llama-3.2-3B few-shot + calibration,2,NFR,23414,3717,436,2252,268
+random,Qwen2.5-0.5B + BGE fusion,12,F,11851,7927,491,8086,541
+random,Qwen2.5-0.5B + BGE fusion,12,A,749,371,12,0,0
+random,Qwen2.5-0.5B + BGE fusion,12,FT,277,45,7,0,0
+random,Qwen2.5-0.5B + BGE fusion,12,L,231,54,8,0,0
+random,Qwen2.5-0.5B + BGE fusion,12,LF,1234,385,117,4,1
+random,Qwen2.5-0.5B + BGE fusion,12,MN,421,79,35,0,0
+random,Qwen2.5-0.5B + BGE fusion,12,O,1911,441,141,116,42
+random,Qwen2.5-0.5B + BGE fusion,12,PE,1739,752,84,230,21
+random,Qwen2.5-0.5B + BGE fusion,12,PO,165,30,11,0,0
+random,Qwen2.5-0.5B + BGE fusion,12,SC,494,109,35,0,0
+random,Qwen2.5-0.5B + BGE fusion,12,SE,3140,2036,157,1633,104
+random,Qwen2.5-0.5B + BGE fusion,12,US,1788,696,104,216,40
+random,Qwen2.5-0.5B + BGE fusion,2,F,11185,8372,580,7939,517
+random,Qwen2.5-0.5B + BGE fusion,2,NFR,12815,10342,622,10171,625
+random,Qwen2.5-1.5B + BGE fusion,12,F,11668,7488,414,8277,554
+random,Qwen2.5-1.5B + BGE fusion,12,A,724,465,42,0,0
+random,Qwen2.5-1.5B + BGE fusion,12,FT,289,83,13,0,0
+random,Qwen2.5-1.5B + BGE fusion,12,L,344,171,19,0,0
+random,Qwen2.5-1.5B + BGE fusion,12,LF,1296,371,113,16,7
+random,Qwen2.5-1.5B + BGE fusion,12,MN,555,108,52,0,0
+random,Qwen2.5-1.5B + BGE fusion,12,O,1792,471,155,126,56
+random,Qwen2.5-1.5B + BGE fusion,12,PE,1783,862,103,240,33
+random,Qwen2.5-1.5B + BGE fusion,12,PO,223,37,16,0,0
+random,Qwen2.5-1.5B + BGE fusion,12,SC,467,109,46,0,0
+random,Qwen2.5-1.5B + BGE fusion,12,SE,3094,1907,139,1422,94
+random,Qwen2.5-1.5B + BGE fusion,12,US,1765,764,121,167,34
+random,Qwen2.5-1.5B + BGE fusion,2,F,11189,8483,559,8108,521
+random,Qwen2.5-1.5B + BGE fusion,2,NFR,12811,10568,623,10216,587
+random,Qwen2.5-3B + BGE fusion,12,F,11764,7301,380,8250,544
+random,Qwen2.5-3B + BGE fusion,12,A,816,526,54,0,0
+random,Qwen2.5-3B + BGE fusion,12,FT,343,134,21,0,0
+random,Qwen2.5-3B + BGE fusion,12,L,344,101,11,0,0
+random,Qwen2.5-3B + BGE fusion,12,LF,1095,460,111,0,0
+random,Qwen2.5-3B + BGE fusion,12,MN,529,126,51,0,0
+random,Qwen2.5-3B + BGE fusion,12,O,1837,578,172,170,55
+random,Qwen2.5-3B + BGE fusion,12,PE,1691,1000,115,174,17
+random,Qwen2.5-3B + BGE fusion,12,PO,191,61,34,0,0
+random,Qwen2.5-3B + BGE fusion,12,SC,412,152,47,0,0
+random,Qwen2.5-3B + BGE fusion,12,SE,3086,2035,135,1763,100
+random,Qwen2.5-3B + BGE fusion,12,US,1892,764,92,220,39
+random,Qwen2.5-3B + BGE fusion,2,F,11332,8587,570,8045,512
+random,Qwen2.5-3B + BGE fusion,2,NFR,12668,10690,624,10345,587
+random,Llama-3.2-3B + BGE fusion,12,F,11843,8183,415,8765,532
+random,Llama-3.2-3B + BGE fusion,12,A,746,460,30,0,0
+random,Llama-3.2-3B + BGE fusion,12,FT,316,117,22,0,0
+random,Llama-3.2-3B + BGE fusion,12,L,326,194,10,0,0
+random,Llama-3.2-3B + BGE fusion,12,LF,1114,504,111,0,0
+random,Llama-3.2-3B + BGE fusion,12,MN,489,136,19,0,0
+random,Llama-3.2-3B + BGE fusion,12,O,1815,709,141,176,38
+random,Llama-3.2-3B + BGE fusion,12,PE,1701,957,95,233,25
+random,Llama-3.2-3B + BGE fusion,12,PO,204,97,20,0,0
+random,Llama-3.2-3B + BGE fusion,12,SC,449,168,54,0,0
+random,Llama-3.2-3B + BGE fusion,12,SE,3065,1946,154,1644,107
+random,Llama-3.2-3B + BGE fusion,12,US,1932,940,111,246,29
+random,Llama-3.2-3B + BGE fusion,2,F,11430,9364,620,8661,508
+random,Llama-3.2-3B + BGE fusion,2,NFR,12570,10877,522,10860,536

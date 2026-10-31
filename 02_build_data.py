@@ -185,6 +185,12 @@ def build_trace():
             for c in rest.split():
                 c = c.strip()
                 key = c if c in code_paths else lower.get(c.lower())
+                if key is None:
+                    # SMOS: 17 links name managerUser.java while the benchmark's code folder holds managerUser.html;
+                    # match by file stem so that all 1,044 SMOS links of the benchmark are used
+                    stem = os.path.splitext(c)[0].lower()
+                    same = [k for k in code_paths if os.path.splitext(k)[0].lower() == stem]
+                    key = same[0] if len(same) == 1 else None
                 if r.strip() in reqs and key:
                     links.append({"dataset": ds, "req": r.strip(), "code": key})
                 else:

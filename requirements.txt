@@ -1,8 +1,12 @@
-numpy>=2.0
-pandas>=2.2
-scipy>=1.13
-scikit-learn>=1.5
-onnxruntime>=1.18
-matplotlib>=3.8
-pillow>=10
-# plus: llama.cpp (llama-server, release b11398 or later; set LLAMA_SERVER), Graphviz (dot), Node.js 18+ with the docx package
+# Pinned versions: the analyses (steps 05-08) were regenerated with these versions. Other versions, in particular of
+# scikit-learn, and other CPUs/BLAS libraries change the logistic-regression results in the third decimal.
+numpy==2.5.4
+pandas==2.2.3
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==13.0.0
+python-docx==1.2.0      # only for 10_verify_manuscript.py
+onnxruntime==1.31.0     # only for 03_features.py (sentence encoders)
+# plus, for step 04 only: llama.cpp release b11398 (llama-server, CPU build); set LLAMA_SERVER to the binary.
+# Graphviz (dot) for Fig. 1 (step 09).

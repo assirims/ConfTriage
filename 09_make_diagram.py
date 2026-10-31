@@ -22,9 +22,9 @@ DOT = r'''digraph G {
   }
   cal [label="2  Calibration\nsmall labelled sample\n(requirements as units)", fillcolor="#fde3d6"];
   subgraph cluster_cp { label="3  Risk control (distribution-free)"; fontsize=10; fontcolor="#52514e"; color="#e4e3df"; style="rounded";
-    ps   [label="Conformal prediction sets\ncoverage ≥ 1 − α", fillcolor="#d5f0e5"];
-    ltt  [label="Learn-then-Test automation\nerror ≤ ε with probability ≥ 1 − δ", fillcolor="#d5f0e5"];
-    crc  [label="Conformal risk control\nexpected trace recall ≥ 1 − α", fillcolor="#d5f0e5"];
+    ps   [label="Conformal prediction sets\n(marginal or class-conditional)\ncoverage ≥ 1 − α", fillcolor="#d5f0e5"];
+    ltt  [label="Risk-controlled automation\nerror budget ε overall or\nwithin every predicted class", fillcolor="#d5f0e5"];
+    crc  [label="Recall-controlled link vetting\nexpected trace recall ≥ 1 − α", fillcolor="#d5f0e5"];
   }
   subgraph cluster_out { label="4  Triage for the analyst"; fontsize=10; fontcolor="#52514e"; color="#e4e3df"; style="rounded";
     auto [label="Labelled automatically", fillcolor="#ffffff"];
@@ -33,6 +33,11 @@ DOT = r'''digraph G {
   }
   eff [label="Analyst effort at a\nguaranteed error / recall", shape=box, style="rounded,filled,bold", fillcolor="#ffffff"];
 
+  // reading order inside each column (top to bottom), without changing the ranks
+  {rank=same; code -> req [style=invis];}
+  {rank=same; lw -> llm [style=invis];}
+  {rank=same; crc -> ltt -> ps [style=invis];}
+  {rank=same; vet -> auto -> rev [style=invis];}
   req -> llm; req -> lw; code -> llm; code -> lw;
   llm -> fus; lw -> fus;
   llm -> cal; lw -> cal; fus -> cal;
